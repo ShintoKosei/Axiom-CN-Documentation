@@ -27,6 +27,10 @@ jobs:
       - name: List Files
         run: ls
 
+      # 全局安装 Vurpress
+      - name: Install VuePress globally
+        run: npm install -g vuepress
+
       # 运行构建脚本
       - name: Build VuePress site
         run: npm run docs:build
