@@ -39,8 +39,7 @@ jobs:
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v2
         with:
-          name: vuepress-dist
-          path: docs/.vuepress/dist
+          path: ./docs/.vuepress/dist
 
   # 部署任务
   deploy:
