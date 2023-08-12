@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "docs:build": "pnpm --filter=docs docs:build",
-        "docs:dev": "pnpm --filter=docs docs:dev"
+        "docs:build": "pnpm docs:build",
+        "docs:dev": "pnpm docs:dev"
     },
     "prettier": "prettier-config-vuepress",
     "devDependencies": {
