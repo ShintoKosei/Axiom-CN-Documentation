@@ -3,7 +3,7 @@ home: true
 name: Axiom MOD Chinese Documentation Home Page
 heroImage: /images/axiom_icon_pur.svg
 heroText: Axiom Chinese Documentation
-tagline: Brand new Minecfraft World Editor Axiom mod Chinese documentation
+tagline: Brand new Minecraft World Editor Axiom mod Chinese documentation
 
 actions:
   - text: Release Download

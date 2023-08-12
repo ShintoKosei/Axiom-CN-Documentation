@@ -3,7 +3,7 @@ home: true
 name: Axiom 模组中文文档首页
 heroImage: /images/axiom_icon_pur.svg
 heroText: Axiom 中文文档
-tagline: 船新 Minecfraft 世界编辑器 Axiom 模组中文文档
+tagline: 船新 Minecraft 世界编辑器 Axiom 模组中文文档
 
 actions:
   - text: 发行下载
