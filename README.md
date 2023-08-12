@@ -1,4 +1,8 @@
+<img src="./public/image/axiom_icon_pur.svg" alt="logo" width="140" height="140" align="right">
+
 # Axiom 模组中文文档（非官方）
+
+Axiom MOD's Chinese Documentation
 
 ### Axiom 模组官网：[https://axiom.moulberry.com/](https://axiom.moulberry.com/)
 
