@@ -1,4 +1,5 @@
-# No Updates
-The **No Updates** capability ‘freezes’ blocks and adjacent blocks in their current state and prevents shape and neighbour updates when breaking or placing blocks nearby.
+# 无更新模式
 
-This is useful when working with "non-vanilla" states of stairs/fences/walls/etc. which would normally revert to their vanilla state when breaking/placing blocks near them.
+**无更新模式**功能会“冻结”方块及其相邻方块的当前状态，并且在附近破坏或放置方块时防止形状和相邻更新。
+
+这在处理楼梯/栅栏/墙等“非原版”状态时非常有用。通常，在附近破坏/放置方块时，它们会恢复为其原始的原版状态。
