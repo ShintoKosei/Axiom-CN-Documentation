@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "docs:build": "npm docs:build",
-        "docs:dev": "npm docs:dev"
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
     },
     "prettier": "prettier-config-vuepress",
     "devDependencies": {
