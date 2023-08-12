@@ -1,10 +1,10 @@
-# Active Block
+# 选择工具
 
-Some tools use the block specified in the **Active Block** window. This includes most of the painting and drawing tools.
+某些工具会使用**选择的方块**窗口中指定的图块。这包括大多数绘画和绘图工具。
 
-Blocks in the Editor UI can be drag-dropped on different locations to various effects:
- - Into other UI elements (eg. tool mask) to quickly copy the block over
- - Into the main viewport to fill the targeted selection (similar to Ctrl+F)
- - Into the main viewport to flood replace the targeted block with the dropped block
+编辑器用户界面中的图块可以拖放到不同的位置，以达到不同的效果：
+ - 拖入其他用户界面元素（如工具建立蒙版），快速复制图块
+ - 拖入主视口，填充目标选区（类似于 Ctrl+F）
+ - 进入主视口，用下放的图块淹没替换目标图块
 
-The **Active Block** can be quickly set using 'pick block', which is bound to middle-click by default.
+可使用 "选取块 "快速设置**选择的方块**，默认情况下，"选取块 "与中键绑定。
