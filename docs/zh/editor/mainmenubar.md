@@ -1,85 +1,86 @@
-# Main Menu Bar
-The main menu bar gives users access to crucial functionality of the mod. Here you can find menu items for accessing windows, manipulating selections, performing operations and viewing helpful information.
+# 主菜单栏
 
-## Edit
-    
-| Function       | Default Shortcut | Description                                              |
-|----------------|------------------|----------------------------------------------------------|
-| Undo           | Ctrl+Z           | Reverses the most recent action                          |
-| Redo           | Ctrl+Y           | Reverses the most recent undo                            |
-| Cut            | Ctrl+X           | Removes the selection and stores it in the clipboard     |
-| Copy           | Ctrl+C           | Copies the selected item to the clipboard                |
-| Save Blueprint | Ctrl+P           | Saves the current selection as a blueprint for later use |
+主菜单栏为用户提供了访问关键功能的途径。在这里，您可以找到用于访问窗口、操作选择、执行操作和查看有用信息的菜单项。
 
-## Select
-    
-The Select submenu lets users perform a variety of functions related to selections.
-    
-| Function | Description                  |
-|----------|------------------------------|
-| Clear    | Clears the current selection |
-| Mask     | Selects blocks within the current selection that match the chosen block |
-| Expand   | Expands the current selection by a specified number of blocks |
-| Shrink   | Shrinks the current selection by a specified number of blocks |
-| Distort  | Distorts the current selection with simplex noise by a specified radius and distance. Radius is the scale of the noise and the distance is the amount it gets distorted by |
-| Smooth   | Applies a Gaussian blur on the selection to smooth out the selection. StdDev is the intensity of the smoothing operation and the threshold is the ‘cut-off’ of how much input weight is needed to affect the output |
-| Bounding Box | Creates a cuboid selection around the furthest points of the selection, encapsulating the entire selection |
+## 编辑
 
-## View
+| 功能          | 默认快捷键 | 描述                                   |
+| ------------- | ---------- | -------------------------------------- |
+| 撤销          | Ctrl+Z     | 撤销最近的操作                         |
+| 重做          | Ctrl+Y     | 重做最近的撤销操作                     |
+| 剪切          | Ctrl+X     | 删除选择，并将其存储到剪贴板中         |
+| 复制          | Ctrl+C     | 将选定的对象复制到剪贴板               |
+| 保存蓝图      | Ctrl+P     | 将当前选择保存为以后使用的蓝图         |
 
-The View submenu lets you configure options related to viewing and rendering certain elements in your world.
+## 选择
 
-| Function       | Default Shortcut | Description |
-|----------------|------------------|-------------|
-| New View       | None             | Create a new [View](views.html) |
-| Show Selection | None             | Lets you toggle the rendering of your selections |
-| Show Biomes    | Ctrl+B           | Enables the biome overlay[^note1] |
-| Min Brightness | None             | A slider ranging from 0 to 1. This lets you change how dark unlit places look in your world. A value of 1 means all blocks are fully lit, this is also known as fullbright 
-| Fluid Opacity  | None             | A slider ranging from 0 to 1. This lets you change the opacity of transluscent[^note2] fluids to make it easier to look through. A value of 0 will make the fluid invisible |
-| Show Key Presses| None            | This shows your inputs including mouse clicks on the bottom right of the viewport. This is useful for making tutorials. |
+选择子菜单允许用户执行与选择相关的各种功能。
 
-[^note1]: Be aware that biomes in Minecraft are defined in a 4x4x4 grid. However, in order to make biomes feel more natural, vanilla warps the biomes visually. The biome overlay shows the "real" position of biomes, while biome blending and the f3 screen show the "warped" position of biomes.
-    
-[^note2]: Lava and other non-translucent fluids (if the game is modded) are not affected by opacity due to performance and mod compatibility concerns.
+| 功能       | 描述                                                                                          |
+| ---------- | -------------------------------------------------------------------------------------------- |
+| 清除       | 清除当前选择                                                                                  |
+| 掩模       | 选择与所选方块相匹配的当前选择内的方块                                                        |
+| 扩展       | 将当前选择扩展指定数量的方块                                                                  |
+| 收缩       | 将当前选择缩小指定数量的方块                                                                  |
+| 扭曲       | 使用简单噪声将当前选择按照指定的半径和距离进行扭曲。半径是噪声的尺度，距离是它被扭曲的程度     |
+| 平滑       | 对选择应用高斯模糊以平滑选择边缘。StdDev 是平滑操作的强度，阈值是影响输出所需的输入权重的“截止” |
+| 边界框     | 在选择的最远点周围创建一个长方体选择，将整个选择包围起来                                    |
 
-## Create
-    
-The **Create** submenu lets you make geometric shapes with your active block. Since these shapes are computed mathematically, they can adjust to any angle and transformation, giving you a lot of control over their look. When you 'place' these objects, you can use the [gizmo](gizmos.md) to reposition them and rotate them at arbitrary angles.
-    
-Each shape lets you tweak their XZ or XYZ dimensions, as well as having a toggle for individual sliders. In addition to controling rotation using the gizmo, you can also input specific angles for yaw, pitch, and roll in the 'advanced options' dropdown. Plus, there are options for making the shapes hollow, placing only the outer layer.
-    
-The current available shapes are:    
- - Sphere
- - Cuboid
- - Cylinder
- - Cone
- - Pyramid
+## 视图
 
-## Operations
-    
-The **Operations** submenu has a lot of features for modifying the selected part of your world 
-    
-| Function             | Default Shortcut | Description  |
-|----------------------|------------------|--------------|
-| Fill                 | Ctrl+F           | Fill a selection with the chosen block |
-| Fill Nearest         | None             | Fills an area with the closest neighbor blocks, useful to repair areas or fill in gaps |
-| Replace              | Ctrl+R           | Replace specific blocks in the selection with the chosen block |
-| Set Biome            | None             | Sets the selection to the chosen biome |
-| Drain                | None             | Drains an area of all fluids, including waterlogged blocks |
-| Waterlog             | None             | Floods an area with water, including turning waterloggable blocks into their waterlogged counterpart |
-| Simulation > Gravity | None             | Gravity simulation makes all blocks with air below 'fall' as if they were affected by gravity |
-| Analyze              | None             | Analyzes the blocks in the selection, giving information on counts and distribution |
+视图子菜单允许您配置与查看和渲染世界中特定元素相关的选项。
 
-## Tool Masks
-    
-Clear and open the tool mask editing window. See [Tool Masks](toolmasks.md)
+| 功能             | 默认快捷键 | 描述                                                                                                                                 |
+| ---------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 新建视图         | 无         | 创建一个新的[视图](views.md)                                                                                                          |
+| 显示选择         | 无         | 允许您切换渲染选择的显示                                                                                                             |
+| 显示生物群系     | Ctrl+B     | 启用生物群系覆盖[^注1]                                                                                                               |
+| 最小亮度         | 无         | 一个范围从0到1的滑块。可以更改未照亮区域在您的世界中的暗度。值为1表示所有方块完全照亮，这也被称为全亮度                                  |
+| 流体不透明度     | 无         | 一个范围从0到1的滑块。可以更改半透明[^注2]流体的不透明度，使其更容易透视。值为0将使流体变得不可见                                       |
+| 显示按键输入     | 无         | 显示您在视口右下方的输入，包括鼠标点击。这对于制作教程非常有用。|
 
-## Window
-    
-The **Windows** submenu lets the user toggle the visibility of important windows. If you ever close a window and want it back, this submenu allows you to reenable it.
-    
-## Help
-    
-The **Help** submenu contains useful information and configuration options.
+[^提示1]: 请注意，Minecraft中的生物群系是以4x4x4的网格定义的。然而，为了使生物群系更加自然，原版游戏会对生物群系进行视觉上的扭曲。生物群系叠加层显示了生物群系的“真实”位置，而生物群系混合和f3屏幕显示了生物群系的“扭曲”位置。
 
-Users can configure keybinds, find useful links to Axiom related resources and view this documentation.
+[^提示2]: 由于性能和模组兼容性的考虑，熔岩和其他非透明流体（如果游戏中使用了模组）不受不透明度影响。
+
+## 创建
+
+**创建**子菜单可让您使用所选方块制作几何形状。由于这些形状是通过数学计算得出的，它们可以调整到任何角度和变换，从而使您对它们的外观有很大控制权。当您“放置”这些对象时，您可以使用[gizmo](gizmos.md)来重新定位它们并以任意角度旋转它们。
+
+每个形状都可以调整其XZ或XYZ尺寸，并具有个别滑块的切换按钮。除了使用gizmo来控制旋转之外，您还可以在“高级选项”下拉菜单中输入特定的偏航、俯仰和滚转角度。此外，还有一些选项可用于使形状变空心，仅放置外部层次。
+
+当前可用的形状有：
+- 球体
+- 长方体
+- 圆柱体
+- 锥体
+- 金字塔
+
+## 操作
+
+**操作**子菜单提供了许多功能，用于修改您世界中所选择的部分。
+
+| 功能          | 默认快捷键 | 描述                                                                                      |
+| ------------- | ---------- | ----------------------------------------------------------------------------------------- |
+| 填充           | Ctrl+F     | 使用选择的方块填充区域                                                                    |
+| 填充最近邻格   | 无         | 使用最接近的相邻方块填充区域，有助于修复区域或填补间隙                                    |
+| 替换           | Ctrl+R     | 将选择区域内的特定方块替换为选择的方块                                                    |
+| 设置生物群系   | 无         | 将选择区域设置为选择的生物群系                                                            |
+| 排水           | 无         | 排干区域中的所有流体，包括浸水方块                                                        |
+| 浸水           | 无         | 将区域淹没在水中，包括将可浸水方块转换为其对应的浸水状态                                    |
+| 仿真 > 重力    | 无         | 重力仿真会使所有下方为“空气”的方块像受到重力影响一样坠落                                  |
+| 分析           | 无         | 分析选择区域中的方块，提供有关数量和分布的信息                                              |
+
+## 工具遮罩
+
+清除并打开工具遮罩编辑窗口。请参阅[工具遮罩](toolmasks.md)。
+
+## 窗口
+
+**窗口**子菜单允许用户切换重要窗口的可见性。如果您关闭了某个窗口却希望重新打开它，此子菜单可以使其恢复显示。
+
+## 帮助
+
+**帮助**子菜单包含有用的信息和配置选项。
+
+用户可以配置按键绑定，找到与Axiom相关的有用链接，并查看此文档

@@ -1,17 +1,17 @@
-# Clipboard and Placements
+# 剪贴板和放置
 
-## Clipboard
+## 剪贴板
 
-A selection can be copied to the clipboard using Ctrl+C. 
+可以使用Ctrl+C将选择内容复制到剪贴板中。
 
-With blocks in your clipboard, you can paste back into the world by hovering over the desired location and pressing Ctrl+V. Pasting like this will initiate a **Placement** (see below).
+有了剪贴板中的方块，您可以悬停在所需位置上，然后按下Ctrl+V将其粘贴到世界中。这样粘贴将启动一个**放置**过程（见下文）。
 
-The clipboard can be cleared by right-clicking the icon and choosing the 'clear' option. Left-clicking the clipboard opens up the [**Blueprint Browser**](blueprints.md).
+可以通过右键单击图标并选择“清空”选项来清除剪贴板。左键单击剪贴板会打开[**蓝图浏览器**](blueprints.md)。
 
-## Placement
+## 放置
 
-Placements can be repositioned and rotated using the [Gizmo](gizmos.md).
+可以使用[Gizmo](gizmos.md)重新定位和旋转放置对象。
 
-Once the placement is in the correct position, you can use Enter or Ctrl+V to confirm it. To cancel a placement, use the Delete key.
+一旦放置对象处于正确位置，您可以使用Enter键或Ctrl+V进行确认。要取消放置，请使用Delete键。
 
-> Tip: The placement can be rotated clockwise using the Ctrl+R keybind, and can be flipped in the direction of your mouse vector using the Ctrl+F keybind.
+> 提示：可以使用Ctrl+R按键使放置对象顺时针旋转，并可以使用Ctrl+F按键沿鼠标矢量方向翻转。

@@ -1,11 +1,11 @@
-# Selections
+# 选择
 
-A **Selection** is a set of highlighted blocks that affect the functionality of other systems.
+**选择**是一组突出显示的方块，影响其他系统的功能。
 
-There are three selection tools in Axiom that you can use to make selections. Each of these tools feature several options to further finetune what and how you might want to select something. See [Selection Tools](/tools/selection/intro.md) for more info.
+在Axiom中有三种选择工具可供您使用，每种工具都提供多个选项，以进一步调整您想要选择的内容和方式。请参阅[选择工具](/tools/selection/intro.md)获取更多信息。
 
-With a selection, you can constrain the brush strokes of [Tools](/tools/intro.md) (note: some more complex tools don't respect selections yet, this will be addressed soon).
+通过选择，您可以限制[工具](/tools/intro.md)的刷子笔触（注意：一些更复杂的工具尚未遵守选择，但这将很快得到解决）。
 
-You can also apply [Operations](/editor/mainmenubar.md#operations) to the blocks in your selection.
+您还可以对选择区域中的方块应用[操作](/editor/mainmenubar.md#operations)。
 
-Finally, to clear a selection, use '[Select](/editor/mainmenubar.md#select) > Clear' or press the Enter key
+最后，要清除选择，请使用“[选择](/editor/mainmenubar.md#select) > 清除”或按下回车键。

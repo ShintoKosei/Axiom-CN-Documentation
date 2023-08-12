@@ -1,9 +1,9 @@
-# Gizmos
+# 可视化工具（Gizmos）
 
-Gizmos are a common UI element which allows positioning within the 3D world.
+可视化工具是一种常见的用户界面元素，用于在三维世界中进行定位。
 
-A gizmo can contain the following elements:
-- **Axis Arrows** These coloured arrows correspond to the Cartesian coordinate system, otherwise known as XYZ coordinates. The red, green and blue arrows allow the gizmo to be dragged along the X, Y and Z axis respectively.
-- **Center Node** The center node can be clicked and dragged to move the gizmo on all 3 axis. While dragging, the gizmo will maintain the same distance to the camera.
-- **Rotation Rings** Some operations like placement or shape placement will add a rotation ring to the Gizmo, allowing you to perform rotations in addition to translations. The rotation ring can be grabbed and drag to rotate the object around that axis.
+一个可视化工具可以包含以下元素：
 
+- **坐标轴箭头** 这些彩色箭头对应笛卡尔坐标系，也称为XYZ坐标。红色、绿色和蓝色箭头分别允许通过X、Y和Z轴拖动可视化工具。
+- **中心节点** 中心节点可以点击并拖动，以在所有三个轴上移动可视化工具。在拖动时，可视化工具将保持与摄像机的相同距离。
+- **旋转环** 某些操作，如放置或形状放置，会向可视化工具添加一个旋转环，使您能够除了平移外还可以进行旋转操作。可以抓取旋转环并拖动它来围绕该轴旋转对象。
