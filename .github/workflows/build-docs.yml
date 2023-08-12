@@ -1,49 +1,56 @@
 name: build-docs
 
 on:
-  # 每当 push 到 master 分支时触发部署
+  # 当推送到默认分支时触发
   push:
-    branches: [master]
-  # 手动触发部署
+    branches: ["master"]
+
+  # 允许手动运行此工作流
   workflow_dispatch:
 
+# 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 仅允许一个并发部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  docs:
+  # 构建任务
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2  # 注意这里使用的是 v2 版本
+      - uses: actions/checkout@v2
+      - name: 设置 Node.js
+        uses: actions/setup-node@v2
         with:
-          # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2  # 使用 v2 版本的 setup-node
-        with:
-          # 选择要使用的 node 版本
-          node-version: 18
-
-      # 检查当前目录下所有文件
-      - name: List Files
-        run: ls
-
-      # 全局安装 Vurpress
-      - name: Install VuePress globally
-        run: npm install -D vuepress@next
-
-      # 运行构建脚本
-      - name: Build VuePress site
+          node-version: 14
+      - name: 安装依赖
+        run: npm install
+      - name: 构建 Docs
         run: npm run docs:build
-
-      # 查看 workflow 的文档来获取更多信息
-      # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v2
         with:
-          # 部署到 gh-pages 分支
-          target_branch: gh-pages
-          # 部署目录为 VuePress 的默认输出目录
-          build_dir: docs/.vuepress/dist
-        env:
-          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+          name: vuepress-dist
+          path: docs/.vuepress/dist
+
+  # 部署任务
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: 保存构建产物
+        uses: actions/download-artifact@v2
+        with:
+          name: vuepress-dist
+          path: dist
+      - name: 部署到 GitHub Pages
+        uses: actions/deploy-pages@v2
