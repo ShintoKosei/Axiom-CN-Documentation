@@ -1,4 +1,5 @@
-# Enhanced Flight
-The **Enhanced Flight** capability changes your normal creative mode flight to a more precise flight without any leftover momentum. It also allows you to move in the direction the camera is facing.
+# 增强飞行
 
-> Some users have mentioned that it took some time to get used to the enhanced flight, but once they did it improved their building experience dramatically. I'd recommend trying out the capability for at least a little bit to see if it suits your building workflow.
+**增强飞行**是一种功能，将你正常的创造模式飞行转变为更精确的飞行方式，并且没有任何剩余的动力。它还允许你朝着摄像机所面向的方向移动。
+
+> 一些用户提到花了一些时间来适应增强飞行，但一旦适应后，它极大地提高了他们的建筑体验。我建议至少尝试一下这个功能，看看它是否适合你的建筑工作流程。

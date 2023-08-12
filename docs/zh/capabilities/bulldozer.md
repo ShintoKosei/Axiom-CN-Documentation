@@ -1,6 +1,7 @@
-# Bulldozer
-The **Bulldozer** capability allows to break blocks very quickly after an initial warmup period. In many cases, bulldozer can be faster and more convenient than the alternatives: configuring a left-click macro, breaking blocks slowly by holding left-click or making a selection and running //set air.
+# 推土机
 
-To use Bulldozer, simply start holding down the left mouse button. Your breaking speed will increase after a short warmup period, which is designed to prevent accidental mass destruction when you only intend to break a small number of blocks.
+**推土机**是一种功能允许你在初始热身期后非常快速地破坏方块。在许多情况下，推土机可能比其他方法更快捷、更方便：配置左键宏、慢速按住左键破坏方块或制作一个选择并运行 //set air 命令。
 
-In addition to being more convenient than a left-click macro, the bulldozer capability also has a faster update rate to prevent misses.
+要使用推土机，只需按住鼠标左键。在一个短暂的热身期后，你的破坏速度将增加，这样设计是为了防止意图破坏少量方块时发生意外大规模破坏。
+
+除了比左键宏更方便之外，推土机功能还具有更快的更新速率，以防止失误。

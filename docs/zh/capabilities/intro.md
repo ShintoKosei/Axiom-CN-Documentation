@@ -1,4 +1,5 @@
-# Capabilities
-This chapter covers Capabilities, toggleable features which can enhance your building workflow.
+# 功能
 
-By default, the **Replace Mode** capability can be toggled using the R keybind. Toggle keybinds for all capabilities can be configured in the vanilla keybinds menu.
+本章介绍了功能，这些可以增强你的建筑工作流程的可切换功能。
+
+默认情况下，**替换模式功**能可以使用R键进行切换。所有功能的切换按键可以在原版按键设置原版中配置。

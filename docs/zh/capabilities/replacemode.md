@@ -1,4 +1,5 @@
-# Replace Mode
-The **Replace Mode** capability allows you to right-click to replace the targeted block with the held block. This allows you to easily replace a large amount of blocks by holding the right-mouse button instead of needing to press left+right click for each individual block you want to replace.
+# 替换模式
 
-Additionally, when you replace a block, the newly placed block will inherit the properties of the old block. This mechanic means that, for example, if you have a copper stair and replace it with an oak stair, the oak stair will be in the exact same orientation and shape as the original copper stair.
+**替换模式**功能允许你右键点击目标方块，以用手持的方块替换它。这样你就可以通过按住鼠标右键而不需要为每个要替换的方块都按下左键+右键，轻松地替换大量方块。
+
+此外，当你替换一个方块时，新放置的方块将继承旧方块的属性。这意味着，例如，如果你有一块铜楼梯，并用一块橡木楼梯替换它，橡木楼梯将与原始的铜楼梯具有完全相同的朝向和形状。

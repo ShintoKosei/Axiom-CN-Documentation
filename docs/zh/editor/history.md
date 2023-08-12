@@ -1,5 +1,5 @@
-# History
+# 历史记录
 
-The History window shows you an overview of how many and what operations you just performed. It serves as a visual aid to assist in performing undo (Ctrl+Z) and redo (Ctrl+Y) operations.
+历史记录窗口向你展示了刚刚执行的操作数量和类型的概览。它作为一种视觉辅助工具，帮助执行撤销（Ctrl+Z）和重做（Ctrl+Y）操作。
 
-> Tip: You can left-click history elements to *rewind* to that point, or right-click to point your camera towards the center of the edit.
+> 提示：你可以左键单击历史记录元素来*回退到该点*，或者右键单击将相机对准编辑中心。

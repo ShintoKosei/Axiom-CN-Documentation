@@ -1,9 +1,9 @@
-# Target Info
+# 目标信息
 
-The **Target Info** window shows information of the block targeted by your mouse in the Editor UI.
+**目标信息**窗口显示编辑器界面中鼠标所指向方块的信息。
 
-The window contains:
-- The block you’re hovering over.
-- The position of that block in the world.
-- The biome at that position.
-- The distance from your camera to that position.
+该窗口包含以下内容：
+- 鼠标悬停的方块。
+- 该方块在世界中的位置。
+- 该位置的生物群系。
+- 你相机与该位置之间的距离。
