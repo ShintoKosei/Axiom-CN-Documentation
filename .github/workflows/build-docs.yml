@@ -28,10 +28,10 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14
-      - name: 安装依赖
-        run: npm install
-      - name: 构建 Docs
+          node-version: 18
+      - name: 全局安装Vuepress
+        run: npm install -D vuepress@next
+      - name: 运行构建脚本
         run: npm run docs:build
       - name: 上传构建产物
         uses: actions/upload-artifact@v2
