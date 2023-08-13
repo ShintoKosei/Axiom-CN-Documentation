@@ -1,20 +1,19 @@
-# Rock
+# 岩石
 
-The **Rock** tool is a noise-based sculpting tool useful for making rock-like terrain and shapes. It can be used for both individual rocks and boulders as well as making surfaces look more rocky and rough. It uses several parameters that change how rocks form in general as well as in relation to the surface they’re placed on. It uses the active block to determine the palette. Various settings are available to finetune the tool’s sculpting behavior:
+**岩石**工具是一种基于噪音的雕刻工具，可用于制作类似岩石的地形和形状。它既可用于制作单个的岩石和巨石，也可使表面看起来更加岩石化和粗糙。它使用多个参数来改变岩石的整体形状以及与所处表面的关系。它使用选择的方块来确定调色板。有多种设置可用于微调工具的雕刻行为：
 
-## Noise Settings
- The noise settings lets the user configure how random and rough the rocks created by the sculpting tool should be. There are several settings that can be adjusted to change the noise’s behavior. 
+## 噪音设置
+ 噪音设置可让用户设定雕刻工具所产生的岩石的随机性和粗糙度。有几种设置可以通过调整来改变噪音的行为。
 
-The noise radius is a setting that determines the 'scale' of the noise-induced modifications. A larger noise radius implies a broader impact zone, affecting more blocks, which in turn forms bigger, blob-like configurations that are typically more rounded and smoothed out due to the wider distribution of changes. On the other hand, a smaller noise radius, which affects fewer blocks, will result in more refined and jagged alterations, constrained by the voxel grid size.
+噪音半径是一个决定噪音引起的修改 "规模 "的设置。噪音半径越大，意味着影响区域越广，影响的方块也就越多，进而形成更大的、像圆球一样的结构，由于变化分布更广，这些结构通常会更加圆润和平滑。另一方面，较小的噪点半径会影响较少的方块，在体素网格大小的限制下，会产生更精细和锯齿状的变化。
 
-The ‘Noisiness’ slider affects how ‘noisy’ or random the sculpted blocks will be. A higher level of noisiness yield more random and blobby looking rocks. A lower level of noisiness yields more smooth spherical rocks. Combined with the noise radius and other factors this can impact how rough the rocks’s final appearance will be. 
+噪音 "滑块会影响雕刻块的 "噪音 "或随机程度。噪音水平越高，岩石看起来就越随意和模糊。噪音越小，球形岩石越光滑。结合噪音半径和其他因素，这将影响岩石最终外观的粗糙程度。
 
-The Noise Field Seed lets you enter a seed should you want to continue a pattern that you previously used or reuse after playing with parameters, by default it is randomized on every stroke.
+噪声区域种子 "可让您输入一个种子，以延续之前使用过的图案，或在使用参数后重新使用，默认情况下，每个笔触都是随机的。
 
-## Smoothing Settings
-The smoothing settings affect how much the rocks produced by the previous settings get smoothed out in order to create a more coherent and unified looking rock shape rather than being floating blobs. 
+## 平滑设置
+平滑设置会影响前几项设置所产生的岩石的平滑程度，从而使岩石的形状看起来更加连贯统一，而不是浮动的方块。
 
-The Smoothing Standard Deviation settings let you set the strength of the Gaussian blur applied to the tool. The default ranges from 0 to 5 but can be extended beyond the cap. 0 being equivalent to having no smoothing applied, 2 - the standard setting - being equivalent to having roughly ~4 blocks of range of smoothing and 5 being very smooth with a range of roughly ~10 blocks of smoothing.
+平滑标准偏差设置可以让你设置应用于工具的高斯模糊强度。默认值范围为 0 至 5，但也可以超出上限。0 相当于不应用平滑，2（标准设置）相当于大约 4 块的平滑范围，而 5 则非常平滑，大约有 10 块的平滑范围。
 
-The Meld strength is a feature that lets you determine how strongly a rock should be melded or belnded together with the existing blocks of the world. This causes rocks to smooth out more near the edges of the brush in order to ease out the jagged edges that a rock might otherwise have. The default ranges from 0 to 3 but can be extended beyond the cap, 0 having no melding applied and just being placed at the surface, 3 being a strong melding affect. The meld strength is also affected by smoothing, with more smoothing causing ‘melded edges’ to be more finely smoothed into the existing blocks.
-
+熔合强度是一项功能，可让您决定岩石与世界上现有块体熔合或粘合的强度。这将使岩石在靠近画笔边缘时更加平滑，以消除岩石可能存在的锯齿状边缘。默认值范围从 0 到 3，但可以扩展到上限以外，0 表示不应用拼合，只是将其放置在表面，3 表示拼合效果很强。拼合强度还受平滑度的影响，平滑度越高，"拼合边缘 "与现有岩块的拼合就越精细。

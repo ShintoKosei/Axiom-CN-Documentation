@@ -1,11 +1,11 @@
-# Sculpt Draw
+# 雕刻绘制
 
-The **Sculpt Draw** tool is a powerful sculpting tool to change shape your terrain and organics. It uses the direction the surface is facing (the surface normal[^note1]) to determine what the peak of the shape should be. Instead of utilizing the active block, the Sculpt Draw tool pulls out existing blocks from the surface. Various settings are available to finetune the tool's sculpting behavior:
+**雕刻绘制**工具是一种强大的雕刻工具，可改变地形和有机物的形状。它使用表面朝向（表面法线[注意]）来确定形状的顶点应该在哪里。雕刻绘制工具不使用活动方块，而是从表面上提取现有方块。有各种设置可供微调工具的雕刻行为：
 
-- **Radius**: Unlike other brush tools, the radius in the Sculpt Draw tool influences not only the size but also the shape of the sculpted form. Larger radii result in more spherical or ovoid forms, while smaller radii create parabolic shapes.
-- **Strength**: This setting determines the intensity of the sculpted shape. The strength slider, ranging exponentially from 0 to 5, can be overridden for higher values. Given the tool's surface-normal approach, different strengths can yield a wide variety of results. This makes it versatile for creating structures such as overhangs, spiky formations, or naturally eroded patterns that seamlessly integrate with existing structures.
-- **Invert**: This option toggles between adding to or subtracting from the surface, useful for carving out erosion paths or whittling down organic structures to create natural-looking strokes.
-- **Mask Y**: When enabled, this setting causes the tool to only add mass along the Y-axis. This results in a more gradual change rather than abrupt protrusions, making it ideal for shaping the top surfaces of structures in a natural manner.
-- **Denoise**: This option applies a denoising algorithm to smooth the shapes drawn by the Sculpt Draw tool. Generally, it's recommended to keep this setting on to enhance the tool's natural look. However, if you desire a rougher, rockier surface, you can disable this option.
+- **半径**：与其他画笔工具不同，雕刻绘制工具中的半径不仅影响形状的大小，还影响形状的形状。较大的半径会产生更多球形或卵形的形状，而较小的半径会创建抛物线形状。
+- **强度**：此设置确定雕刻形状的强度。强度滑块呈指数增长，范围从0到5，但可以覆盖为更高的值。由于工具采用了表面法线的方法，不同的强度可以产生各种各样的结果。这使得它非常适用于创建悬崖、尖锐的形状或与现有结构无缝融合的自然侵蚀图案等结构。
+- **反转**：此选项在添加或减去表面之间切换，可用于雕刻侵蚀路径或削减有机结构以创建自然的笔画。
+- **Y轴遮罩**：当启用此设置时，工具只会沿Y轴添加质量。这样可以产生更渐变的变化，而不是突出的凸起，非常适合以自然方式塑造结构的顶部表面。
+- **去噪**：此选项使用去噪算法来平滑雕刻绘制工具绘制的形状。通常建议保持此设置开启，以增强工具的自然外观。但是，如果您希望表面更加粗糙、多岩石质感，可以禁用此选项。
 
-[^note1]: The surface normal is a concept from geometry. In simple terms, it's the direction that a particular surface is facing. For example, if you were standing on flat ground in the real world, the surface normal would be straight up. If you were standing on a slope, the surface normal would point out at an angle.
+注意: 表面法线是几何学中的一个概念。简单来说，它指示了一个特定表面所面向的方向。例如，在现实世界中，如果您站在平坦的地面上，表面法线将垂直向上。如果您站在坡度上，表面法线将以一定角度指向外部
