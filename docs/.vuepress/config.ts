@@ -4,9 +4,6 @@ import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 
 export default defineUserConfig({
-    //   lang: 'zh-CN',
-    //   title: 'Axiom 中文文档',
-    //   description: 'Minecraft Axiom MOD 公理模组中文文档。提供Axiom MOD官方文档页面的中文翻译，使在遇到难以解决的问题时有解决方案可寻',
     locales: {
         '/': {
             lang: 'zh-CN',
@@ -47,7 +44,6 @@ export default defineUserConfig({
                         text: '功能',
                         link: '/zh/capabilities/intro.html',
                         children: [
-                            '/zh/capabilities/intro.md',
                             '/zh/capabilities/tinker.md',
                             '/zh/capabilities/noupdates.md',
                             '/zh/capabilities/forceplace.md',
@@ -57,9 +53,8 @@ export default defineUserConfig({
                         ],
                     }, {
                         text: '编辑器模式',
-                        link: '/zh/editor/',
+                        link: '/zh/editor/intro.html',
                         children: [
-                            '/zh/editor/intro.md',
                             '/zh/editor/mainmenubar.md',
                             '/zh/editor/clipboardandplacements.md',
                             '/zh/editor/selections.md',
@@ -74,33 +69,27 @@ export default defineUserConfig({
                         ],
                     }, {
                         text: '工具',
-                        link: '/zh/tools/',
+                        link: '/zh/tools/intro.html',
                         children: [
-                            '/zh/tools/intro.md',
                             {
                                 // text: 'github',
-                                link: '/zh/tools/selection/',
+                                link: '/zh/tools/selection/intro.md',
                                 children: [
-                                    '/zh/tools/selection/intro.md',
                                     '/zh/tools/selection/boxselect.md',
                                     '/zh/tools/selection/magicselect.md',
                                     '/zh/tools/selection/freehandselect.md',
                                 ],
                             }, {
-                                // text: 'github',
-                                link: '/zh/tools/painting/',
+                                link: '/zh/tools/painting/intro.md',
                                 children: [
-                                    '/zh/tools/painting/intro.md',
                                     '/zh/tools/painting/painter.md',
                                     '/zh/tools/painting/noisepainter.md',
                                     '/zh/tools/painting/biomepainter.md',
                                     '/zh/tools/painting/clentaminator.md',
                                 ],
                             }, {
-                                // text: 'github',
-                                link: '/zh/tools/drawing/',
+                                link: '/zh/tools/drawing/intro.md',
                                 children: [
-                                    '/zh/tools/drawing/intro.md',
                                     '/zh/tools/drawing/freehanddraw.md',
                                     '/zh/tools/drawing/sculptdraw.md',
                                     '/zh/tools/drawing/rock.md',
@@ -109,19 +98,15 @@ export default defineUserConfig({
                                     '/zh/tools/drawing/text.md',
                                 ],
                             }, {
-                                // text: 'github',
-                                link: '/zh/tools/heightmap/',
+                                link: '/zh/tools/heightmap/intro.md',
                                 children: [
-                                    '/zh/tools/heightmap/intro.md',
                                     '/zh/tools/heightmap/elevation.md',
                                     '/zh/tools/heightmap/flatten.md',
                                     '/zh/tools/heightmap/slope.md',
                                 ],
                             }, {
-                                // text: 'github',
-                                link: '/zh/tools/manipulation/',
+                                link: '/zh/tools/manipulation/intro.md',
                                 children: [
-                                    '/zh/tools/manipulation/intro.md',
                                     '/zh/tools/manipulation/smooth.md',
                                     '/zh/tools/manipulation/distort.md',
                                     '/zh/tools/manipulation/roughen.md',
@@ -147,7 +132,7 @@ export default defineUserConfig({
                     '我们怎么到这来了？',
                     '这是一个 404 页面',
                     '看起来我们进入了错误的链接',
-                  ],
+                ],
                 backToHome: '返回首页',
                 openInNewWindow: '在新窗口打开',
                 toggleColorMode: '切换颜色模式',
@@ -172,9 +157,8 @@ export default defineUserConfig({
                     '/en/builder/intro.md',
                     {
                         text: 'Capabilities',
-                        link: '/en/capabilities/',
+                        link: '/en/capabilities/intro.html',
                         children: [
-                            '/en/capabilities/intro.md',
                             '/en/capabilities/tinker.md',
                             '/en/capabilities/noupdates.md',
                             '/en/capabilities/forceplace.md',
@@ -184,9 +168,8 @@ export default defineUserConfig({
                         ],
                     }, {
                         text: 'Editor Mode',
-                        link: '/en/editor/',
+                        link: '/en/editor/intro.html',
                         children: [
-                            '/en/editor/intro.md',
                             '/en/editor/mainmenubar.md',
                             '/en/editor/clipboardandplacements.md',
                             '/en/editor/selections.md',
@@ -201,33 +184,27 @@ export default defineUserConfig({
                         ],
                     }, {
                         text: 'Tool',
-                        link: '/en/tools/',
+                        link: '/en/tools/intro.html',
                         children: [
-                            '/en/tools/intro.md',
                             {
                                 // text: 'github',
-                                link: '/en/tools/selection/',
+                                link: '/en/tools/selection/intro.html',
                                 children: [
-                                    '/en/tools/selection/intro.md',
                                     '/en/tools/selection/boxselect.md',
                                     '/en/tools/selection/magicselect.md',
                                     '/en/tools/selection/freehandselect.md',
                                 ],
                             }, {
-                                // text: 'github',
-                                link: '/en/tools/painting/',
+                                link: '/en/tools/painting/intro.html',
                                 children: [
-                                    '/en/tools/painting/intro.md',
                                     '/en/tools/painting/painter.md',
                                     '/en/tools/painting/noisepainter.md',
                                     '/en/tools/painting/biomepainter.md',
                                     '/en/tools/painting/clentaminator.md',
                                 ],
                             }, {
-                                // text: 'github',
-                                link: '/en/tools/drawing/',
+                                link: '/en/tools/drawing/intro.html',
                                 children: [
-                                    '/en/tools/drawing/intro.md',
                                     '/en/tools/drawing/freehanddraw.md',
                                     '/en/tools/drawing/sculptdraw.md',
                                     '/en/tools/drawing/rock.md',
@@ -236,19 +213,15 @@ export default defineUserConfig({
                                     '/en/tools/drawing/text.md',
                                 ],
                             }, {
-                                // text: 'github',
-                                link: '/en/tools/heightmap/',
+                                link: '/en/tools/heightmap/intro.html',
                                 children: [
-                                    '/en/tools/heightmap/intro.md',
                                     '/en/tools/heightmap/elevation.md',
                                     '/en/tools/heightmap/flatten.md',
                                     '/en/tools/heightmap/slope.md',
                                 ],
                             }, {
-                                // text: 'github',
-                                link: '/en/tools/manipulation/',
+                                link: '/en/tools/manipulation/intro.html',
                                 children: [
-                                    '/en/tools/manipulation/intro.md',
                                     '/en/tools/manipulation/smooth.md',
                                     '/en/tools/manipulation/distort.md',
                                     '/en/tools/manipulation/roughen.md',
@@ -273,7 +246,7 @@ export default defineUserConfig({
         shikiPlugin({
             // 配置项
             theme: 'github-dark',
-          }),
+        }),
     ],
 
 
