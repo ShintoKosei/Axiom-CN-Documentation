@@ -28,7 +28,7 @@ export default defineUserConfig({
         home: '/zh/',
         logo: "/images/axiom_icon.svg",
         locales: {
-            '/zh/': {
+            ['/' ,'/zh/']: {
                 selectLanguageName: '简体中文',
                 navbar: [
                     { text: "首页", link: "/zh/" },

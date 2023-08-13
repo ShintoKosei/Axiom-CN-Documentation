@@ -20,7 +20,7 @@ Axiom Chinese Documentation (unofficial)
 ## 🔨 本地部署方法
 
 1. 要部署本项目你需要
-   - [Node.js](https://nodejs.org/en/) 的最新LTS版本
+   - [Node.js](https://nodejs.org/en/) 的最新LTS版本（Node的安装方法不再赘述）
    - [Vuepress](https://v2.vuepress.vuejs.org/) 的最新版本
    - 互联网连接
 2. 克隆本储存库至本地并进入项目根目录
