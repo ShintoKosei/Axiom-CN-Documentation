@@ -1,9 +1,9 @@
 name: build-docs
 
 on:
-  # 当推送到"master"分支时触发
+  # 当推送到"main"分支时触发
   push:
-    branches: ["master"]
+    branches: ["main"]
   # 当提交Pr时触发
   pull_request:
   # 允许手动触发此工作流
