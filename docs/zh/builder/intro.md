@@ -1,26 +1,25 @@
-# Builder Mode
-The Builder Mode is an enhancement of the vanilla Creative mode. It adds several new features that take a lot of the pain away from traditional building and make everything just a bit easier.
+# 建造模式
+建造模式是对原版创造模式的增强。它添加了几个新功能，可以减轻传统建筑带来的痛苦，让一切变得更加容易。
 
-## Builder Context Menu
-The features for builder mode are accessed in the builder context menu. By default, holding down Left Alt opens the menu. The context menu allows you to access the features listed below.
+## 建造模式上下文菜单
+建造模式的功能可以在建造者上下文菜单中进行访问。默认情况下，按住左Alt键可以打开该菜单。上下文菜单允许您访问下面列出的功能。
 
+### 快捷键交换器
+热键栏交换器是当您第一次打开建造者上下文菜单时最显眼的功能。在菜单打开时，您可以使用滚轮或数字键快速切换到另一个热键栏。
 
-### Hotbar Swapper
-The hotbar swapper is the most prominent feature you’ll notice when you first open the builder context menu. While the menu is open you can use your scroll wheel or number keys to quickly swap to another hotbar.
+这个功能有助于组织，使您能够在不需要打开背包和移动物品的情况下快速切换建筑材料。
 
-This feature aids in organization, allowing you to swap between building materials without needing to open your inventory and move things around.
+您可以通过像在任何其他背包中那样点击物品来重新排列热键栏。最快填充热键栏的方法是打开一个空白栏，并像通常一样使用创造模式下的背包或拾取方块来填充它。
 
-You can reorganize your hotbars by clicking items like you would in any other inventory. The fastest way to fill a hotbar is to open an empty bar and fill it using the creative inventory or pick block as you normally would.
+### 功能
+在左侧，您可以找到一些用于切换建筑**功能**的按钮。凸起或较浅的背景表示功能已禁用，而凹下或较暗的背景表示功能已启用。
 
-### Capabilities
-On the left-hand side you can find a number of buttons for toggling building **Capabilities**. A raised or lighter background means the Capability is disabled, while a depressed or darker background means the Capability is enabled.
+有关功能的文档可以在[这里](/zh/capabilities/intro.md)找到。
 
-Documentation for Capabilities can be found [here](/zh/capabilities/intro.md)
+### 游戏模式切换器
+在热键栏交换器上方有3个按钮，可快速切换到其他游戏模式。使用这些按钮比使用F3+F4或聊天命令更快捷。
 
-### Gamemode Switchers
-Above the hotbar swappers are 3 buttons for quickly swapping to other gamemodes. Using these buttons can be slightly faster than messing around with F3+F4 or chat commands.
+> 提示：当不处于创造模式时，按下左Alt键将使您进入创造模式，这在您处于旁观者模式并希望切换回来放置一些方块时非常有用。
 
-> Tip: Pressing Left Alt while not in creative mode will put you into creative mode, this can be useful if you are in spectator mode and want to swap back to place some blocks. 
-
-### Flight Speed
-On the right-hand side you can find a slider which allows you to quickly change your flight speed, up to 1000% or 10x faster.
+### 飞行速度
+在右侧，您可以找到一个滑块，可以快速调整飞行速度，最高可达1000％或快10倍。
