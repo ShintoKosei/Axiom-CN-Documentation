@@ -1,12 +1,17 @@
 name: build-docs
 
 on:
-  # 当推送到默认分支时触发
+  # 当推送到"master"分支时触发
   push:
     branches: ["master"]
-
-  # 允许手动运行此工作流
+  # 当提交Pr时触发
+  pull_request:
+  # 允许手动触发此工作流
   workflow_dispatch:
+
+env:
+  # 当工作流被Pr触发则显示警告
+  PR_PROMPT: "::warning:: 工作流由Pr拉取请求触发，构建产物不会上传、跳过页面部署任务。"
 
 # 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
 permissions:
@@ -25,10 +30,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: 设置 Node.js
-        uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
+        name: 设置 Node.js
         with:
-          node-version: 18
+          node-version: latest
       - name: 全局安装Vuepress
         run: npm install -D vuepress@next
       - name: 设置页面
@@ -37,6 +42,7 @@ jobs:
       - name: 运行构建脚本
         run: npm run docs:build
       - name: 上传构建产物
+        if: ${{ !github.head_ref }}
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./docs/.vuepress/dist
@@ -48,6 +54,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    if: ${{ !github.head_ref }}
     steps:
       - name: 部署到 GitHub Pages
         id: deployment
