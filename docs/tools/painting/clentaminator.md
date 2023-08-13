@@ -1,3 +1,7 @@
+---
+next: /tools/painting/painter.md
+---
+
 # Clentaminator
 
 The **Clentaminator** is a set of predefined painting tools that typically have complex set of predefined placement rules which don’t fall under other cateogories. Due to this they often use advanced algorithms to produce interesting patterns but are more specific in which cases they can be used.
@@ -46,6 +50,3 @@ The Grass decoration preset uses a perlin noise to randomly disperse dense plots
     
 - A grassiness slider ranging from 0-1 (uncapped but going above 1 has no effect) to denote how ‘grassy’ an area should be. The closer to 1 the more grass there is.
 - An ‘Allow Tall Grass’ toggle which lets the perlin noise’s most dense areas use tall grass. This creates the appearance that grass gets more dense the further in you go which can be useful for more wild areas.
----
-next: /tools/painting/painter.md
----

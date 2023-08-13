@@ -35,7 +35,7 @@ export const sidebarZh: SidebarConfig = [
         link: '/tools/intro.html',
         children: [
             {
-                // text: 'github',
+                text: '选择工具',
                 link: '/tools/selection/intro.md',
                 children: [
                     '/tools/selection/boxselect.md',
@@ -43,6 +43,7 @@ export const sidebarZh: SidebarConfig = [
                     '/tools/selection/freehandselect.md',
                 ],
             }, {
+                text: '绘制工具',
                 link: '/tools/painting/intro.md',
                 children: [
                     '/tools/painting/painter.md',
@@ -51,6 +52,7 @@ export const sidebarZh: SidebarConfig = [
                     '/tools/painting/clentaminator.md',
                 ],
             }, {
+                text: '绘图工具',
                 link: '/tools/drawing/intro.md',
                 children: [
                     '/tools/drawing/freehanddraw.md',
@@ -61,6 +63,7 @@ export const sidebarZh: SidebarConfig = [
                     '/tools/drawing/text.md',
                 ],
             }, {
+                text: '高度工具',
                 link: '/tools/heightmap/intro.md',
                 children: [
                     '/tools/heightmap/elevation.md',
@@ -68,6 +71,7 @@ export const sidebarZh: SidebarConfig = [
                     '/tools/heightmap/slope.md',
                 ],
             }, {
+                text: '操作工具',
                 link: '/tools/manipulation/intro.md',
                 children: [
                     '/tools/manipulation/smooth.md',
