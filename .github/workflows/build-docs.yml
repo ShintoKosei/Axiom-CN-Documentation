@@ -29,7 +29,7 @@ jobs:
   check_changes:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3 # 注意：使用v3
         with:
           fetch-depth: 0 # 为了准确的 diff，获取所有历史记录
       - name: 检查更改的文件
@@ -48,7 +48,7 @@ jobs:
     needs: check_changes
     if: ${{ !needs.check_changes.outputs.should_skip }} # 需满足有其他文件更改
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3 # 注意：使用v3
       - uses: actions/setup-node@v3 # 注意：使用v3
         name: 设置 Node.js
         with:
@@ -64,6 +64,7 @@ jobs:
         if: ${{ !github.head_ref }}  # 需满非Pr提交
         uses: actions/upload-pages-artifact@v2
         with:
+          name: axiom-cn-docs  # 上传工件名称
           path: ./docs/.vuepress/dist
 
   # 部署任务
