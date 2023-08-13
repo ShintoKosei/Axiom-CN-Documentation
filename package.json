@@ -5,8 +5,8 @@
     },
     "prettier": "prettier-config-vuepress",
     "devDependencies": {
+        "@vuepress/plugin-shiki": "^2.0.0-beta.66",
         "vuepress": "^2.0.0-beta.66",
-        "vuepress-plugin-search-pro": "^2.0.0-beta.234",
-        "@vuepress/plugin-shiki": "^2.0.0-beta.66"
+        "vuepress-plugin-search-pro": "^2.0.0-beta.234"
     }
 }
