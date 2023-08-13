@@ -35,13 +35,13 @@ jobs:
       - name: 检查更改的文件
         id: check_files
         run: |
-          if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -qE '^README\.md$'; then
-            echo "只有 README.md 文件发生了更改，跳过构建任务。"
-            echo "::set-output name=should_skip::true"
-          else
-            echo "有其他文件发生了更改，执行构建任务。"
-            echo "::set-output name=should_skip::false"
-          fi
+         if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -qE '^README\.md$'; then
+          echo "只有 README.md 文件发生了更改，跳过构建任务。"
+          echo "::set-output name=should_skip::true" >> $GITHUB_ENV
+         else
+          echo "有其他文件发生了更改，执行构建任务。"
+          echo "::set-output name=should_skip::false" >> $GITHUB_ENV
+         fi
   # 构建任务
   build:
     runs-on: ubuntu-latest
