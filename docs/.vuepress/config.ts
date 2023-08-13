@@ -16,11 +16,6 @@ export default defineUserConfig({
             title: 'Axiom 中文文档',
             description: 'Minecraft Axiom MOD 公理模组中文文档。提供Axiom MOD官方文档页面的中文翻译，使在遇到难以解决的问题时有解决方案可寻',
         },
-        '/zh/': {
-            lang: 'zh-CN',
-            title: 'Axiom 中文文档',
-            description: 'Minecraft Axiom MOD 公理模组中文文档。提供Axiom MOD官方文档页面的中文翻译，使在遇到难以解决的问题时有解决方案可寻',
-        },
         '/en/': {
             lang: 'en-US',
             title: 'Axiom Chinese Documentation',
