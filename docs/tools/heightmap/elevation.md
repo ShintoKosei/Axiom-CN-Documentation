@@ -1,7 +1,9 @@
-# Elevation
+# 海拔工具
 
-The simplest heightmap tool is the **Elevation** tool. It is used to simply raise or lower an area within your selection one layer at a time. For the time being the brush options only let you configure a cylindrical shape from which the Radius and the Height of the brush can be configured. These are pretty self explanatory where the height setting affects the y range in which the blocks are affected and the radius is the size of the heightmap.
+最简单的高度图工具是 **海拔工具**。它用于逐层地提升或降低选择的区域。目前，刷子选项仅允许配置一个圆柱形状，从中可以配置刷子的半径和高度。这些选项相当直观，其中高度设置影响受影响的方块的 y 范围，而半径则是高度图的大小。
 
-The Sharpness setting lets you change the behaviour of the aforementioned curvature and falloff. Increasing the sharpness makes the edges sharper/more flat.
+锐度设置允许更改前面提到的曲率和衰减的行为。增加锐度会使边缘更加锐利/更平坦。
 
-Then there are the raise and lower modes. This affects whether the brush will add or remove blocks from the world.
+然后是提升和降低模式。这会影响刷子是否会向世界中添加或删除方块。
+
+如果还有其他需要翻译的内容或其他问题，请随时告诉我们。

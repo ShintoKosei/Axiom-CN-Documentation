@@ -1,7 +1,9 @@
-# Weld
+# 焊接
 
-The **Weld** tool is a tool that uses a Gaussian blur to add on mass to a surface in a way similar to how using a welding machine with filament would add mass to an area. It can be used to make seams between harsh edges or to flare out the land mass from an existing area onto a flat surface in a seamless blend. It uses the active block to determine what blocks to place. It is partially configured using the brush settings and has a few more settings that change the algorithm in specific ways.
+**焊接** 工具是一种使用高斯模糊的工具，以类似于使用焊接机和填充物在表面上添加质量的方式，将质量添加到区域中。它可以用于在严格边缘之间制作接缝，或者将现有区域的陆地质量延展到平坦的表面上，实现无缝混合。它使用活动方块来确定要放置的方块。它部分地使用刷子设置，并具有一些改变算法的其他设置。
 
-The Smoothing strength can be adjusted to make smoother welds, a higher smoothing setting means that the tool will need a lower threshold to operate as they constrain each other. Generally a higher smoothing strength will also increase the size of the affected area.
+平滑强度可以调整，以使焊接更加平滑。较高的平滑设置意味着工具需要较低的阈值才能起作用，因为它们相互约束。通常，较高的平滑强度也会增加受影响区域的大小。
 
-The Smoothing threshold can be adjusted to make it harder for the tool to affect a given area. This makes it possible to constrain the tool in a way that helps to create more natural flares and seams into existing builds.
+平滑阈值可以调整，以使工具更难影响给定区域。这使得可以通过一种方式约束工具，有助于在现有构建中创建更自然的膨胀和接缝。
+
+如果还有其他需要翻译的内容或其他问题，请随时反馈。

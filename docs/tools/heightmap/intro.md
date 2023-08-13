@@ -1,6 +1,8 @@
 ---
 next: /tools/heightmap/elevation.md
 ---
-# Heightmap Tools
+# 高度图工具
 
-Heightmap tools are used to affect areas in a ‘2D’ way. This works by adding or removing height one layer at a time in the same way that heightmap-based tools like World Machine or World Painter do.
+高度图工具用于以“2D”的方式影响区域。这通过一次添加或移除一个层的高度来实现，就像使用高度图的工具（如World Machine或World Painter）一样。
+
+如果您还有其他需要翻译的内容或其他问题，请随时告诉我。

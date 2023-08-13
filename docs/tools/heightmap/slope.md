@@ -2,14 +2,16 @@
 next: /tools/manipulation/intro.md
 ---
 
-# Slope
+# 斜坡工具
 
-The **Slope** tool is a heightmap tool designed to easily create a ramp or slope between two points, with its function differing slightly from other heightmap tools. In order to start a slope you have to click once to set the target position and then you can drag-click from anywhere else to start drawing a slope between those two points.
+**坡度** 是一种高度图工具，旨在轻松地在两点之间创建斜坡或坡道，其功能与其他高度图工具略有不同。要开始创建坡度，您必须单击一次以设置目标位置，然后您可以从任何其他位置拖动单击以在这两个点之间开始绘制坡度。
 
-On the initial click, a triangle appears displaying details such as height disparity, slope angle, and Euclidean distance between the two points. When you hold down the right-click and drag, a grid plane visible around the initial point of the slope shows the slope's exact angle and provides a rough image of what the final slope will look like.
+在初始单击时，会显示一个三角形，显示诸如高度差异、坡度角度和两个点之间的欧几里德距离等细节。当您按住右键并拖动时，围绕坡度初始点可见的网格平面显示了坡度的确切角度，并提供了最终坡度的大致图像。
 
-As for configuration, brush settings allow you to manipulate the height and radius. The sharpness function, similar to other heightmap tools, manages the curvature of the slope at points above and below the tool.
+至于配置，刷子设置允许您操纵高度和半径。锐度功能与其他高度图工具类似，管理工具上方和下方点的曲率。
 
-Two modes are available: Plane and Cone. Plane mode operates on a flat surface, whereas Cone mode functions within a spherical region centred on the initial point. The cone's orientation changes depending on whether the target point is above or below your current aim.
+有两种模式可用：平面模式和锥体模式。平面模式适用于平坦表面，而锥体模式则在以初始点为中心的球形区域内运行。锥体的方向取决于目标点是在您当前瞄准点的上方还是下方。
 
-However, be cautious when creating a large slope as it may induce lag. For very large slopes, it is suggested to handle smaller areas at a time.
+但是，在创建坡度时要小心，确保您了解目标点的位置和所需的效果，以免意外影响地形。
+
+如果您还有其他需要翻译的内容或其他问题，请随时告诉我。

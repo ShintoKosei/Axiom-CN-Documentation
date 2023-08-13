@@ -31,7 +31,6 @@ export default defineUserConfig({
         // 默认主题配置
         colorMode: 'dark',
         colorModeSwitch: false,
-        home: '/',
         logo: "/images/axiom_icon.svg",
         repo: 'ShintoKosei/Axiom-CN-Documentation',
         editLink: false,
@@ -40,6 +39,7 @@ export default defineUserConfig({
         locales: {
             '/': {
                 selectLanguageName: '简体中文',
+                home: '/',
                 navbar: navbarZh,
                 sidebar: sidebarZh,
                 lastUpdatedText: '最后更新',
@@ -65,6 +65,7 @@ export default defineUserConfig({
 
             '/en/': {
                 selectLanguageName: 'English',
+                home: '/en/',
                 navbar: navbarEn,
                 sidebar: sidebarEn,
                 editLinkText: 'Edit this page on GitHub',

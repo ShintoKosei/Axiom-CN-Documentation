@@ -1,7 +1,9 @@
-# Flatten
+# 扁平工具
 
-The **Flatten** tool is best described as an elevation tool going in two directions. It raises terrain below it and lowers terrain above it, ultimately creating a flat spot where the cylinders meet which is where you point the brush. It can be used to flatten hilly areas to a desired height and to create steep edges on the sides of builds. Similarly to the **Elevation** tool it uses a brush that can have its height and radius configured.
+**扁平工具** 最好描述为双向进行的高程工具。它在其下方提升地形，在其上方降低地形，最终在两个圆柱体相交的地方创建一个平坦的区域，也就是玩家指向的刷子位置。它可以用于将多山的地区平坦到所需的高度，并在建筑物的侧面创建陡峭的边缘。与 **海拔工具** 类似，它使用一个可以配置其高度和半径的刷子。
 
-The sharpness setting affects both the top and the bottom portion of the flatten tool. This means that a higher sharpness setting creates not only a sharper cliff edge but also lowers area around it more harshly.
+锐度设置影响平坦工具的顶部和底部部分。这意味着较高的锐度设置不仅会创建一个更尖锐的悬崖边缘，而且会更严厉地降低其周围的区域。
 
-Additionally there is a lock Y setting. Clicking this lets you lock to a specific height by right-clicking a block in the world, this then sets the lock to that height. What this does is it makes it so that no matter where you click, it will always flatten blocks to that height. This can be unlocked by clicking the button once more.
+此外还有一个锁定 Y 设置。点击此按钮，可以通过在世界中右键单击一个方块来锁定到特定高度，然后将锁定设置为该高度。这样做的作用是，无论在哪里单击，它都会始终将方块平坦到该高度。可以再次点击按钮来解除锁定。
+
+如果还有其他需要翻译的内容或其他问题，请随时告诉我。
