@@ -5,7 +5,7 @@ import { shikiPlugin } from '@vuepress/plugin-shiki'
 
 export default defineUserConfig({
     locales: {
-        '/': {
+        '/zh/': {
             lang: 'zh-CN',
             title: 'Axiom 中文文档',
             description: 'Minecraft Axiom MOD 公理模组中文文档。提供Axiom MOD官方文档页面的中文翻译，使在遇到难以解决的问题时有解决方案可寻',
@@ -25,13 +25,13 @@ export default defineUserConfig({
         // 默认主题配置
         colorMode: 'dark',
         colorModeSwitch: false,
-        home: '/',
+        home: '/zh/',
         logo: "/images/axiom_icon.svg",
         locales: {
-            '/': {
+            '/zh/': {
                 selectLanguageName: '简体中文',
                 navbar: [
-                    { text: "首页", link: "/" },
+                    { text: "首页", link: "/zh/" },
                     {
                         text: '快速开始🚀',
                         children: ['/zh/intro/intro.md', '/zh/builder/intro.md', '/zh/capabilities/intro.md', '/zh/editor/intro.md', '/zh/tools/intro.md'],
