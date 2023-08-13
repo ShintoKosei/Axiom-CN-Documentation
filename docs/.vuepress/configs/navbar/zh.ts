@@ -1,14 +1,14 @@
 import type { NavbarConfig } from '@vuepress/theme-default'
 
 export const navbarZh: NavbarConfig = [
-    { text: "首页", link: "/zh/" },
+    { text: "首页", link: "/" },
     {
         text: '快速开始🚀',
         children: [
-            '/zh/intro/intro.md',
-            '/zh/builder/intro.md',
-            '/zh/capabilities/intro.md',
-            '/zh/editor/intro.md',
-            '/zh/tools/intro.md'],
+            '/intro/intro.md',
+            '/builder/intro.md',
+            '/capabilities/intro.md',
+            '/editor/intro.md',
+            '/tools/intro.md'],
     },
 ]

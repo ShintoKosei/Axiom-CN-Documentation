@@ -59,31 +59,6 @@ export default defineUserConfig({
                 selectLanguageAriaLabel: '选择语言',
             },
 
-            '/zh/': {
-                selectLanguageName: '简体中文',
-                navbar: navbarZh,
-                sidebar: sidebarZh,
-                lastUpdatedText: '最后更新',
-                contributorsText: '贡献者列表',
-                tip: '提示',
-                warning: '警告',
-                danger: '危险',
-                notFound: [
-                    '你来到了没有文字的荒野',
-                    '页面不见了',
-                    '这里什么都没有',
-                    '我们怎么到这来了？',
-                    '这是一个 404 页面',
-                    '看起来我们进入了错误的链接',
-                ],
-                backToHome: '返回首页',
-                openInNewWindow: '在新窗口打开',
-                toggleColorMode: '切换颜色模式',
-                toggleSidebar: '切换侧边栏',
-                selectLanguageText: '选择语言',
-                selectLanguageAriaLabel: '选择语言',
-            },
-
             '/en/': {
                 selectLanguageName: 'English',
                 navbar: navbarEn,

@@ -1,9 +1,9 @@
 ---
 home: true
-name: Axiom 模组中文文档首页
+name: Axiom 中文文档首页
 heroImage: /images/axiom_icon_pur.svg
 heroText: Axiom 中文文档
-tagline: 船新 Minecraft 世界编辑器 Axiom 模组中文文档
+tagline: 船新 Minecraft 世界编辑器 Axiom 中文文档
 
 actions:
   - text: 发行下载
@@ -11,7 +11,7 @@ actions:
     link: https://axiom.moulberry.com/download
   - text: 快速开始🚀
     type: primary
-    link: /zh/intro/intro.md
+    link: /intro/intro.md
 
 features:
   - title: 过去
