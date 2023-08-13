@@ -39,7 +39,7 @@ jobs:
           echo "只有 README.md 文件发生了更改，跳过构建任务。"
           echo "::set-output name=should_skip::true" >> $GITHUB_ENV
          else
-          echo "有其他文件发生了更改，执行构建任务。"
+          echo "除了(或包括)README.md 文件还有其他文件发生了更改，执行构建任务。"
           echo "::set-output name=should_skip::false" >> $GITHUB_ENV
          fi
   # 构建任务
