@@ -1,15 +1,15 @@
-# Ruler Tool
+# 标尺工具
 
-The **Ruler** Tool is designed to measure the distance between two or more points in a world. You can add points to the world by right-clicking. Once you have selected two or more points, a line appears between the most recent point and the one before it. The rounded Euclidean distance, or straight line distance, is shown in the centre of this line. You can keep adding more points as needed.
+**标尺**工具旨在测量世界中两个或多个点之间的距离。你可以通过右键点击来在世界中添加点。一旦选择了两个或更多个点，最新的点与前一个点之间就会出现一条线。该线的中心显示了圆整的欧几里得距离，即直线距离。你可以根据需要继续添加更多的点。
 
-When you check the tool options, you'll find more information about these points. What's shown depends on whether you've chosen two or more points.
+当你查看工具选项时，你将找到有关这些点的更多信息。所显示的内容取决于你是否选择了两个或多个点。
 
-Here's the information you'll see:
+以下是你将看到的信息：
 
-- Total Length (Euclidean): This is the straight-line distance from the first point to the last one, as if a bird flew directly there, not caring about the blocks in between.
-- Total Length (Manhattan): This is the sum of the horizontal, vertical, and depth distances. In Minecraft terms, it's like how a player would travel: one block up, down, left, right, forward, or backward at a time.
-- Minimum: The coordinates of the earliest point in the sequence of points.
-- Maximum: The coordinates of the latest point in the sequence of points.
-- Bounding Size: The size of the box needed to draw around all the points.
-- Yaw (Only visible with two points): The yaw of the line between two points.
-- Pitch (Only visible with two points): The pitch of the line between two points.
+- 总长度（欧几里得）：这是从第一个点到最后一个点的直线距离，就像鸟儿直接飞到那里，不关心其中的方块。
+- 总长度（曼哈顿）：这是水平、垂直和深度距离的总和。在Minecraft术语中，就像玩家移动一样：一次上下、左右、前后各一个方块。
+- 最小值：序列中最早点的坐标。
+- 最大值：序列中最新点的坐标。
+- 边界大小：绘制所有点周围所需的盒子大小。
+- 偏航角（仅在两个点可见）：连接两个点之间线的偏航角。
+- 俯仰角（仅在两个点可见）：连接两个点之间线的俯仰角。
