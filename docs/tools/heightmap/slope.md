@@ -9,3 +9,6 @@ As for configuration, brush settings allow you to manipulate the height and radi
 Two modes are available: Plane and Cone. Plane mode operates on a flat surface, whereas Cone mode functions within a spherical region centred on the initial point. The cone's orientation changes depending on whether the target point is above or below your current aim.
 
 However, be cautious when creating a large slope as it may induce lag. For very large slopes, it is suggested to handle smaller areas at a time.
+---
+next: /tools/manipulation/extrude.md
+---

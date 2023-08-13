@@ -33,6 +33,7 @@ export default defineUserConfig({
         colorModeSwitch: false,
         home: '/',
         logo: "/images/axiom_icon.svg",
+        repo: 'ShintoKosei/Axiom-CN-Documentation',
         locales: {
             '/': {
                 selectLanguageName: '简体中文',

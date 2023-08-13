@@ -5,3 +5,6 @@ The **Text** tool lets the user write text with any True Type Font or .ttf file 
 Just write the text desired into the ‘Text’ field and right-click to place it in the world with a gizmo.
 
 > Note: As of Axiom-b0.97, the text tool is unfinished and provided for demonstration purposes only. Thank you for your understanding
+---
+next: /tools/heightmap/elevation.md
+---
