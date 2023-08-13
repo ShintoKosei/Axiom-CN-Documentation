@@ -1,5 +1,5 @@
 ---
-next: /tools/boxselect.md
+next: /tools/selection/intro.md
 ---
 
 # 工具

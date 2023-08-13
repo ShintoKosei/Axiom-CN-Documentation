@@ -1,5 +1,5 @@
 ---
-next: /tools/manipulation/extrude.md
+next: /tools/manipulation/intro.md
 ---
 
 # Slope

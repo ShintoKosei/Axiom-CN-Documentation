@@ -1,5 +1,5 @@
 ---
-next: /tools/painting/painter.md
+next: /tools/drawing/intro.md
 ---
 
 # Clentaminator

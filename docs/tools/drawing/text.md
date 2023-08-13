@@ -1,5 +1,5 @@
 ---
-next: /tools/heightmap/elevation.md
+next: /tools/heightmap/intro.md
 ---
 
 # Text
