@@ -1,3 +1,7 @@
+---
+next: /en/tools/selection/intro.md
+---
+
 # Tools
 
 Axiom presents a rich set of tools for real-time, precise manipulation of your Minecraft world. These tools are readily accessible in the top layer of the 'Tool' window. Additionally, the 'Tool Options' window offers further configuration possibilities. Each tool comes with its unique settings that can dramatically change its functionality and impact. We encourage exploration and experimentation as it can lead to unanticipated yet fascinating or beneficial applications of these tools.

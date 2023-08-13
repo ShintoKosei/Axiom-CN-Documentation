@@ -1,3 +1,7 @@
+---
+next: /en/tools/selection/boxselect.md
+---
+
 # Selection Tools
 
 This section covers selection tools and their options. An option that is generic to all selection tools a concept known as **boolean operations**. The default option is ‘add’

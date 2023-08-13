@@ -1,3 +1,7 @@
+---
+next: /en/tools/drawing/intro.md
+---
+
 # Clentaminator
 
 The **Clentaminator** is a set of predefined painting tools that typically have complex set of predefined placement rules which don’t fall under other cateogories. Due to this they often use advanced algorithms to produce interesting patterns but are more specific in which cases they can be used.

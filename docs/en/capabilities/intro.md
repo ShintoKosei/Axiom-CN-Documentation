@@ -1,3 +1,7 @@
+---
+next: /en/capabilities/tinker.md
+---
+
 # Capabilities
 This chapter covers Capabilities, toggleable features which can enhance your building workflow.
 

@@ -1,3 +1,7 @@
+---
+next: /en/tools/heightmap/intro.md
+---
+
 # Text
 
 The **Text** tool lets the user write text with any True Type Font or .ttf file font in the world. It can be configured to have a smaller or larger font scale

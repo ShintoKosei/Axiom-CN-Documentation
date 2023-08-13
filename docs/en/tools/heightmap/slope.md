@@ -1,3 +1,8 @@
+---
+next: /en/tools/manipulation/intro.md
+---
+
+
 # Slope
 
 The **Slope** tool is a heightmap tool designed to easily create a ramp or slope between two points, with its function differing slightly from other heightmap tools. In order to start a slope you have to click once to set the target position and then you can drag-click from anywhere else to start drawing a slope between those two points.

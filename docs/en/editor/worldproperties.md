@@ -1,3 +1,7 @@
+---
+next: /en/tools/intro.md
+---
+
 # World Properties
 
 The **World Properties** window lets you change certain properties and vanilla behavior about the world. This is freely accessed in single player worlds but permissions need to be granted on multiplayer due to the significant impact that these might have for those sharing a world with others. See below for the various world properties you can adjust.
