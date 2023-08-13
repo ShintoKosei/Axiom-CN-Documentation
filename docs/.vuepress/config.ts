@@ -34,6 +34,9 @@ export default defineUserConfig({
         home: '/',
         logo: "/images/axiom_icon.svg",
         repo: 'ShintoKosei/Axiom-CN-Documentation',
+        editLink: false,
+        contributors: false,
+        
         locales: {
             '/': {
                 selectLanguageName: '简体中文',

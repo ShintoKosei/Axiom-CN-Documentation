@@ -5,6 +5,7 @@ export const sidebarZh: SidebarConfig = [
     '/builder/intro.md', //建筑模式
     {
         text: '功能',
+        collapsible: true,
         link: '/capabilities/intro.html',
         children: [
             '/capabilities/tinker.md',
@@ -16,6 +17,7 @@ export const sidebarZh: SidebarConfig = [
         ],
     }, {
         text: '编辑器模式',
+        collapsible: true,
         link: '/editor/intro.html',
         children: [
             '/editor/mainmenubar.md',
@@ -32,10 +34,12 @@ export const sidebarZh: SidebarConfig = [
         ],
     }, {
         text: '工具',
+        collapsible: true,
         link: '/tools/intro.html',
         children: [
             {
                 text: '选择工具',
+                collapsible: true,
                 link: '/tools/selection/intro.md',
                 children: [
                     '/tools/selection/boxselect.md',
@@ -44,6 +48,7 @@ export const sidebarZh: SidebarConfig = [
                 ],
             }, {
                 text: '绘制工具',
+                collapsible: true,
                 link: '/tools/painting/intro.md',
                 children: [
                     '/tools/painting/painter.md',
@@ -53,6 +58,7 @@ export const sidebarZh: SidebarConfig = [
                 ],
             }, {
                 text: '绘图工具',
+                collapsible: true,
                 link: '/tools/drawing/intro.md',
                 children: [
                     '/tools/drawing/freehanddraw.md',
@@ -64,6 +70,7 @@ export const sidebarZh: SidebarConfig = [
                 ],
             }, {
                 text: '高度工具',
+                collapsible: true,
                 link: '/tools/heightmap/intro.md',
                 children: [
                     '/tools/heightmap/elevation.md',
@@ -72,6 +79,7 @@ export const sidebarZh: SidebarConfig = [
                 ],
             }, {
                 text: '操作工具',
+                collapsible: true,
                 link: '/tools/manipulation/intro.md',
                 children: [
                     '/tools/manipulation/smooth.md',

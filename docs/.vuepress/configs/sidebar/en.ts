@@ -5,6 +5,7 @@ export const sidebarEn: SidebarConfig = [
     '/en/builder/intro.md',
     {
         text: 'Capabilities',
+        collapsible: true,
         link: '/en/capabilities/intro.html',
         children: [
             '/en/capabilities/tinker.md',
@@ -16,6 +17,7 @@ export const sidebarEn: SidebarConfig = [
         ],
     }, {
         text: 'Editor Mode',
+        collapsible: true,
         link: '/en/editor/intro.html',
         children: [
             '/en/editor/mainmenubar.md',
@@ -32,10 +34,12 @@ export const sidebarEn: SidebarConfig = [
         ],
     }, {
         text: 'Tool',
+        collapsible: true,
         link: '/en/tools/intro.html',
         children: [
             {
-                // text: 'github',
+                text: 'Selection Tools',
+                collapsible: true,
                 link: '/en/tools/selection/intro.html',
                 children: [
                     '/en/tools/selection/boxselect.md',
@@ -43,6 +47,8 @@ export const sidebarEn: SidebarConfig = [
                     '/en/tools/selection/freehandselect.md',
                 ],
             }, {
+                text: 'Painting Tools',
+                collapsible: true,
                 link: '/en/tools/painting/intro.html',
                 children: [
                     '/en/tools/painting/painter.md',
@@ -51,6 +57,8 @@ export const sidebarEn: SidebarConfig = [
                     '/en/tools/painting/clentaminator.md',
                 ],
             }, {
+                text: 'Drawing Tools',
+                collapsible: true,
                 link: '/en/tools/drawing/intro.html',
                 children: [
                     '/en/tools/drawing/freehanddraw.md',
@@ -61,6 +69,8 @@ export const sidebarEn: SidebarConfig = [
                     '/en/tools/drawing/text.md',
                 ],
             }, {
+                text: 'Heightmap Tools',
+                collapsible: true,
                 link: '/en/tools/heightmap/intro.html',
                 children: [
                     '/en/tools/heightmap/elevation.md',
@@ -68,6 +78,8 @@ export const sidebarEn: SidebarConfig = [
                     '/en/tools/heightmap/slope.md',
                 ],
             }, {
+                text: 'Manipulation Tools',
+                collapsible: true,
                 link: '/en/tools/manipulation/intro.html',
                 children: [
                     '/en/tools/manipulation/smooth.md',
