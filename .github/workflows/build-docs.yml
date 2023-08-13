@@ -64,7 +64,6 @@ jobs:
         if: ${{ !github.head_ref }}  # 需满非Pr提交
         uses: actions/upload-pages-artifact@v2
         with:
-          name: axiom-cn-docs  # 上传工件名称
           path: ./docs/.vuepress/dist
 
   # 部署任务
