@@ -36,4 +36,3 @@ Additionally:
 - Right-clicking with Moss Block on cobblestone/stone converts the block into its mossy variant
 - Right-clicking with Shears on removes mossy
 - Right-clicking on a pot with a plant replaces the plant inside the pot
-
