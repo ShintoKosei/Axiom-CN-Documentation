@@ -73,8 +73,8 @@ export default defineUserConfig({
             '/zht/': {
                 selectLanguageName: '繁體中文',
                 home: '/zht/',
-                navbar: navbarZh,
-                sidebar: sidebarZh,
+                navbar: navbarZht,
+                sidebar: sidebarZht,
                 lastUpdatedText: '最後更新',
                 contributorsText: '貢獻者列表',
                 tip: '提示',
