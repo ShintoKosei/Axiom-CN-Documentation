@@ -35,7 +35,7 @@ Axiom Chinese Documentation (unofficial)
 - `npm run docs:dev` 本地调试
 - `npm run docs:build` 生成静态网页
 
-### 🌍 本项目由 Axiom 中文翻译团队维护
+## 🌍 本项目由 Axiom 中文翻译团队维护
 
 Axiom 中文翻译团队（按加入先后顺序）
 
