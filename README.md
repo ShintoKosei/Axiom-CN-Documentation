@@ -37,7 +37,9 @@ Axiom Chinese Documentation (unofficial)
 
 ## 🌍 本项目由 Axiom 中文翻译团队维护
 
-Axiom 中文翻译团队（按加入先后顺序）
+ACTG - Axiom 中文翻译团队 （按加入先后顺序）
+
+**<ins>A</ins>xiom <ins>C</ins>hinese <ins>T</ins>ranslation <ins>G</ins>roup**
 
 <a href="https://github.com/Tnixc" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/85466117?v=4" alt="Tnixc"></a>
 <a itemprop="image" href="https://github.com/ShintoKosei" one-link-mark="yes" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/67397639?v=4" alt="ShintoKosei"></a>
