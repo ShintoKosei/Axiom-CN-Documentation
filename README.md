@@ -35,11 +35,11 @@ Axiom Chinese Documentation (unofficial)
 - `npm run docs:dev` 本地调试
 - `npm run docs:build` 生成静态网页
 
-## 🌍 本项目由 Axiom 中文翻译团队维护
-
-ACTG - Axiom 中文翻译团队 （按加入先后顺序）
+## 🌍 本项目由 Axiom 中文翻译团队 (ACTG) 维护
 
 **<ins>A</ins>xiom <ins>C</ins>hinese <ins>T</ins>ranslation <ins>G</ins>roup**
+
+Axiom 中文翻译团队 （按加入先后顺序）
 
 <a href="https://github.com/Tnixc" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/85466117?v=4" alt="Tnixc"></a>
 <a itemprop="image" href="https://github.com/ShintoKosei" one-link-mark="yes" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/67397639?v=4" alt="ShintoKosei"></a>
