@@ -4,8 +4,10 @@ import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import {
     navbarZh,
+    navbarZht,
     navbarEn,
     sidebarZh,
+    sidebarZht,
     sidebarEn,
   } from './configs/index.ts'
 
@@ -14,12 +16,17 @@ export default defineUserConfig({
         '/': {
             lang: 'zh-CN',
             title: 'Axiom 中文文档',
-            description: 'Minecraft Axiom MOD 公理模组中文文档。提供Axiom MOD官方文档页面的中文翻译，使在遇到难以解决的问题时有解决方案可寻',
+            description: 'Axiom 中文文档。提供Axiom 官方文档页面的中文翻译，使在遇到难以解决的问题时有解决方案可寻',
+        },
+        '/': {
+            lang: 'zh-hant',
+            title: 'Axiom 中文文檔',
+            description: 'Axiom 中文文檔。提供Axiom 官方文檔頁面的中文翻譯，使在遇到難以解決的問題時有解決方案可尋',
         },
         '/en/': {
             lang: 'en-US',
             title: 'Axiom Chinese Documentation',
-            description: 'Minecraft Axiom MOD Chinese Documentation. Provides a Chinese translation of the official documentation page for the Axiom MOD, offering solutions when encountering challenging issues',
+            description: 'Axiom Chinese Documentation. Provides a Chinese translation of the official documentation page for the Axiom, offering solutions when encountering challenging issues',
         },
     },
     head: [
@@ -61,6 +68,32 @@ export default defineUserConfig({
                 toggleSidebar: '切换侧边栏',
                 selectLanguageText: '选择语言',
                 selectLanguageAriaLabel: '选择语言',
+            },
+
+            '/zht/': {
+                selectLanguageName: '繁體中文',
+                home: '/zht/',
+                navbar: navbarZh,
+                sidebar: sidebarZh,
+                lastUpdatedText: '最後更新',
+                contributorsText: '貢獻者列表',
+                tip: '提示',
+                warning: '警告',
+                danger: '危險',
+                notFound: [
+                    '你來到了沒有文字的荒野',
+                    '頁面不見了',
+                    '這裡什麼都沒有',
+                    '我們怎麼到這來了？',
+                    '這是一個 404 頁面',
+                    '看起來我們進入了錯誤的鏈接',
+                ],
+                backToHome: '返回首頁',
+                openInNewWindow: '在新窗口打開',
+                toggleColorMode: '切換顏色模式',
+                toggleSidebar: '切換側邊欄',
+                selectLanguageText: '選擇語言',
+                selectLanguageAriaLabel: '選擇語言',
             },
 
             '/en/': {
