@@ -33,6 +33,7 @@ export default defineUserConfig({
         ['meta', { name: 'keywords', content: 'Axiom,MOD,AxiomMOD,Minecraft,MC,Wiki,Docs,公理,公理模组,文档,文库,百科,维基,我的世界' }],
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
         ["link", { rel: "icon", href: "/images/axiom_icon.svg" }],
+        ['meta', { name: 'msvalidate.01', content: 'F0CB8A76E937BF0133C54D35F5D60107' }], //Bing
     ],
     theme: defaultTheme({
         // 默认主题配置
