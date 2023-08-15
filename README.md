@@ -39,9 +39,9 @@ Axiom Chinese Documentation (unofficial)
 
 Axiom 中文翻译团队（按加入先后顺序）
 
-<a itemprop="image" href="https://github.com/Tnixc" one-link-mark="yes"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/85466117?v=4" alt="Tnixc" style="height:auto;border-radius: 50% !important;box-shadow: 0 0 0 1px var(--avatar-borderColor, var(--color-avatar-border));display: inline-block;flex-shrink: 0;line-height: 1;overflow: hidden;vertical-align: middle;border: var(--borderWidth-thin, 1px) solid var(--borderColor-default, var(--color-border-default)) !important width: 48% !important;"></a>
-<a itemprop="image" href="https://github.com/ShintoKosei" one-link-mark="yes"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/67397639?v=4" alt="ShintoKosei" style="height:auto;border-radius: 50% !important;box-shadow: 0 0 0 1px var(--avatar-borderColor, var(--color-avatar-border));display: inline-block;flex-shrink: 0;line-height: 1;overflow: hidden;vertical-align: middle;border: var(--borderWidth-thin, 1px) solid var(--borderColor-default, var(--color-border-default)) !important width: 48% !important;"></a>
-<a itemprop="image" href="https://github.com/TWME-TW" one-link-mark="yes"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/65117253?v=4" alt="TWME-TW" style="height:auto;border-radius: 50% !important;box-shadow: 0 0 0 1px var(--avatar-borderColor, var(--color-avatar-border));display: inline-block;flex-shrink: 0;line-height: 1;overflow: hidden;vertical-align: middle;border: var(--borderWidth-thin, 1px) solid var(--borderColor-default, var(--color-border-default)) !important width: 48% !important;"></a>
+<a href="https://github.com/Tnixc" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/85466117?v=4" alt="Tnixc"></a>
+<a itemprop="image" href="https://github.com/ShintoKosei" one-link-mark="yes" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/67397639?v=4" alt="ShintoKosei"></a>
+<a itemprop="image" href="https://github.com/TWME-TW" one-link-mark="yes" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/65117253?v=4" alt="TWME-TW"></a>
 
 ## 📝 许可证 LICENSE
 
