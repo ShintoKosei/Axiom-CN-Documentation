@@ -1,9 +1,9 @@
-# Roughen
+# 粗糙工具（Roughen）
 
-The **Roughen** tool is designed to create rugged or jagged edges in the terrain, essentially serving as the opposite of the smoothing tool. It works by "roughening" or making the terrain less smooth. It’s brush size can be configured to change the affected area.
+**粗糙工具**旨在在地形中创建崎岖或凹凸不平的边缘，实质上是平滑工具的相反。它通过"粗化"或使地形不再光滑来工作。可以配置其笔刷大小以更改受影响的区域。
 
-The way it functions is by analysing how many faces (sides of the blocks) are currently exposed to the air and how many should be exposed after the roughening process. The amount of roughening applied to the terrain is determined by the "roughening ratio", which sets the proportion of change.
+其功能方式是通过分析目前有多少个面（方块的侧面）目前暴露在空气中，以及在粗化过程后应该暴露多少个面。地形的粗糙化程度由"粗糙化比例"确定，该比例设置了变化的比例。
 
-The 'Faces' parameter is a slider that ranges from 1 to 4. This determines how many sides (or faces) of a block will be exposed to air after the roughening process. If the value is set to 1, fewer faces will need to be exposed, leading to a more rugged look. On the other hand, if it's set to 4, less faces will need to be exposed, resulting in a highly irregular, rough appearance.
+'面数'参数是一个滑块，范围从1到4。这决定了经过粗化过程后会有多少个方块的面暴露在空气中。如果将值设置为1，则会减少需要暴露的面，从而呈现出更加崎岖的外观。另一方面，如果设置为4，则需要暴露的面就会减少，从而呈现出高度不规则和粗糙的外观。
 
-The 'Roughening Ratio' is a separate slider that you can also configure. This determines the intensity or amount of the roughening effect, or how much the terrain will be transformed. A high roughening ratio will cause a drastic change, making the terrain appear substantially more rugged. A lower ratio, on the other hand, will apply a more subtle roughening effect.
+'粗糙化比例'是另一个您可以配置的滑块。这确定了粗糙化效果的强度或程度，或者地形将被转变多少。高粗糙化比率会导致显著的变化，使地形显得非常崎岖。另一方面，较低的比率会施加更为微妙的粗化效果。

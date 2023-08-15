@@ -2,10 +2,9 @@
 next: /tools/ruler.md
 ---
 
-# Extrude
+# 拉伸工具
+**拉伸工具**旨在调整表面的大小，可以扩展或收缩表面。当您点击一个表面时，工具会影响整个面，使其根据所选的模式而收缩或扩展。默认情况下，它具有预设的范围限制，范围限制默认设置为100,000。这是为了性能考虑，以及避免在大型平坦表面上延伸到渲染距离以外。
 
-The **Extrude** tool is designed to adjust the size of surfaces, either expanding or contracting them. When you click on a surface, the tool affects the entire face, causing it to either shrink or expand, based on the selected mode. It has a preset range limit set at 100,000 by default. This is done for the sake of performance and potential to extend beyond the render distance on large flat surfaces otherwise. 
+该工具还包括“块比较”模式，其操作方式类似于魔法选择工具的块比较模式。该模式决定了工具将影响哪些块。选项包括所有块、仅相同类型的块、具有相同块状态的块、任何实心块或每个块，提供了很大的自定义选项。
 
-The tool also includes a "block compare" mode, which operates similarly to the block compare modes of the magic select tool. This mode determines which blocks the tool will affect. Options include all blocks, only blocks of the same type, blocks with the same block state, any solid blocks, or every block, providing a great deal of customization.
-
-The Extrude tool also features a "displace" function. When activated, this function causes surfaces that are one block thick to move, rather than creating a copy or addition to them. This can be particularly useful when you want to reposition elements like walls or ceilings without altering their thickness.
+挤出工具还具有“位移”功能。当激活此功能时，这个功能会导致仅有一个块厚度的表面移动，而不是创建其副本或添加。这在您想要重新定位墙壁或天花板等元素而不改变其厚度时特别有用。

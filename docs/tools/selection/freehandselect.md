@@ -2,6 +2,6 @@
 next: /tools/painting/painter.md
 ---
 
-# Freehand Select
+# 自由绘制选择工具
 
-The **Freehand Select** tool allows you select spheres, cuboids and octahedrons with a brush stroke. It's rather basic, but it can be helpful to select strange parts of a build that might be difficult to select otherwise.
+**自由手绘选择**工具允许您使用刷子轻松选择球体、立方体和正八面体。虽然比较基础，但它可以帮助您选择可能难以以其他方式选择的建筑的奇怪部分。

@@ -1,9 +1,9 @@
-# Smooth
+# 平滑工具
 
-The **Smooth** tool uses a Gaussian blur to soften terrain. What sets it apart from other smoothing tools is that its algorithm maintains the same total block count within the brush stroke. Instead of adding or removing unnecessary mass, it attempts to spread blocks evenly across the chosen area based on the surroundings. This makes the brush more adaptive and precise, while also offering adjustable settings linked to this behaviour. The tool operates within the chosen area as defined by the brush settings, but remember that the blurring kernel also considers the surroundings of the selection.
+**平滑工具**使用高斯模糊来软化地形。它与其他平滑工具的区别在于，其算法在笔刷范围内保持相同的总方块数量。它不是添加或删除不必要的质量，而是试图根据周围环境均匀分布方块，从而使笔刷更具适应性和精确性，并提供与此行为相关的可调整设置。该工具在笔刷设置定义的区域内操作，但请记住，模糊核心也会考虑选择区域的周围环境。
 
-The Smooth Strength controls the degree of terrain smoothing. By default, it's set to 2, which provides a pleasant smoothing effect. Lower strength is useful for refining areas with a lot of noise while preserving the overall shape. On the other hand, higher strengths blend and lump blocks together more drastically to achieve the smoothest shape possible.
+平滑强度控制地形平滑程度。默认情况下，它设置为2，可以提供愉快的平滑效果。较低的强度适用于细化具有许多噪声的区域，同时保留整体形状。另一方面，较高的强度将方块混合和聚集在一起，以实现尽可能平滑的形状。
 
-The Modifiers, are settings related to smoothing behaviour. By default, the tool has a 100% Block Ratio in **Stable** mode. This means the tool will preserve all blocks (100%) and strive to keep things relatively unchanged during the smoothing process. If you increase the block ratio, it adds more mass, which is equivalent to the total number of selected blocks times the ratio. For instance, a 101% ratio means adding 1% more blocks, while a 99% ratio means removing 1% of blocks. For smaller areas, this allows precise tuning, while larger selections, due to their greater mass, will naturally grow or shrink more based on your settings. The **Melt** mode biases the removal of blocks and the ********Grow******** mode biases the addition of blocks to smooth the area. Combining these with the ratio allows for precise finetuning of the smoothing.
+修改器是与平滑行为相关的设置。默认情况下，工具在**稳定**模式下具有100%的方块比率。这意味着工具将保留所有方块（100%），并努力在平滑过程中保持事物相对不变。如果增加方块比率，它会添加更多的质量，等于所选方块总数乘以比率。例如，101%的比率意味着增加1%的方块，而99%的比率意味着删除1%的方块。对于较小的区域，这允许精确调整，而由于质量较大，较大的选择会根据您的设置自然增长或缩小。**融化**模式偏向于删除方块，**生长**模式偏向于添加方块以平滑区域。将这些模式与比率结合使用，可以精确调整平滑。
 
-The "Fix edges" option, which is on by default, integrates the edge of the smoothed area with the existing terrain to avoid creating sharp contrasts. This makes the smoothed areas blend seamlessly with the rest of the terrain, preventing jagged edges.
+“修复边缘”选项默认为打开状态，将平滑区域的边缘与现有地形集成，以避免创建尖锐的对比。这使得平滑区域与地形的其余部分无缝融合，防止了锯齿状边缘的出现。

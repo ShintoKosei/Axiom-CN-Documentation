@@ -1,7 +1,7 @@
-# Box Select
+# 方框选择工具
 
-The **Box Select** tool allows you to create cuboid selections. To start, click and drag between two points. The selection can be further refined by repositioning the 3 [Gizmos](/editor/gizmos.md).
+**方框选择**工具允许您创建立方体选择。要开始，点击并在两个点之间拖动。选择可以通过重新定位 3 个 [可视化工具](/editor/gizmos.md) 进一步细化。
 
-If you want to select between two known coordinates instead, these coordinates can be entered into the tool's options.
+如果您想要在两个已知坐标之间进行选择，这些坐标可以输入到工具的选项中。
 
-> Warning: Some users try to use the tool by clicking twice. This does not work, you must drag to create the initial box
+> 警告：一些用户尝试通过双击来使用该工具。这种方式不起作用，您必须拖动以创建初始的框。

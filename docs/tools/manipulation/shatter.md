@@ -1,7 +1,7 @@
-# Shatter
+# 破碎工具
 
-The **Shatter** Tool is a tool that uses a Voronoi edges noise to shatter or add cracks to the terrain. The brush size and shape can be configured to change the affected area. 
+**破碎工具**是一种使用Voronoi边缘噪声来粉碎或添加裂缝到地形的工具。可以配置笔刷的大小和形状来改变受影响的区域。
 
-The shatter noise can be configured to have a larger scale, conversely making the cracks appear over a wider area. The width affects how big the cracks between the Voronoi edges are. A larger width means that the cracks will be wider. Toggling the active block changes the brush to use the active block rather than making the cracks with which can be used to make cracks with materials rather than removing mass from the world.
+粉碎噪声可以配置为具有较大的比例尺，从而使裂缝出现在较大的区域。宽度影响Voronoi边缘之间的裂缝大小。较大的宽度意味着裂缝会更宽。切换活动方块会将笔刷改为使用活动方块而不是创建裂缝，这可以用于使用材料创建裂缝，而不是从世界中删除质量。
 
-The noise can be configured to work in 3D, meaning the cracks will move in all 3 dimensions or several 1D configurations for each of the Cartesian coordinates. This will make the cracks only appear on that axis. It can also be configured with the seed to use different or random seeds.
+噪声可以配置为在3D中工作，这意味着裂缝将在所有3个维度中移动，或者可以为每个笛卡尔坐标配置多个1D配置。这将使裂缝只在该轴上出现。它还可以通过种子进行配置，以使用不同的或随机的种子。

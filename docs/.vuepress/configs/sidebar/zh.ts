@@ -47,7 +47,7 @@ export const sidebarZh: SidebarConfig = [
                     '/tools/selection/freehandselect.md',
                 ],
             }, {
-                text: '绘制工具',
+                text: '绘画工具',
                 collapsible: true,
                 link: '/tools/painting/intro.md',
                 children: [

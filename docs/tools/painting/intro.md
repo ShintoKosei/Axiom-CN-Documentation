@@ -2,6 +2,6 @@
 next: /tools/painting/painter.md
 ---
 
-# Painting Tools
+# 绘画工具
 
-Painting tools enable you to 'paint' over blocks, i.e., replace existing blocks in the world based on the chosen tool, rather than adding new ones. Axiom offers a range of painting tools, each with unique configurations for fine-tuned block editing.
+绘画工具允许您在方块上进行“绘画”，即根据选择的工具替换世界中的现有方块，而不是添加新的方块。Axiom 提供了各种绘画工具，每种工具都具有独特的配置，用于精细调整方块编辑。

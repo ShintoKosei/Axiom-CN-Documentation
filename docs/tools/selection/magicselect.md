@@ -1,19 +1,19 @@
-# Magic Select
+# 魔法选择工具
 
-The **Magic Select** tool is a powerful selection tool which improves the building process immensely if used correctly. With a single click on a block type, the Magic Selection tool swiftly selects all adjacent blocks of the same type, streamlining the selection process.
+**魔法选择**工具是一个功能强大的选择工具，如果正确使用，可以极大地改进建筑过程。只需点击一次方块类型，魔法选择工具就可以迅速选择所有相邻的相同类型方块，简化了选择过程。
 
-The tool features the following options:
-The **Compare** option mode lets you select the types of blocks that it can select adjacent to the original block. The default mode is ‘Block’
+该工具具有以下选项：
+**比较**选项模式允许您选择可以在原始方块相邻选择的方块类型。默认模式为“方块”。
 
-| Compare Type | Description                                                                                                           |
-| ------------ | --------------------------------------------------------------------------------------------------------------------- |
-| Block        | All blocks of the same type including all blockstates.                                                                |
-| BlockState   | All blocks of the exact same blockstate as the target block.                                                          |
-| Solid        | Any block that you cannot pass through. For example stone, glass panes, etc. Not flowers, water, etc.                 |
-| Any          | All blocks directly adjacent including non solid blocks except for air. This causes it to ‘stop’ once it reaches air. |
+| 比较类型     | 描述                                           |
+| ------------ | ---------------------------------------------- |
+| 方块          | 所有相同类型的方块，包括所有的方块状态。           |
+| 方块状态      | 与目标方块完全相同的方块状态。                     |
+| 实体          | 任何您无法穿过的方块。例如石头、玻璃窗格等。不包括花朵、水等。     |
+| 任意          | 所有直接相邻的方块，包括非实体方块，但不包括空气。这会在达到空气时“停止”。
 
-The **Limit** option is a slider which can be configured to set how many blocks it should select in total. The magic select algorithm works by expanding outwards from the centre block to form an octahedron. Increasing the limit simply lets you select more blocks. The default limit is set to 100,000 blocks but can be set to any arbitrary limit.
+**限制**选项是一个滑块，可以配置为设置应选择多少方块。魔法选择算法通过从中心方块向外扩展形成八面体来工作。增加限制只是让您选择更多的方块。默认限制设置为 100,000 个方块，但可以设置为任意限制。
 
-The **Range** option is a slider which lets you set how far the algorithm should look for any adjacent blocks. This lets the tool ‘jump the gap’ between two blocks. The range simply represents how far it can look before cutting off. For example a bushy tree might have two or more blocks of air between it’s leaves and logs. This lets you select all the leaves that are on the tree regardless of the fact that there are air blocks between two branches with leaves.
+**范围**选项是一个滑块，可以设置算法应查找任何相邻方块的距离。这使得工具可以“跳过”两个方块之间的间隙。范围表示工具在切断之前可以查看多远。例如，一个茂密的树可能在其叶子和原木之间有两个或更多个空气方块。这使您可以选择树上的所有叶子，而不考虑两个带有叶子的分支之间是否有空气方块。
 
-The **Surface Only** option is a toggle which makes the tool only select the blocks on the surface of the selection or, equivalently, all blocks adjacent to air or the ‘outside’.
+**仅表面**选项是一个开关，使工具仅选择选择表面的方块，或者等效地说，选择与空气或“外部”相邻的所有方块。

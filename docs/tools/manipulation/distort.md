@@ -1,9 +1,9 @@
-# Distort
+# 扭曲工具（Distort）
 
-The **Distort** tool uses a concept called ‘Domain Distortion’ with a Simplex noise in order to distort a given area. What this does in practice is making areas more bumpy. This can help to make flat areas have more depth and texture or be used to add some bumps and carvings into more refined terrain. It does this inside the brush stroke path which can be defined by the brush settings.
+**扭曲工具**使用一种称为“域扭曲”的概念，结合Simplex噪声来扭曲给定的区域。实际上，这会使区域更加凹凸不平。这可以帮助使平坦区域具有更多的深度和纹理，或者用于在更精细的地形中添加一些凹凸和雕刻。它在由刷子设置定义的刷子路径内执行此操作。
 
-The distortion can be configured further to finetune how you want to distort the terrain. The scale sets the scale of the Simplex noise used to perform the domain distortion. This can be configured to larger sizes should the scale not be large enough. It can also be configured with the seed to use different or random seeds.
+扭曲可以进一步配置以微调您想要扭曲地形的方式。比例设置了用于执行域扭曲的Simplex噪声的比例。如果比例不够大，可以将其配置为较大的尺寸。它还可以通过种子进行配置，以使用不同的或随机的种子。
 
-The distance of the distortion increases the range in which the noise distorts. A distance of 2 being an average of 2 blocks distance away from the target position. Due to to the fact that the noise is continuous the range can be set to non-full numbers in order to finetune the range, sometimes making larger dents or bumps appear as a result. A high distance will cause it to look more ‘severe’. These distances can be separated per axis by toggling the ***Separate Axis** button
+扭曲的距离增加了噪声扭曲的范围。距离为2表示平均距离目标位置2个方块。由于噪声是连续的，范围可以设置为非整数，以微调范围，有时会导致更大的凹陷或凸起。较高的距离会使其看起来更“严重”。这些距离可以通过切换**分隔轴（Separate Axis）**按钮来分别设置每个轴。
 
-The smooth edges option blends the edges of the noise into the existing terrain to avoid jagged edges and sharp contrasts from appearing between the distorted areas.
+平滑边缘选项将噪声的边缘与现有地形混合，以避免扭曲区域之间出现锯齿状边缘和尖锐对比。

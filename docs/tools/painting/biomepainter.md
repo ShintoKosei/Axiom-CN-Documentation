@@ -1,9 +1,9 @@
-# Biome Painter
+# 生态群系绘制工具
 
-The **Biome Painter** is similar to the **Painter** tool, except it paints biomes instead of blocks. Biomes in Minecraft are represented by a 4x4x4 cell of blocks stopping at world height. Though biomes are stored in cells, they are altered in the rendering to make their shape irregular.
+**生态群系绘制工具**与**绘画工具**类似，不同之处在于它绘制的是生态群系而不是方块。在 Minecraft 中，生态群系由一个 4x4x4 个方块的单元格表示，其高度截止到世界高度。尽管生态群系存储在单元格中，但在渲染中会对其进行调整，使其形状变得不规则。
 
-You can select any biome from the dropdown, including modded biomes sent to the client.
+您可以从下拉菜单中选择任何生态群系，包括发送到客户端的mod生态群系。
 
-The Fill Vertically option fills the entire span of the world height when enabled, allowing users to quickly paint the entire column.
+启用“垂直填充”选项时，它会填充整个世界高度范围，使用户能够快速绘制整个列。
 
-The Visualize Biome toggle is on by default and shows the 'real' position of biomes in the 4x4x4 grid.
+“可视化生态群系”切换默认为开启状态，显示了 4x4x4 网格中生态群系的“真实”位置。
