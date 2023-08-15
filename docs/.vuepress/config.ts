@@ -9,7 +9,7 @@ import {
     sidebarZh,
     sidebarZht,
     sidebarEn,
-  } from './configs/index.ts'
+} from './configs/index.ts'
 
 export default defineUserConfig({
     locales: {
@@ -43,7 +43,7 @@ export default defineUserConfig({
         repo: 'ShintoKosei/Axiom-CN-Documentation',
         editLink: false,
         contributors: false,
-        
+
         locales: {
             '/': {
                 selectLanguageName: '简体中文',
@@ -109,14 +109,15 @@ export default defineUserConfig({
 
     pages: {
         '/': {
-          title: 'Axiom 中文文档 | 船新Minecraft建筑模组中文文档'
+            title: 'Axiom 中文文档 | 船新Minecraft建筑模组中文文档'
         },
         // '/en/': {
         //   title: '页面2的标题'
         // },
         '/zht/': {
             title: 'Axiom 中文文檔 | 船新Minecraft建築模組中文文檔'
-          },
+        },
+    },
     plugins: [
         searchProPlugin({
             // 配置选项
