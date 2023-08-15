@@ -18,7 +18,7 @@ export default defineUserConfig({
             title: 'Axiom 中文文档',
             description: 'Axiom 中文文档。提供Axiom 官方文档页面的中文翻译，使在遇到难以解决的问题时有解决方案可寻',
         },
-        '/': {
+        '/zht/': {
             lang: 'zh-hant',
             title: 'Axiom 中文文檔',
             description: 'Axiom 中文文檔。提供Axiom 官方文檔頁面的中文翻譯，使在遇到難以解決的問題時有解決方案可尋',
