@@ -1,7 +1,7 @@
 import type { NavbarConfig } from '@vuepress/theme-default'
 
 export const navbarZht: NavbarConfig = [
-    { text: 首頁", link: "/" },
+    { text: "首頁", link: "/zht/" },
     {
         text: '快速開始🚀',
         children: [
