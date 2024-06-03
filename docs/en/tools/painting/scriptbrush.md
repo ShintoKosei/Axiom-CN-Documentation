@@ -6,19 +6,19 @@ next: /en/tool/drawing/intro.md
 
 The Script Brush is a very unique tool, the scripting functionality mixed with useful functions can lead to near-unlimited possibilities. The use of clever logic can lead to things like simple texture generators all the way to structural generators.
 
-Although intimidating at first, once you understand the basic concept of programming and have read this documentation, you'll be ready to make your own scripts! 
+Although intimidating at first, once you understand the basic concept of programming and have read this documentation, you'll be ready to make your own scripts!
 
 ## Key Points
 
-- The Script Brush is a powerful, yet advanced tool so some knowledge of programming languages similar to Python is recommended. 
+- The Script Brush is a powerful, yet advanced tool so some knowledge of programming languages similar to Python is recommended.
 
 - The Script Brush is similar to [Mask Scripting](/editor/toolmasks.md).
 
 - An IDE[^note1] window is used to input your code. It uses a similar language to Python called Lua[^note2].
 
 > [!TIP]
-> Lua doesn't require line indentation like most languages but Axiom provides a tabbing feature to indent. 
-> 
+> Lua doesn't require line indentation like most languages but Axiom provides a tabbing feature to indent.
+>
 > There is only one built-in library[^note3] and there are currently no others.
 
 > [!IMPORTANT]
@@ -29,14 +29,14 @@ There are many predefined variables and functions that can be used throughout th
 ## Custom Variables
 
 | Variables | Description                                                    | Example      |
-|-----------|----------------------------------------------------------------|--------------|
+| --------- | -------------------------------------------------------------- | ------------ |
 | x,y,z     | These three variables represent the XYZ coordinates.           | if y==5      |
 | blocks    | Can be used to retrieve the blockstate[^note4] ID for a block. | blocks.stone |
 
 ## Custom Functions
 
-|  <div style="width:100px">Functions</div> | Description                                                                                       | Example                                                        |
-|-------------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| <div style="width:100px">Functions</div>  | Description                                                                                       | Example                                                        |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | getBlock(x,y,z)                           | Returns the block ID at the given position (x,y,z).                                               | getBlock(x,y,z)==blocks.stone                                  |
 | getBlockState(x,y,z)                      | Returns the blockstate[^note4] ID at a given position.                                            | getBlockstate(x,y,z)==withBlockProperty(blocks.chain,"axis=x") |
 | getHighestBlockYAt(x,z)                   | Returns the Y value of the highest block on the XZ coordinates.                                   | getHighestBlockYAt(x,z)==20                                    |
@@ -52,13 +52,13 @@ There are many predefined variables and functions that can be used throughout th
 
 Template Variables are not shown in the help text. Template Variables are used to visually display tool settings, removing the need to edit values within the script itself. Most Template Variables Use a **title**, this is used to display the usage or function of the specific Template Variable. The **default** value is used to set the most appropriate value within the range. The **min** and **max** variables are used to set the ranges on sliders.
 
-| Template Variable                     | Description                           | Example                              |
-|---------------------------------------|---------------------------------------|--------------------------------------|
-| `$once$`                              | Runs the script once per click.       | `$once$`                             |
-| `$blockState(title,block)$`           | Allows blocks to be input using GUI.  | `$blockState(Block to Paint,stone)$` |
-| `$int(title,default,min,max)$`        | Creates a slider with whole values.   | `$int(Randomness Multiplier,1,0,2)$` |
-| `$float(title,default,min,max)$`      | Creates a slider with decimal values. | `$float(Noise Threshold,0.5,0,1)$`   |
-| `$boolean(title,default(true/false))$`| Creates a toggle                      | `$boolean(Disable Randomness,true)$` |
+| Template Variable                      | Description                           | Example                              |
+| -------------------------------------- | ------------------------------------- | ------------------------------------ |
+| `$once$`                               | Runs the script once per click.       | `$once$`                             |
+| `$blockState(title,block)$`            | Allows blocks to be input using GUI.  | `$blockState(Block to Paint,stone)$` |
+| `$int(title,default,min,max)$`         | Creates a slider with whole values.   | `$int(Randomness Multiplier,1,0,2)$` |
+| `$float(title,default,min,max)$`       | Creates a slider with decimal values. | `$float(Noise Threshold,0.5,0,1)$`   |
+| `$boolean(title,default(true/false))$` | Creates a toggle                      | `$boolean(Disable Randomness,true)$` |
 
 # Code Examples
 
@@ -80,11 +80,11 @@ end
 <details>
     <summary>Novice Code Breakdown</summary>
 
-    The if check ensures that the current block is oak leaves. Using "getBlock(x,y,z)" targets the active block. 
-	
-	Then "blocks.oak_leaves" is used to check if the block IDs match.
+    The if check ensures that the current block is oak leaves. Using "getBlock(x,y,z)" targets the active block.
 
-	Finally, the script returns birch leaves, therefore replacing oak leaves.
+    Then "blocks.oak_leaves" is used to check if the block IDs match.
+
+    Finally, the script returns birch leaves, therefore replacing oak leaves.
 
 </details>
 
@@ -104,15 +104,15 @@ end
 <details>
     <summary>Advanced Code Breakdown</summary>
 
-	Firstly, The multiplier and noise variables by utilising the float variable and the simplex noise function.
-	
-	Then the script checks that the block is air and is above a solid surface while also checking if the noise is within range.
+    Firstly, The multiplier and noise variables by utilising the float variable and the simplex noise function.
 
-	Finally, the block is placed using "withBlockProperty" to set the flower amount property. This uses a modified simplex noise that returns values between 0 and 4.
+    Then the script checks that the block is air and is above a solid surface while also checking if the noise is within range.
+
+    Finally, the block is placed using "withBlockProperty" to set the flower amount property. This uses a modified simplex noise that returns values between 0 and 4.
 
 </details>
 
-### **Expert** 
+### **Expert**
 
 The script below generates kelp in water using a maximum height to control the length of kelp.
 
@@ -136,13 +136,13 @@ end
 <details>
     <summary>Expert Code Breakdown</summary>
 
-    Firstly, the script defines all the variables. 
-	
-	As the script builds the kelp from top to bottom, it checks if the lowest attemptable block is solid.  
-	
-	Then, for each solid block, the script places a kelp plant.
+    Firstly, the script defines all the variables.
 
-	Once all kelp plant blocks are placed, the script then sets the active block to be the top piece of kelp. 
+    As the script builds the kelp from top to bottom, it checks if the lowest attemptable block is solid.
+
+    Then, for each solid block, the script places a kelp plant.
+
+    Once all kelp plant blocks are placed, the script then sets the active block to be the top piece of kelp.
 
 </details>
 
@@ -174,10 +174,10 @@ end
     <summary>Professional Code Breakdown</summary>
 
     This script represents the following equation:
-	(X²+Y²+(Z¹.⁵)(-n)10^2)=0
-	Where n is the flatness variable. 
-	
-	The script draws the 3D shape by using a loop for each axis.
+    (X²+Y²+(Z¹.⁵)(-n)10^2)=0
+    Where n is the flatness variable.
+
+    The script draws the 3D shape by using a loop for each axis.
 
 </details>
 

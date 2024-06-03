@@ -9,6 +9,7 @@ The Editor Mode includes a large variety of tools and operations for large-scale
 The Editor UI can be opened/closed by pressing Right Shift (not Left Shift)
 
 Most of the keybinds in the Editor UI are similar to other editing programs, namely:
+
 - Cut: Ctrl+X
 - Copy: Ctrl+C
 - Paste: Ctrl+V
@@ -16,6 +17,7 @@ Most of the keybinds in the Editor UI are similar to other editing programs, nam
 - Redo: Ctrl+Y
 
 The default camera controls are:
+
 - Rotate: Left Click
 - Arcball Camera: Ctrl + Left Click
 - Pan Camera: Ctrl + Right Click

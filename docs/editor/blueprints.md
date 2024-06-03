@@ -4,7 +4,7 @@ next: /editor/views.md
 
 # Blueprints
 
-Blueprints are a system for saving and loading prefabricated assets. They are similar to schematics, but with a different structure optimized for searching and viewing. 
+Blueprints are a system for saving and loading prefabricated assets. They are similar to schematics, but with a different structure optimized for searching and viewing.
 
 ## Creating a blueprint
 

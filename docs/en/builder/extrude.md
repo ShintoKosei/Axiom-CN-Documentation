@@ -11,4 +11,3 @@ See below for a demonstration
 <video width="960" height="520" controls autoplay loop>
     <source src="/images/ExtrudeTool.mp4" type="video/mp4">
 </video>
-

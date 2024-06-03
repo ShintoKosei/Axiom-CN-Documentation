@@ -6,7 +6,7 @@ next: /editor/selections.md
 
 ## Clipboard
 
-A selection can be copied to the clipboard using Ctrl+C. 
+A selection can be copied to the clipboard using Ctrl+C.
 
 With blocks in your clipboard, you can paste back into the world by hovering over the desired location and pressing Ctrl+V. Pasting like this will initiate a **Placement** (see below).
 

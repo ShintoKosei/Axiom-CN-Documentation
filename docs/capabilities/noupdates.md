@@ -11,4 +11,3 @@ This is useful when working with "non-vanilla" states of stairs/fences/walls/etc
 <video width="960" height="520" controls autoplay loop>
     <source src="/images/NoUpdates.mp4" type="video/mp4">
 </video>
-

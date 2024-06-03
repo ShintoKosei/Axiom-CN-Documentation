@@ -7,6 +7,7 @@ next: /builder/smear.md
 堆叠工具可以让你复制选取中的所有方块，并按照您的朝向进行堆叠。
 
 ## 选择区域
+
 请查看[Move](move.md)
 
 ## 堆叠
@@ -24,4 +25,3 @@ next: /builder/smear.md
 <video width="960" height="520" controls autoplay loop>
     <source src="/images/StackTool.mp4" type="video/mp4">
 </video>
-

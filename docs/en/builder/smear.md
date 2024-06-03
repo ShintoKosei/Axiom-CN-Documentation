@@ -7,6 +7,7 @@ next: /en/builder/extrude.md
 Smear blocks in a 3D direction
 
 ## Selecting a region
+
 Refer to [Move](move.md)
 
 ## Smearing

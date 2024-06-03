@@ -9,12 +9,12 @@ The **Magic Select** tool is a powerful selection tool which improves the buildi
 The tool features the following options:
 The **Compare** option mode lets you select the types of blocks that it can select adjacent to the original block. The default mode is ‘Block’
 
-| Compare Type | Description |
-| --- | --- |
-| Block | All blocks of the same type including all blockstates. |
-| BlockState | All blocks of the exact same blockstate as the target block. |
-| Solid | Any block that you cannot pass through. For example stone, glass panes, etc. Not flowers, water, etc. |
-| Any | All blocks directly adjacent including non solid blocks except for air. This causes it to ‘stop’ once it reaches air. |
+| Compare Type | Description                                                                                                           |
+| ------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Block        | All blocks of the same type including all blockstates.                                                                |
+| BlockState   | All blocks of the exact same blockstate as the target block.                                                          |
+| Solid        | Any block that you cannot pass through. For example stone, glass panes, etc. Not flowers, water, etc.                 |
+| Any          | All blocks directly adjacent including non solid blocks except for air. This causes it to ‘stop’ once it reaches air. |
 
 The **Limit** option is a slider which can be configured to set how many blocks it should select in total. The magic select algorithm works by expanding outwards from the centre block to form an octahedron. Increasing the limit simply lets you select more blocks. The default limit is set to 100,000 blocks but can be set to any arbitrary limit.
 

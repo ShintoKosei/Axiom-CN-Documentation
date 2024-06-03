@@ -9,4 +9,3 @@ The **Bulldozer** capability allows you to break blocks very quickly after an in
 <video width="960" height="520" controls autoplay loop>
     <source src="/images/Bulldozer.mp4" type="video/mp4">
 </video>
-

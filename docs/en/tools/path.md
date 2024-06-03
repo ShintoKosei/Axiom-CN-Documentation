@@ -30,7 +30,8 @@ There are two more parameters for this curve. You may invert it such that it is 
 ![Catenary](https://imagedelivery.net/W9K_l6ndK9x4x8m3rurakg/90849c39-9774-4ad7-377a-efed21509400/original)
 
 # Catmull-Rom Spline
-This type of spline is particularly useful for creating smooth paths. The spline passes through every node. The spline is also continuously smoothed between nodes evenly*.
+
+This type of spline is particularly useful for creating smooth paths. The spline passes through every node. The spline is also continuously smoothed between nodes evenly\*.
 
 ![Catmull-Rom Spline](https://imagedelivery.net/W9K_l6ndK9x4x8m3rurakg/d2b12da7-3514-4be9-6ba1-3ae1d589d900/original)
 

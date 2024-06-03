@@ -17,4 +17,3 @@ The **Force Place** capability bypasses normal placement restrictions.
 <video width="960" height="520" controls autoplay loop>
     <source src="/images/ForcePlace.mp4" type="video/mp4">
 </video>
-

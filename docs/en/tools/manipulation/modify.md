@@ -8,26 +8,26 @@ The Modify tool is designed for manipulating [selections](/tools/selection/intro
 
 ## Overview
 
-| Mode             | Description                                                        |
-|------------------|--------------------------------------------------------------------|
-| Revolve          | Stretches the selection in a circular structure                    |
-| Translate Copies | Clones the selection a set number of times with a custom offset |
-| Rotate Copies    | A mix between Revolve and Translate Copies                         |
-| Twist            | Twists a selection using an angle and axis                         |
+| Mode              | Description                                                         |
+| ----------------- | ------------------------------------------------------------------- |
+| Revolve           | Stretches the selection in a circular structure                     |
+| Translate Copies  | Clones the selection a set number of times with a custom offset     |
+| Rotate Copies     | A mix between Revolve and Translate Copies                          |
+| Twist             | Twists a selection using an angle and axis                          |
 
 ## Revolve
 
 With your selection active, two circular lines will appear, the red indicates the inner part of the revolve and the green indicates the exterior. The two lines pointing from the cursor position indicate the points where the rotation may start.
 
-The Revolve tool can rotate on all three axes separately and has an option to control the amount of angle the tool uses. An angle of 360 does a full loop and 180 does a half loop.  
+The Revolve tool can rotate on all three axes separately and has an option to control the amount of angle the tool uses. An angle of 360 does a full loop and 180 does a half loop.
 
 ## Translate Copies
 
-Similar to[stack](/builder/stack.md), Translate Copies allows for offsetting by relative or absolute values. The count controls the amount of copies to be made with the offset. 
+Similar to[stack](/builder/stack.md), Translate Copies allows for offsetting by relative or absolute values. The count controls the amount of copies to be made with the offset.
 
 Relative offsets are multiplied by the size of the selection.
 
-Absolute offsets are not multiplied so they are therefore absolute coordinates.  
+Absolute offsets are not multiplied so they are therefore absolute coordinates.
 
 ## Rotate Copies
 
@@ -37,6 +37,6 @@ The **Add Translation** Toggle enables the ability to offset the end copy. An of
 
 ## Twist
 
-The Twist function twists a selection at an angle alongside an axis. 
+The Twist function twists a selection at an angle alongside an axis.
 
-The axis controls the face direction of the twist and the angle determines how much it should twist. 
+The axis controls the face direction of the twist and the angle determines how much it should twist.

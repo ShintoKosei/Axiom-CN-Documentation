@@ -6,7 +6,7 @@ next: /en/tool/painting/scriptbrush.md
 
 The **Gradient Painter** tools allows you to paint gradients using multiple blocks.
 
-To use, click on pos1 and you will see a line appear. Click and drag to paint from pos2. 
+To use, click on pos1 and you will see a line appear. Click and drag to paint from pos2.
 
 The **Mask Surface** option allows only painting blocks which are adjacent to a non-solid block.
 
@@ -30,7 +30,7 @@ Look up the curves to see how it is calculated specifically but in essence, near
 
 # Locking
 
-You may select between no locking, locking only pos1, and locking both pos1 and pos2. 
+You may select between no locking, locking only pos1, and locking both pos1 and pos2.
 
 No locking makes it so that the start and end points of the gradient change with every stroke
 

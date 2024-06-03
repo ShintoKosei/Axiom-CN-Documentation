@@ -10,40 +10,40 @@ Each shape lets you tweak its XZ or XYZ dimensions. In addition to controlling r
 
 ## List of Shapes
 
-| Shapes      |
-|-------------|
-| Sphere      |
-| Cuboid      |
-| Octahedron  |
-| Supersphere |
-| Cylinder    |
-| Tube        |
-| Cone        |
-| Pyramid     |
-| Torus       |
-| Dodecahedron|
-| Icosahedron |
+| Shapes       |
+| ------------ |
+| Sphere       |
+| Cuboid       |
+| Octahedron   |
+| Supersphere  |
+| Cylinder     |
+| Tube         |
+| Cone         |
+| Pyramid      |
+| Torus        |
+| Dodecahedron |
+| Icosahedron  |
 
 ## Options
 
-| Option       | Description                                                       |
-|--------------|-------------------------------------------------------------------|
-| Separate XYZ | When enabled, all three scale axes can be modified separately.    |
-| Diameter     | This slider controls the size or scale of the selected shape.     |
-| Advanced     | Allows you to directly alter the yaw, pitch and roll via sliders. |
+| Option       | Description                                                        |
+| ------------ | ------------------------------------------------------------------ |
+| Separate XYZ | When enabled, all three scale axes can be modified separately.     |
+| Diameter     | This slider controls the size or scale of the selected shape.      |
+| Advanced     | Allows you to directly alter the yaw, pitch and roll via sliders.  |
 
 ## Modifiers
 
 | Modifier | Description                           |
-|----------|---------------------------------------|
+| -------- | ------------------------------------- |
 | Hollow   | Generates the shape filled with air   |
 | Metaball | Applies a melting effect to the shape |
 
 ## Placement
 
 | Placement           | Description                                                 |
-|---------------------|-------------------------------------------------------------|
+| ------------------- | ----------------------------------------------------------- |
 | Gizmo               | Switch between a global or local [gizmo](/editor/gizmos.md) |
-| Pivot               | Switch between centred gizmo or base gizmo position |
+| Pivot               | Switch between centred gizmo or base gizmo position         |
 
-**Keep Existing** Disables the overriding of other blocks when placing the shape. 
+**Keep Existing** Disables the overriding of other blocks when placing the shape.

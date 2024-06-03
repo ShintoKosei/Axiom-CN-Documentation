@@ -3,7 +3,7 @@ name: build-docs
 on:
   # 当推送到"main"分支时触发
   push:
-    branches: ["main"]
+    branches: ['main']
   # 当提交Pr时触发
   pull_request:
   # 允许手动触发此工作流
@@ -11,7 +11,7 @@ on:
 
 env:
   # 当工作流被Pr触发则显示警告
-  PR_PROMPT: "::warning:: 工作流由Pr拉取请求触发，构建产物不会上传、跳过页面部署任务。"
+  PR_PROMPT: '::warning:: 工作流由Pr拉取请求触发，构建产物不会上传、跳过页面部署任务。'
 
 # 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
 permissions:
@@ -21,7 +21,7 @@ permissions:
 
 # 仅允许一个并发部署
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: false
 
 jobs:
@@ -46,7 +46,7 @@ jobs:
       - name: 运行构建脚本
         run: pnpm build
       - name: 上传构建产物
-        if: ${{ !github.head_ref }}  # 需满非Pr提交
+        if: ${{ !github.head_ref }} # 需满非Pr提交
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./docs/.vuepress/dist

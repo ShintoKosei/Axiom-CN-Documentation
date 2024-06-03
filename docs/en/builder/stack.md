@@ -7,6 +7,7 @@ next: /en/builder/smear.md
 Stack allows you to copy blocks in a row or grid
 
 ## Selecting a region
+
 Refer to [Move](move.md)
 
 ## Stacking
@@ -24,4 +25,3 @@ See below for a demonstration
 <video width="960" height="520" controls autoplay loop>
     <source src="/images/StackTool.mp4" type="video/mp4">
 </video>
-

@@ -3,9 +3,11 @@ next: /en/capabilities/tinker.md
 ---
 
 # Capabilities
+
 This chapter covers Capabilities, toggleable features which can enhance your building workflow.
 
 The Capabilities that are currently available are:
+
 - [Bulldozer](bulldozer.md) (break blocks fast)
 - [Replace Mode](replacemode.md) (replace blocks in the world)
 - [Force Place](forceplace.md) (bypass block placement restrictions)
