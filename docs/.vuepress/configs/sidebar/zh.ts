@@ -3,7 +3,7 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 export const sidebarZh: SidebarConfig = [
     '/intro/intro.md', //介绍
     {
-           text: '建筑模式',
+           text: '建造者模式',
            collapsible: true,
            link: '/builder/intro.html',
            children: [

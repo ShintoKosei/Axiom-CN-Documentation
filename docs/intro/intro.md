@@ -6,7 +6,7 @@ Axiom适用于从新手到专业人士的每一位用户。其工具设计直观
 
 ## 基本控制
 
-要访问 [建造模式](builder/intro.md) 菜单，按下左 Alt 键
+要访问 [建造者模式](builder/intro.md) 菜单，按下左 Alt 键
 
 要打开/关闭 [编辑模式](editor/intro.md)，按下右 Shift 键
 
