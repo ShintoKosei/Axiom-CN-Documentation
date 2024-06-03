@@ -1,26 +1,29 @@
+---
+next: /en/builder/move.md
+---
+
 # Builder Mode
 The Builder Mode is an enhancement of the vanilla Creative mode. It adds several new features that take a lot of the pain away from traditional building and make everything just a bit easier.
 
+
 ## Builder Context Menu
-The features for builder mode are accessed in the builder context menu. By default, holding down Left Alt opens the menu. The context menu allows you to access the features listed below.
+Many features for builder mode can be toggled or accessed through the Context Menu. The menu can be opened by holding down Left Alt. See [Context Menu](builder/contextmenu.md) for more information.
 
+![Builder Context Menu](/images/AltMenuOverview.png)
 
-### Hotbar Swapper
-The hotbar swapper is the most prominent feature you’ll notice when you first open the builder context menu. While the menu is open you can use your scroll wheel or number keys to quickly swap to another hotbar.
+## Builder Tools
+To the right of the hotbar, you can find the Builder Tools. These tools are very simple and are intended to ease structural/small scale building where use of the more powerful [Editor Mode](editor/intro.md) is too unwieldly.
 
-This feature aids in organization, allowing you to swap between building materials without needing to open your inventory and move things around.
+To start using a Builder Tool, scroll to the 10th slot or press 0.
+To switch to a different Builder Tool, hold Left Alt and then scroll.
 
-You can reorganize your hotbars by clicking items like you would in any other inventory. The fastest way to fill a hotbar is to open an empty bar and fill it using the creative inventory or pick block as you normally would.
+The tools that are currently available in this section are:
+- [Move](/en/builder/move.md)
+- [Clone](/en/builder/clone.md)
+- [Stack](/en/builder/stack.md)
+- [Smear](/en/builder/smear.md)
+- [Extrude](/en/builder/extrude.md)
+- [Erase](/en/builder/erase.md)
+- [Setup Symmetry](/en/builder/setupsymmetry.md)
 
-### Capabilities
-On the left-hand side you can find a number of buttons for toggling building **Capabilities**. A raised or lighter background means the Capability is disabled, while a depressed or darker background means the Capability is enabled.
-
-Documentation for Capabilities can be found [here](/en/capabilities/intro.md)
-
-### Gamemode Switchers
-Above the hotbar swappers are 3 buttons for quickly swapping to other gamemodes. Using these buttons can be slightly faster than messing around with F3+F4 or chat commands.
-
-> Tip: Pressing Left Alt while not in creative mode will put you into creative mode, this can be useful if you are in spectator mode and want to swap back to place some blocks. 
-
-### Flight Speed
-On the right-hand side you can find a slider which allows you to quickly change your flight speed, up to 1000% or 10x faster.
+![Builder Tools](/images/BuilderToolsOverview.png)

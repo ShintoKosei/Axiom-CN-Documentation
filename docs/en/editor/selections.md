@@ -1,3 +1,7 @@
+---
+next: /en/editor/gizmos.md
+---
+
 # Selections
 
 A **Selection** is a set of highlighted blocks that affect the functionality of other systems.

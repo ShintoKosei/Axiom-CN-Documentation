@@ -1,3 +1,7 @@
+---
+next: /en/tool/painting/clentaminator.md
+---
+
 # Biome Painter
 
 The **Biome Painter** is similar to the **Painter** tool, except it paints biomes instead of blocks. Biomes in Minecraft are represented by a 4x4x4 cell of blocks stopping at world height. Though biomes are stored in cells, they are altered in the rendering to make their shape irregular.

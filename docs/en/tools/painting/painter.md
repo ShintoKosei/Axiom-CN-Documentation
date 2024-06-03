@@ -1,3 +1,7 @@
+---
+next: /en/tool/painting/noisepainter.md
+---
+
 # Painter
 
 The **Painter** is the most basic painting tool. It allows you to paint blocks with a single type using a brush stroke.

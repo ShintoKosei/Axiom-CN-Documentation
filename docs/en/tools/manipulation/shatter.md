@@ -1,3 +1,7 @@
+---
+next: /en/tool/manipulation/extrude.md
+---
+
 # Shatter
 
 The **Shatter** Tool is a tool that uses a Voronoi edges noise to shatter or add cracks to the terrain. The brush size and shape can be configured to change the affected area. 

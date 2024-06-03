@@ -1,5 +1,6 @@
-import { defineUserConfig } from "vuepress";
-import { defaultTheme } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import {
@@ -12,6 +13,7 @@ import {
 } from './configs/index.ts'
 
 export default defineUserConfig({
+    bundler: viteBundler(),
     locales: {
         '/': {
             lang: 'zh-CN',

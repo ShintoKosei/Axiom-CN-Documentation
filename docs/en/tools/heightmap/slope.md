@@ -1,7 +1,6 @@
 ---
-next: /en/tools/manipulation/intro.md
+next: /en/tool/manipulation/intro.md
 ---
-
 
 # Slope
 

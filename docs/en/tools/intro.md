@@ -1,5 +1,5 @@
 ---
-next: /en/tools/selection/intro.md
+next: /en/tool/selection/intro.md
 ---
 
 # Tools

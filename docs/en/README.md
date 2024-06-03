@@ -21,5 +21,5 @@ features:
   - title: Future
     details: No longer confined to command editing! Axiom can achieve more!
 
-footer: CC-BY-SA-4.0 Licensed | Copyright © 2023-present ACTG
+footer: CC-BY-SA-4.0 Licensed | Copyright © 2024-present ACTG
 ---

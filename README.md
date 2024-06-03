@@ -1,4 +1,4 @@
-<img src="./public/image/axiom_icon_pur.svg" alt="logo" width="140" height="140" align="right">
+<img src="public/images/axiom_icon_pur.svg" alt="logo" width="140" height="140" align="right">
 
 # Axiom 中文文档（非官方）
 
@@ -24,16 +24,16 @@ Axiom Chinese Documentation (unofficial)
    - [Vuepress](https://v2.vuepress.vuejs.org/) 的最新版本
    - 互联网连接
 2. 克隆本储存库至本地并进入项目根目录
-3. 从终端运行 `npm install -D vuepress@next` 全局安装Vuepress
-4. 从终端运行 `npm run docs:dev` 启动本地调试
+3. 从终端运行 `pnpm install` 安装包
+4. 从终端运行 `pnpm run dev` 启动本地调试
 5. 在浏览器中打开 `http://localhost:9364/` 或 `http://127.0.0.1:9364/`
 
 > 本地运行的端口可在[配置文件](./docs/.vuepress/config.ts)尾部找到并修改
 
 可用命令：
 
-- `npm run docs:dev` 本地调试
-- `npm run docs:build` 生成静态网页
+- `pnpm dev` 本地调试
+- `pnpm build` 生成静态网页
 
 ## 🌍 本项目由 Axiom 中文翻译团队 (ACTG) 维护
 

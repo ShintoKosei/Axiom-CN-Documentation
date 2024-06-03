@@ -1,3 +1,7 @@
+---
+next: /en/tool/manipulation/distort.md
+---
+
 # Smooth
 
 The **Smooth** tool uses a Gaussian blur to soften terrain. What sets it apart from other smoothing tools is that its algorithm maintains the same total block count within the brush stroke. Instead of adding or removing unnecessary mass, it attempts to spread blocks evenly across the chosen area based on the surroundings. This makes the brush more adaptive and precise, while also offering adjustable settings linked to this behaviour. The tool operates within the chosen area as defined by the brush settings, but remember that the blurring kernel also considers the surroundings of the selection.

@@ -1,3 +1,7 @@
+---
+next: /en/tool/selection/freehandselect.md
+---
+
 # Magic Select
 
 The **Magic Select** tool is a powerful selection tool which improves the building process immensely if used correctly. With a single click on a block type, the Magic Selection tool swiftly selects all adjacent blocks of the same type, streamlining the selection process.

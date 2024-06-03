@@ -1,5 +1,5 @@
 ---
-next: /en/tools/selection/boxselect.md
+next: /en/tool/selection/boxselect.md
 ---
 
 # Selection Tools

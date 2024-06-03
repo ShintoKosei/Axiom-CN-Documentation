@@ -1,5 +1,5 @@
 ---
-next: /en/tools/drawing/freehanddraw.md
+next: /en/tool/drawing/freehanddraw.md
 ---
 
 # Drawing Tools

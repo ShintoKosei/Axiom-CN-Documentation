@@ -36,13 +36,13 @@ jobs:
         name: 设置 Node.js
         with:
           node-version: latest
-      - name: 全局安装Vuepress
-        run: npm install -D vuepress@next
+      - name: 安装依赖
+        run: pnpm install
       - name: 设置页面
         id: pages
         uses: actions/configure-pages@v3 # 注意：使用v3
       - name: 运行构建脚本
-        run: npm run docs:build
+        run: pnpm build
       - name: 上传构建产物
         if: ${{ !github.head_ref }}  # 需满非Pr提交
         uses: actions/upload-pages-artifact@v2

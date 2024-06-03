@@ -1,3 +1,7 @@
+---
+next: /en/tool/drawing/rock.md
+---
+
 # Sculpt Draw
 
 The **Sculpt Draw** tool is a powerful sculpting tool to change shape your terrain and organics. It uses the direction the surface is facing (the surface normal[^note1]) to determine what the peak of the shape should be. Instead of utilizing the active block, the Sculpt Draw tool pulls out existing blocks from the surface. Various settings are available to finetune the tool's sculpting behavior:

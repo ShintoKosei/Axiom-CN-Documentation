@@ -1,3 +1,7 @@
+---
+next: /en/editor/targetinfo.md
+---
+
 # Active Block
 
 Some tools use the block specified in the **Active Block** window. This includes most of the painting and drawing tools.

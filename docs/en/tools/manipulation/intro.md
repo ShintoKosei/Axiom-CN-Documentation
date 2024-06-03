@@ -1,5 +1,5 @@
 ---
-next: /en/tools/manipulation/smooth.md
+next: /en/tool/manipulation/smooth.md
 ---
 
 # Manipulation Tools

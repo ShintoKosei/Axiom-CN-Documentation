@@ -1,5 +1,5 @@
 ---
-next: /en/tools/intro.md
+next: /en/editor/toolpresets.md
 ---
 
 # World Properties

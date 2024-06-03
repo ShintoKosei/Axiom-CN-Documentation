@@ -1,3 +1,7 @@
+---
+next: /en/tool/drawing/melt.md
+---
+
 # Weld
 
 The **Weld** tool is a tool that uses a Gaussian blur to add on mass to a surface in a way similar to how using a welding machine with filament would add mass to an area. It can be used to make seams between harsh edges or to flare out the land mass from an existing area onto a flat surface in a seamless blend. It uses the active block to determine what blocks to place. It is partially configured using the brush settings and has a few more settings that change the algorithm in specific ways.

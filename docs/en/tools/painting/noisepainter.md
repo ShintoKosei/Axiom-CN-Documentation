@@ -1,3 +1,7 @@
+---
+next: /en/tool/painting/biomepainter.md
+---
+
 # Noise Painter
 
 The **Noise Painter** is a very versatile painting tool which enables the user to use procedural noises for painting in the world. There is a large variety of noises which can be picked from and configured. Each of which having unique options and patterns useful in different scenarios.

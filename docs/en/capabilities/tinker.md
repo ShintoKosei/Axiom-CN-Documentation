@@ -1,4 +1,9 @@
+---
+next: /en/capabilities/noupdates.md
+---
+
 # Tinker
+
 The **Tinker** capability has various features related to right-clicking with your fist on blocks. Tinker often can be used in place of the debug stick, being slighty faster compared to the debug stick's clunky interface but sometimes lacking the ability to change some non-visual properties.
 
 Aiming at specific parts of a block can change the effect of the tinker. This lets you quickly change full blocks into stairs, stairs into slabs and vice versa. It also lets you easily adjust walls/fences to create states that Minecraft normally doesn’t allow.
@@ -30,7 +35,6 @@ Tinker interactions can be negated while the capability is toggled on by either 
 |Beehive                              |Cycles honey level                                           |
 |Any block with 'Age' property        |Cycles age                                                   |
 |Cake                                 |Cycles bites                                                 |
-
 
 Additionally:
 - Right-clicking with Moss Block on cobblestone/stone converts the block into its mossy variant

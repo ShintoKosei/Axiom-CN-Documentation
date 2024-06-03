@@ -1,3 +1,7 @@
+---
+next: /en/editor/selections.md
+---
+
 # Clipboard and Placements
 
 ## Clipboard

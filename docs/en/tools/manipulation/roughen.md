@@ -1,3 +1,7 @@
+---
+next: /en/tool/manipulation/shatter.md
+---
+
 # Roughen
 
 The **Roughen** tool is designed to create rugged or jagged edges in the terrain, essentially serving as the opposite of the smoothing tool. It works by "roughening" or making the terrain less smooth. It’s brush size can be configured to change the affected area.

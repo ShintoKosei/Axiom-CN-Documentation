@@ -1,3 +1,7 @@
+---
+next: /en/editor/toolmasks.md
+---
+
 # Views
 
 Views are a system for keeping track of multiple named locations in your world, giving you the ability to swap between locations (even across dimensions) easily. 

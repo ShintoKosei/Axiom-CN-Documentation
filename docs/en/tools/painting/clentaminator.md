@@ -1,5 +1,5 @@
 ---
-next: /en/tools/drawing/intro.md
+next: /en/tool/painting/gradientpainter.md
 ---
 
 # Clentaminator

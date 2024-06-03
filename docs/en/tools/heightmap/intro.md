@@ -1,5 +1,5 @@
 ---
-next: /en/tools/heightmap/elevation.md
+next: /en/tool/heightmap/elevation.md
 ---
 
 # Heightmap Tools

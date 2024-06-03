@@ -1,3 +1,7 @@
+---
+next: /en/editor/history.md
+---
+
 # Target Info
 
 The **Target Info** window shows information of the block targeted by your mouse in the Editor UI.

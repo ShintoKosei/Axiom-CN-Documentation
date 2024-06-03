@@ -1,3 +1,7 @@
+---
+next: /en/tool/manipulation/roughen.md
+---
+
 # Distort
 
 The **Distort** tool uses a concept called ‘Domain Distortion’ with a Simplex noise in order to distort a given area. What this does in practice is making areas more bumpy. This can help to make flat areas have more depth and texture or be used to add some bumps and carvings into more refined terrain. It does this inside the brush stroke path which can be defined by the brush settings.

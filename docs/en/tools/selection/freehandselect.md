@@ -1,5 +1,5 @@
 ---
-next: /en/tools/painting/painter.md
+next: /en/tool/painting/intro.md
 ---
 
 # Freehand Select
