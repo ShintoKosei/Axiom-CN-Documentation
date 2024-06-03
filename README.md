@@ -41,9 +41,10 @@ Axiom Chinese Documentation (unofficial)
 
 Axiom 中文翻译团队成员列表 （按加入先后顺序）
 
-<a href="https://github.com/Tnixc" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/85466117?v=4" alt="Tnixc"></a>
-<a itemprop="image" href="https://github.com/ShintoKosei" one-link-mark="yes" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/67397639?v=4" alt="ShintoKosei"></a>
-<a itemprop="image" href="https://github.com/TWME-TW" one-link-mark="yes" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/65117253?v=4" alt="TWME-TW"></a>
+<a href="https://github.com/Tnixc"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/85466117?v=4" alt="Tnixc" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"></a>
+<a href="https://github.com/ShintoKosei"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/67397639?v=4" alt="ShintoKosei" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"></a>
+<a href="https://github.com/TWME-TW"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/65117253?v=4" alt="TWME-TW" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"></a>
+<a href="https://github.com/Rain156"><img height="64" width="64" src="https://avatars.githubusercontent.com/u/77776581?v=4" alt="Rain_G" style="border-radius: 50% !important;display: inline-block;overflow: hidden;"></a>
 
 ## 📝 许可证 LICENSE
 
