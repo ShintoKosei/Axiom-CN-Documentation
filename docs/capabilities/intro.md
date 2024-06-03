@@ -3,7 +3,19 @@ next: /capabilities/tinker.md
 ---
 
 # 功能
+This chapter covers Capabilities, toggleable features which can enhance your building workflow.
 
-本章介绍了Axiom 的一些可切换功能，这些功能可以简化你的建筑工作过程、增强建筑过程的体验。
+The Capabilities that are currently available are:
+- [Bulldozer](bulldozer.md) (break blocks fast)
+- [Replace Mode](replacemode.md) (replace blocks in the world)
+- [Force Place](forceplace.md) (bypass block placement restrictions)
+- [No Updates](noupdates.md) (prevent block updates when placing/breaking)
+- [Tinker](tinker.md) (various useful interactions when right-clicking with an empty hand)
+- Infinite Reach (removes the reach limit)
+- Fast Place (place blocks fast)
+- Angel Placement (place blocks mid-air)
+- No Clip (move through blocks while flying)
 
-默认情况下，**替换模式**功能可以使用快捷键`R`进行切换。切换功能的全部快捷键可以在原版按键设置中设置。
+Capabilities can be toggled using the left side of the [Context Menu](builder/contextmenu.md)
+
+Additionally, keybinds can be associated with capabilities to quickly toggle them. By default, only the [Replace Mode](capabilities/replacemode.md) has a keybind (R), but more can be added in the vanilla controls menu (Esc > Options > Controls)

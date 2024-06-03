@@ -1,16 +1,16 @@
 ---
-next: /tools/selection/boxselect.md
+next: /tool/selection/boxselect.md
 ---
 
 # 选择工具
 
-本节介绍了选择工具及其选项。一个适用于所有选择工具的通用选项是**布尔运算**的概念。默认选项是“添加”。
+This section covers selection tools and their options. An option that is generic to all selection tools a concept known as **boolean operations**. The default option is ‘add’
 
-| 布尔运算       | 描述                                      |
-| ------------- | ------------------------------------------ |
-| 添加           | 将所选区域添加到当前选择中                |
-| 减去           | 从当前选择中减去所选区域                |
-| 替换           | 用所选区域替换当前选择                |
-| 交集           | 选择与当前选择重叠的区域                |
+| Boolean Operation | Description |
+| --- | --- |
+| Add | Adds the selected area to the current selection |
+| Subtract | Subtracts the selected area from the current selection |
+| Replace | Replaces the current selection with the selected area |
+| Intersect | Selects only the area that overlaps with the current selection |
 
-> 注意：在非立方体选择的非常大的情况下，由于需要追踪整个区域的复杂性，性能会降低。如果您需要对非常大的区域执行操作，建议使用立方体选择并包含整个建筑。
+> Note: At very large scales non-cuboid selections become less performant due to the complexity in keeping track of the entire region. If you need to perform an operation on a very large area it is recommended to use a cuboid selection and encompass the entire build.

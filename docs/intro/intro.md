@@ -1,11 +1,13 @@
-# 开始之前 · 介绍
+# Introduction
+Welcome to the Axiom Documentation, an introductory book about the all-in-one tool for editing Minecraft worlds. The goal of Axiom is to help you build terrain, organics and structures faster and to a higher quality. The mod brings innovative new tools and algorithms, while also improving ergonomics by reducing the feedback loop through realtime clientside visualizations. 
 
-欢迎阅读 Axiom 文档，这是一本关于编辑 Minecraft 世界的一体化工具的介绍书籍。 Axiom 的目标是帮助你更快、更高质量地构建地形、有机体和结构。Axiom 带来了创新的新工具和算法，同时还通过符合人体工程学的客户端的实时可视化功能来减少大量反复的修改。
+## Who Axiom Is For
+Axiom is intended for everyone from novice to professional. The tools are intuitive and easy to approach, while still providing lots of depth through settings for experienced users.
 
-## Axiom 的受众
+## Basic Controls
 
-Axiom 适合从建筑菜鸡到建筑带师的每一个级别的每一个人。Axiom 的工具在直观且易于使用的基础上同时为经验丰富的玩家提供大量的深度设置，尽情探索吧！
+To access the [Builder Mode](builder/intro.md) menu, press Left Alt
 
-::: tip 提示
-Axiom 中文文档的简体中文及繁體中文的翻译工作正在进行中
-:::
+To open/close the [Editor Mode](editor/intro.md), press Right Shift
+
+These keybinds can be adjusted in Minecraft's controls menu (Esc > Options > Controls)

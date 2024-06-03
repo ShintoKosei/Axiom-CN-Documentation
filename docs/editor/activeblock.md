@@ -1,11 +1,14 @@
-# 选择的方块
+---
+next: /editor/targetinfo.md
+---
 
-某些工具会使用**选择的方块**窗口中指定的图象预览，这包括大多数绘画和绘图工具。
+# Active Block
 
-编辑器用户界面中的图象预览可以拖放到不同的位置，以达到不同的效果：
+Some tools use the block specified in the **Active Block** window. This includes most of the painting and drawing tools.
 
- - 拖入其他界面元素内（如蒙版工具）以快速复制方块
- - 拖入主要视图可直接填充目标的选区（类似于默认快捷键 `Ctrl`+`F` 的效果）
- - 拖入主要视图可将图象预览中的方块替换目标处的方块
+Blocks in the Editor UI can be drag-dropped on different locations to various effects:
+ - Into other UI elements (eg. tool mask) to quickly copy the block over
+ - Into the main viewport to fill the targeted selection (similar to Ctrl+F)
+ - Into the main viewport to flood replace the targeted block with the dropped block
 
-默认情况下，可使用`鼠标中键`快速设置**选择的方块**。
+The **Active Block** can be quickly set using 'pick block', which is bound to middle-click by default.

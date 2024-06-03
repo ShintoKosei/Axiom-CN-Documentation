@@ -1,15 +1,15 @@
 ---
-next: /tools/selection/intro.md
+next: /tool/selection/intro.md
 ---
 
 # 工具
 
-Axiom提供一套丰富的工具，用于实时、精确地操作你的世界。这些工具可以在“工具”窗口的顶层轻松访问。此外，“工具选项”窗口提供了更多的配置可能性。每个工具都带有其独特的设置，可以大大改变其功能和影响。我们鼓励探索和实验，因为这可能会导致令人意想不到但迷人或有益的工具应用。
+Axiom presents a rich set of tools for real-time, precise manipulation of your Minecraft world. These tools are readily accessible in the top layer of the 'Tool' window. Additionally, the 'Tool Options' window offers further configuration possibilities. Each tool comes with its unique settings that can dramatically change its functionality and impact. We encourage exploration and experimentation as it can lead to unanticipated yet fascinating or beneficial applications of these tools.
 
-注意：通过`Ctrl`+单击滑块，你可以手动输入超出默认参数限制的值。请谨慎使用此功能。
+Note: By ctrl clicking on a slider, you can manually input a value that exceeds the default parameter limits. Use this feature with caution.
 
-## 画笔
+## Brushes
 
-大多数用于操作世界的工具使用的是称为“画笔”的格式。画笔允许用户在预定义的形状中在世界中进行点击和拖动，以便收集要包含在画笔路径中的方块。你可以在下拉菜单中选择画笔的形状。默认形状是一个球体。
+Most tools used to manipulate the world use a format known as ‘brushes’. Brushes let the user click and drag in the world with a predefined shape in order to gather blocks to include in the brush’s path. You can select the shape of the brush in the dropdown menu. The default shape is a sphere.
 
-你可以选择球体、立方体或八面体。
+You can choose from a sphere, a cube or an octahedron.

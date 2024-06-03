@@ -1,5 +1,25 @@
-# 替换模式
+---
+next: /capabilities/bulldozer.md
+---
 
-**替换模式**功能允许在右键点击目标方块时直接用手持的方块替换它。这样就可以通过一直按住鼠标右键而不需要为每个需要替换的方块都按下左键+右键，轻松地替换大量方块。搭配[推土机](/capabilities/bulldozer)替换速度可以更快！
+# Replace Mode
 
-此外，当你替换一个方块时，新放置的方块将继承旧方块的属性。例如，如果目标方块为铜楼梯，橡木楼梯为替换方块替换它，替换之后橡木楼梯将与原始的铜楼梯具有完全相同的朝向和形状。
+The **Replace Mode** capability allows you to right-click to replace the targeted block with the held block. This allows you to easily replace a large amount of blocks by holding the right-mouse button.
+
+Additionally, when you replace a block, the newly placed block will inherit the properties of the old block.
+
+A basic demonstration of Replace Mode can be found below
+
+<video width="960" height="520" controls autoplay loop>
+    <source src="/images/ReplaceModeBasic.mp4" type="video/mp4">
+</video>
+
+## Type Replace
+
+Type Replace can be toggled on through the Options Toolbox in the Alt Menu. Turning this on allows you to hold a base material block (eg. Spruce Planks) to replace stairs/slabs/walls/fences/etc. with their spruce variant
+
+A demonstration of Type Replace can be found below
+
+<video width="960" height="520" controls autoplay loop>
+    <source src="/images/TypeReplace.mp4" type="video/mp4">
+</video>

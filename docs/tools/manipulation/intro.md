@@ -1,7 +1,7 @@
 ---
-next: /tools/manipulation/smooth.md
+next: /tool/manipulation/smooth.md
 ---
 
 # 操作工具
 
-操作工具是一系列旨在将现有地形更改为更理想的形状或形式的工具。例如，在某个地方制作了山脉或悬崖之后，然后使用这些工具通过平滑、粗糙、扭曲等方式来帮助优化它们的形状。每个工具对世界的影响都非常不同，通常在使用这些工具时会在增加更多质量或雕刻世界更多的工具之间交替使用，以及在其他操作工具的连续使用中，以获得最理想的结果。
+The Manipulation tools are a series of tools aimed at changing existing terrain into a more desired shape or form. For example, after having made a mountain or cliff somewhere and then using these tools to help refine their shape by means of smoothing, roughening, distorting, etc. Each tool has a pretty different effect on the world and common to use these tools intermediately between tools that add more mass or sculpt the world more as well as in succession of other manipulation tools in order to get the most desirable outcome.

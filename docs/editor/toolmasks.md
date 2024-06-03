@@ -1,43 +1,64 @@
-# 工具建立蒙版
+---
+next: /editor/activeblock.md
+---
 
-工具建立蒙版允许用户设置工具的规则，仅在满足特定条件时应用其效果。利用布尔逻辑，工具建立蒙版允许用户在各种场景下指定方块条件，例如仅影响上方有空气的方块或特定类型的下方方块。这些规则配置称为“规则方块”，可以通过拖放界面轻松地排列在工具菜单中，提供了与脚本语言相比更加用户友好的选择。你的建立蒙版配置显示在菜单顶部作为字符串，便于复制、共享和保存。建立蒙版逻辑生成布尔输出，表示为“true”或“false”。
+# Tool Masks
 
-条件分为两个主要类别：逻辑条件和建立蒙版。
+Tool Masks empower users to set up rules for tools, applying their effects only when certain conditions are met. Leveraging boolean logic, Tool Masks allow users to specify block conditions across a variety of scenarios, such as affecting only blocks with air above them or a particular type of block beneath. These rule configurations, known as 'Rule Blocks', can be easily arranged in the tool menu via a drag-and-drop interface, providing a user-friendly alternative to scripting languages. The configuration of your mask is displayed as a string at the top of the menu for easy copying, sharing, and saving. The mask logic generates a boolean output, signifying either 'true' or 'false'.
+    
+The conditions fall into two main categories: Logic and Masks.
+    
+## Logic conditions
 
-## 逻辑条件
+Combining these logic conditions allows for a broad range of expressions in masks, enabling you to select almost all blocks meeting specific criteria.
 
-- **任意（Any）**
-“任意”条件使此方块内的所有规则生效。例如，当选择多个要进行建立蒙版处理的方块时，选择匹配grass_block或stone的“任意”方块。
+| Logic      | Description                                                                                                                                                                                                                                                                                                                                                      |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **OR**     | The `OR` condition enables any rules within this block to take effect. For example, when selecting multiple blocks to mask, select blocks that match grass_block `OR` stone.                                                                                                                                                                                     |
+| **AND**    | The `AND` condition requires all rules within this block to apply. For instance, if you want to select a block that has air above and dirt below it. However, conflicting rules won't function in the same `ANY` block, meaning you can't have two `block =` masks or two `above =` masks simultaneously. But, it's possible to nest another `AND` block inside. |
+| **NOT**    | The `NOT` condition reverses the rule outcomes, making them true only when the original conditions are not met. For example, setting the rule `above = air` within a `NOT` block selects all blocks that do not have air above them.                                                                                                                             |
+| **OFFSET** | The `OFFSET` condition allows coordinate input to apply a mask for a nearby block relative to the current block. For example, using `offset(0,-1,0){ surface }` will mask block 1 block above the surface.                                                                                                                                                       |
 
-- **全部（All）**
-“全部”条件要求此方块内的所有规则都适用。例如，如果你想选择具有上方空气和下方泥土的方块。然而，冲突的规则不能同时在同一个“全部”方块中运行，这意味着你不能同时拥有两个“block =”建立蒙版或两个“above =”建立蒙版。但是，可以在内部嵌套另一个“任意”方块。
+## Masks
+    
+Masks are conditions that depend on the target's state or the surrounding blocks' state.
 
-- **非（Not）**
-“非”条件将规则结果反转，仅在未满足原始条件时为真。例如，在“非”方块中设置规则“above = air”将选择所有上方没有空气的方块。
+| Mask             | Description                                                                                                                                                                                                                                                         |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Block**        | The `Block` mask returns true when the target matches the specified block or block state.                                                                                                                                                                           |
+| **Above**        | The `Above` condition is true when the block directly above the target block matches the specified block or block state.                                                                                                                                            |
+| **Below**        | The `Below` condition is true when the block directly below the target block matches the specified block or block state.                                                                                                                                            |
+| **Near**         | The `Near` condition is true when any of the blocks in the set radius surrounding the target match the specified block or block state.                                                                                                                              |
+| **Neighbour**    | The `Neighbor` condition returns true when any of the six blocks directly adjacent (up, down, north, south, east, west) to the target match the specified block or block state which allows the mask to check the immediate vicinity of the target block.           |
+| **Adjacent**     | The `Adjacent` condition returns true when any of the four horizontally touching blocks match the specified block or block state.                                                                                                                                   |
+| **Y**            | The `Y` mask returns true when the target aligns with the given condition relating to the block's Y coordinate level. There are several conditions for the Y mask which can be modified by clicking on the `=` sign.                                                |
+| **Angle**        | The `Angle` mask utilises two inputs. The `Angle` input is used to mask a specific angle and the `Range` input is how many angles are used originating from the `Angle` input. For example, an angle of 90 and a range of 10 would cover all angles from 80 to 100. |
+| **In Selection** | The `In Selection` condition returns true when the target block is within the user-defined selection area.                                                                                                                                                          |
+| **Can See Sky**  | The `Can See Sky` condition returns true if the target block has direct access to the sky.                                                                                                                                                                          |
+| **Surface**      | The `Surface` mask returns true if the block is adjacent to air or liquids.                                                                                                                                                                                         |
 
-通过组合这些逻辑条件，可以在建立蒙版中实现广泛的表达式，从而使你能够选择几乎符合特定条件的所有方块。
+# Scripting
 
-## 建立蒙版
+Similar to the [Script Brush](/tools/painting/scriptbrush.md), the mask scripting allows users to input custom scripts using Lua. However, the rule of returning a boolean value still applies.
 
-建立蒙版是依赖目标状态或周围方块状态的条件。
+## Custom Variables
 
-- **方块（Block）**
-“方块”建立蒙版在目标与指定的方块或方块状态匹配时返回true。
+| Variables | Description                                                    | Example      |
+|-----------|----------------------------------------------------------------|--------------|
+| x,y,z     | These three variables represent the XYZ coordinates.           | if y==5      |
+| blocks    | Can be used to retrieve the blockstate[^note4] ID for a block. | blocks.stone |
 
-- **Y**
-“Y”建立蒙版在目标与与方块的Y坐标水平相关的给定条件对齐时返回true。Y建立蒙版有几个条件，可以通过点击“=”符号进行修改。
+## Custom Functions
 
-- **在选择区域内（In Selection）**
-“在选择区域内”条件在目标方块位于用户定义的选择区域内时返回true。
-
-- **上方（Above）**
-“上方”条件在目标方块正上方的方块与指定的方块或方块状态匹配时返回true。
-
-- **下方（Below）**
-“下方”条件在目标方块正下方的方块与指定的方块或方块状态匹配时返回true。
-
-- **附近（Near）**
-“附近”条件在目标周围3x3区域（26个方块）中的任何方块与指定的方块或方块状态匹配时返回true。
-
-- **相邻（Neighbor）**
-“相邻”条件在目标方块的上、下、北、南、东、西六个直接相邻的方块中的任何一个与指定的方块或方块状态匹配时返回true，这样可以检查目标方块的周围环境。
+|  <div style="width:100px">Functions</div> | Description                                                                                       | Example                                                                        |
+|-------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| getBlock(x,y,z)                           | Returns the block ID at the given position (x,y,z).                                               | if getBlock(x,y,z)==blocks.stone                                               |
+| getBlockState(x,y,z)                      | Returns the blockstate[^note4] ID at a given position.                                            | if getBlockstate(x,y,z)==withBlockProperty(blocks.chain,"axis=x")              |
+| getHighestBlockYAt(x,z)                   | Returns the Y value of the highest block on the XZ coordinates.                                   | if getHighestBlockYAt(x,z)==20                                                 |
+| getSimplexNoise(x,y,z,"seed")             | Returns a value between 0 and 1, representing the Simplex noise for the provided coordinates.     | if getSimplexNoise(x,y,z,42)=>0.5                             |
+| getVoroniEdgeNoise(x,y,z,"seed")          | Returns a value between 0 and 1, representing the Voroni Edge noise for the provided coordinates. | if getVoroniEdgeNoise(x,y,z,01134)=>0.5                                   |
+| isSolid(block)                            | Returns true if the block is solid, false if not.                                                 | if isSolid(getBlock(x,y,z))                                                    |
+| isBlockTagged(block,"tag")                | Returns true if the block has the provided tag, false if not.                                     | if isBlockTagged(getBlock(x,y,z),"wooden_fences")                              |
+| withBlockProperty(block,"property=value") | Used to return or set a block with a block property.                                              | withBlockProperty(blocks.oak_slab,"waterlogged=true")                          |
+| getBlockProperty(block,"property")        | Returns the value of the provided block property.                                                 | if getBlockProperty(blocks.oak_slab,"waterlogged")==true                       |
+| setBlock(x,y,z,block)                     | Set an additional block at a given position.                                                      | setBlock(x,y,z,blocks.stone)                                                   |

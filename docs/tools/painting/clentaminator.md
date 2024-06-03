@@ -1,52 +1,52 @@
 ---
-next: /tools/drawing/intro.md
+next: /tool/painting/gradientpainter.md
 ---
 
-# 环境改造枪
+# Clentaminator
 
-**环境改造枪**又名环境清理器，是一组预定义的绘画工具，通常具有复杂的预定义放置规则，这些规则不属于其他类别。因此，它们通常使用高级算法来产生有趣的图案，但在可以使用的情况下更具体。
+The **Clentaminator** is a set of predefined painting tools that typically have complex set of predefined placement rules which don’t fall under other cateogories. Due to this they often use advanced algorithms to produce interesting patterns but are more specific in which cases they can be used.
 
-环境改造枪允许您配置笔刷，以定义笔刷路径，就像其他工具一样。除此之外，它还有两个可以切换和配置的选项：“地形”和“装饰”。它们可以混合和匹配，提供广泛的自定义选项。
+The clentaminator lets you configure the brush to define the stroke path, just like other tools. Other than that it has two other options which can be toggled and configured. **Terrain** and **Decorations**. They can be mixed and matched to provide a wide range of customization.
 
-## 地形
+## Terrain
 
-这些环境改造枪预设影响笔刷路径中的实心方块。
+These clentaminator presets affect solid blocks in your brush stroke
 
-### 石头
+### Stone
+    
+The Stone Terrain preset is a very simple terrain tool, just setting the base to only stone.
+    
+### Grass
+    
+The Grass Terrain preset naturalizes the terrain by making the top layer grass blocks followed by 3-4 layers of dirt and any terrain below that being set to stone.
+    
+### Sand
+    
+The Sand Terrain preset makes a desert terrain by making the top 4-5 layers sand and blocks below that being set to sandstone.
+    
+### Dirt Ground
+    
+The Dirt Ground Terrain preset uses a wave function collapse algorithm to make a pattern of dirt with mixed in blotches of dry mud and coarse dirt to make a quick and easy floor for things such as forest floors, paths, etc.
+    
+### Gravel Ground
+    
+The Gravel Ground terrain preset uses a wave function collapse algorithm to make a pattern of stone mixed in with blotches of gravel and cobblestone to make a quick and easy rough rocky pattern, useful for mountain gravel slides, paths, etc.
+    
+### Fertile Ocean Floor
+    
+The Fertile Ocean Floor terrain preset uses a mix of layered voronoi as well as cellular noise patterns in order to create a varied look of an ocean, swamp or riverbed floor in ‘fertile’ water areas such as mangroves near oceans, swamps, river deltas/mouths, etc.
+    
+## Decorations
 
-石头地形预设是一个非常简单的地形工具，只将基础设置为石头。
+These clentaminator presets affect non-solid blocks, often intended to be placed on top of existing terrain to help enhance the aesthetics.
 
-### 草地
-
-草地地形预设通过在顶层放置草方块，然后在下面的3-4层放置泥土，底下的地形设置为石头，从而使地形更加自然。
-
-### 沙子
-
-沙子地形预设通过在顶部的4-5层放置沙子，并将下面的方块设置为沙岩，从而创建了沙漠地形。
-
-### 泥土地面
-
-泥土地面地形预设使用波函数坍缩算法，在泥土中混合不规则的斑块，以快速轻松地创建一种类似于森林地面、小径等的图案。
-
-### 砾石地面
-
-砾石地面地形预设使用波函数坍缩算法，在石头中混合不规则的斑块，以快速轻松地创建一种崎岖的岩石图案，适用于山区砾石滑坡、小径等。
-
-### 肥沃的海底
-
-肥沃的海底地形预设使用分层的Voronoi和细胞噪声模式，创建了海洋、沼泽或河床的地貌，适用于沼泽附近的海洋、沼泽、河口等“肥沃”水域的地貌。
-
-## 装饰
-
-这些环境改造枪预设影响非实心方块，通常意在放置在现有地形上，以增强美观性。
-
-### 清除
-
-清除装饰预设并不是一个“空”的笔刷，而是可以用来清除自然生成的其他装饰或其他环境改造枪预设放置的装饰。例如，可以用来在森林中创造一个空地。
-
-### 草地
-
-草地装饰预设使用Perlin噪声在一个令人愉快的图案中随机分散密集的草块，以快速装饰平原生态群系、路径边缘等。选择草地装饰预设时，会出现两个新的子设置：
-
-- 一个0-1的草密度滑块（没有上限，但超过1没有效果），用于指示区域的“草密度”。越接近1，草块越多
-- 一个“允许高草”开关，允许Perlin噪声最密集的区域使用高草。这会产生这样的效果：草块在深入内部时会变得更密集，这对于更野生的区域很有用
+### Clear
+    
+The Clear decoration preset isn’t a ‘nothing’ brush, instead it can be used to clear other decorations found in the natural generation or placed by other clentaminator presets. Useful to create something like a clearing in a forest for example.
+    
+### Grass
+    
+The Grass decoration preset uses a perlin noise to randomly disperse dense plots of grass in a pleasing pattern in order to quickly decorate a plains biome, edges next to paths, etc. When selecting the grass decoration preset two new sub-settings appear:
+    
+- A grassiness slider ranging from 0-1 (uncapped but going above 1 has no effect) to denote how ‘grassy’ an area should be. The closer to 1 the more grass there is.
+- An ‘Allow Tall Grass’ toggle which lets the perlin noise’s most dense areas use tall grass. This creates the appearance that grass gets more dense the further in you go which can be useful for more wild areas.

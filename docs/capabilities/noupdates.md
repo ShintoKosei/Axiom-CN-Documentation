@@ -1,5 +1,14 @@
-# 冻结更新
+---
+next: /capabilities/forceplace.md
+---
 
-**冻结更新**功能可以“冻结”方块及其相邻方块的状态，并且能够在破坏或放置方块时防止触发将会影响到的更新。
+# No Updates
 
-在破坏/放置方块时，它们通常会变成更新后的状态。这在想要放置楼梯/栅栏/墙等的未更新时的状态非常有用。
+The **No Updates** capability ‘freezes’ blocks and adjacent blocks in their current state and prevents shape and neighbour updates when breaking or placing blocks nearby.
+
+This is useful when working with "non-vanilla" states of stairs/fences/walls/etc. which would normally revert to their vanilla state when breaking/placing blocks near them.
+
+<video width="960" height="520" controls autoplay loop>
+    <source src="/images/NoUpdates.mp4" type="video/mp4">
+</video>
+

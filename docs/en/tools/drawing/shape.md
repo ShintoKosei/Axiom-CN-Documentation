@@ -2,7 +2,7 @@
 next: /en/tool/heightmap/intro.md
 ---
 
-## Shape Tool
+# Shape Tool
 
 The Shape Tool lets you make geometric shapes with your active block. Since these shapes are computed mathematically, they can adjust to any angle and transformation, giving you lots of control over their look. When you 'place' these objects, you can use the gizmo to reposition them and rotate them at any angle.
 

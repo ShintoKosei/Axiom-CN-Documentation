@@ -1,9 +1,13 @@
-# 视图
+---
+next: /editor/toolmasks.md
+---
 
-视图是一种用于在您的世界中跟踪多个命名位置，使您能够轻松地在不同的位置之间切换（甚至跨维度）的系统。
+# Views
 
-您可以在 [视图子菜单](mainmenubar.md#视图) 中创建新视图，或者通过在 Axiom 编辑器界面游戏窗口上方的“主视图”旁边点击“+”按钮来创建新视图。
+Views are a system for keeping track of multiple named locations in your world, giving you the ability to swap between locations (even across dimensions) easily. 
 
-视图会跟踪您的最后位置，并在您切换回视图时将您传送回该位置。如果您希望确保视图保持在正确的位置，您可以打开 *固定世界* 和 *固定位置* 选项。固定位置将使您在切换到视图时始终传送回固定的位置。
+A new view can be created in the [View submenu](mainmenubar.md#view) or by clicking on the ‘+’ button next to the ‘Main’ view above the game window in the Axiom Editor UI. 
+ 
+Views will keep track of your last position and teleport you back to that location when you switch back to the view. If you want to make sure the view stays at the correct location, you can turn on *Pin World* and *Pin Location* options. Pinning the location will make it so that you always teleport back to the pinned spot when you switch to the view.
 
-> 提示：如果位置被固定，即使选项卡已经被选中，您只需再次点击视图选项卡，即可传送到固定的位置。
+> Tip: If a location is pinned, you can teleport to the pinned location simply by clicking the view tab again, even if the tab is already selected

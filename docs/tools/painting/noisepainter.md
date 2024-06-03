@@ -1,33 +1,67 @@
-# 噪声绘制工具
+---
+next: /tool/painting/biomepainter.md
+---
 
-**噪声绘制工具**是一个非常多功能的绘制工具，它允许用户在世界中使用程序生成的噪声进行绘制。有许多不同的噪声可以选择并进行配置。每种噪声都有独特的选项和模式，适用于不同的场景。
+# Noise Painter
 
-第一个独特的选项是“3D”设置的切换开关。这允许在 3D 中计算噪声，从而可以绘制表面的侧面，而不仅仅是顶面。
+The **Noise Painter** is a very versatile painting tool which enables the user to use procedural noises for painting in the world. There is a large variety of noises which can be picked from and configured. Each of which having unique options and patterns useful in different scenarios.
 
-接下来，我们有“尺度”选项，它调整了噪声相对于方块网格的大小。较大的尺度意味着噪声模式会在更大的方块区域内扩散。
+The first unqiue option is the toggle for the ‘3D’ setting. This allows the noise to be calculated in 3D, allowing for the painting of the sides of surfaces instead of just the top.
 
-## 噪声类型
+Next, we have the scale option, which adjusts the size of the noise relative to the block grid. A larger scale means that the noise pattern is spread over a larger area of blocks.
 
-这些不同噪声之间有一些共享的设置。以下是这些噪声之间共有的选项，每种噪声的具体设置在各自的部分中进行了描述。
+## Noises
 
-- **Octaves（八度）：** 这个设置决定了使用的噪声层数。更多的八度会产生更多的细节和复杂性，但会带来更高的计算成本
-- **Lacunarity（缺口度）：** 这影响每个八度的“频率”。较高的值会增加频率，导致噪声模式中的特征更小
-- **Gain（增益）：** 这控制每个八度的振幅。较高的值会增加每个连续八度的影响。较低的值会使八度的效果更加微妙
-- **Seed（种子）：** 种子值用于初始化噪声生成算法，提供一个起始点。不同的种子会产生不同的噪声模式，但相同的种子始终会产生相同的模式。保持相同的种子对于想要继续模式而不是开始新模式很有用
-- **Jitter（抖动）：** 这个值控制细胞噪声的均匀性，通过限制种子点可以离开其起始的网格排列的程度。<br>0.0的值将返回一个完全均匀的网格模式，1.0将返回一个最小程度均匀的模式。<br>仅适用于细胞噪声类型**Voronoi Edges（Voronoi边缘）**、**Worley**和**Metaballs（次级球体）**
+There are a few shared settings across the different noises. The common options between these noises are listed below, with sepcific settings for each noise described in their respective sections.
 
-### Simplex（简单）
+- **Octaves:** This setting determines the number of layers of noise that are used. More octaves result in more detail and complexity but comes with a higher computational cost.
+Lacunarity and Gain can only be configured when you have more than one octave for your noise.
+- **Lacunarity:** This influences the ‘frequency’ of each octave. A higher value increases the frequency, leading to smaller features in the noise pattern.
+- **Gain:** This controls the amplitude of each octave. A higher value will increase the influence of each successive octave. A lower value will make effect of the octavation more subtle.
+- **Seed:** The seed value is used to initialize the noise generation algorithm, providing a starting point. Different seeds produce different noise patterns, but the same seed will always produce the same pattern. Keeping the same seed is useful for when you want to continue a pattern rather than starting a new one.
+- **Jitter:** This value controls how uniform the cellular noise appears by limiting how much the seed points can move off their starting grid arrangement.<br>
+A value of 0.0 will return a perfectly uniform grid pattern, 1.0 returns a minimally uniform pattern.<br>
+Applicable only to the cellular noise types **Voronoi Edges**, **Worley**, and **Metaballs**. 
 
-Simplex噪声生成一个平滑、连续的模式，通常在可视化时类似于丘陵或波状的地形。
+### Simplex
+    
+Simplex noise generates a smooth, continuous pattern that often resembles a hilly or wavy terrain when visualized.
 
-Simplex噪声是Perlin噪声的改进版本。
-
+Simplex noise is an improved version of Perlin noise.
+    
 ### Worley
+    
+Worley noise, also known as cellular noise, creates a pattern that looks like irregular cells or Voronoi diagrams, with each 'cell' having a distinct point of intensity and fading out towards its borders.
+    
+- **W1:** This is the weight of the distance of the closest voronoi point.
+- **W2:** This is the weight of the distance of the second closest voronoi point.
+- **W3:** This is the weight of the distance of the third closest voronoi point.
+    
+The interplay between W1, W2, and W3 values significantly affects the Worley noise outcome. For example, if W1 is high and W2 and W3 are low, the pattern will have clearly defined, irregular cells. But if W1, W2, and W3 are all high, the pattern will be more complex and interconnected, as it's influenced by multiple nearby points.
+    
+### Voronoi Edges
+    
+This type of noise specifically accentuates the edges or boundaries between the cells formed in Voronoi diagrams, resulting in a grid of interconnected lines or a 'cracked' appearance. This is useful for making things like cracks, stone tiles, etc.
+    
+### Metaball
+    
+Metaball noise creates a pattern that looks like overlapping blobs or spheres, with smooth transitions between these 'blobs'. Similar to the patterns of blobs in lava lamps.
+    
+- **Range:** Adjusts the radius around each point that influences the noise. A larger range results in larger, more spread-out blobs, resembling a pattern more reminescent of the aforementioned lavalamp blobs.
+    
+### White Noise
+    
+White noise generates a completely random pattern with no discernible structure, looking like static on an old television screen.
 
-Worley噪声，也称为细胞噪声，创建一个类似于不规则单元或Voronoi图的模式，每个“单元”都有一个独特的强度点，并朝着其边界逐渐消失。
+## Blocks  
 
-- **W1：** 这是最接近的Voronoi点的距离权重
-- **W2：** 这是第二接近的Voronoi点的距离权重
-- **W3：** 这是第三接近的Voronoi点的距离权重
+The section beneath the noise configuration allows you to specify the blocks used in painting, as well as determine their distribution within the noise pattern. You can adjust the block distribution by setting a threshold between 0 to 1 or specifying a per-block percentage from 0 to 100%. The threshold setting is particularly useful when you're tweaking parameters for complex noises like Worley.
 
-W1、W2和W3值之间的相互作用在很大程度上影响Worley噪声的结果。例如，如果W1很高，而W2和W3很低，模式将具有明确定义的、不规则的单元。但如果W1
+Clicking the '+' sign adds a new block. Clicking on an existing block allows you to select and add different blocks to your noise pattern. You can also drag and drop palettes and active blocks onto the blocks section.
+
+## Preview
+
+Lastly, beneath the settings, there are three windows to aid in visualizing the noise pattern, cumulative distribution, and probability density:
+
+- **Noise Preview**: As the name suggests, this provides an approximation of how the current noise settings would look, mapped to the voxel grid. It uses a grayscale representation to depict block presence, with white denoting the primary block and the color darkening as more blocks are added. Black signifies no blocks.
+- **Cumulative Distribution and Probability Density Visualizers**: These tools are especially useful when you've set the Blocks mode to be threshold-based. They help illustrate how the blocks will be distributed within the noise pattern. The Cumulative Distribution Visualizer provides a graph showing the cumulative percentages of different blocks as the noise threshold increases from 0 to 1. The Probability Density Visualizer gives a sense of how likely each block is to appear at a given noise value. It can help you understand and fine-tune the balance of blocks in your noise pattern.

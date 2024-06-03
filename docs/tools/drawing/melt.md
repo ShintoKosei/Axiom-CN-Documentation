@@ -1,7 +1,11 @@
-# 熔化
+---
+next: /tool/drawing/text.md
+---
 
-**熔化**工具是一个使用高斯模糊从表面减去质量的工具。描述它的最佳方式是将其作为与**焊接**工具相反的工具。它可以用来融化或雕刻表面，使其与现有地形融为一体，从而制作出侵蚀图案等，而不是翻边或填缝。它的部分配置使用笔刷设置，另外还有一些设置以特定方式改变算法。
+# Melt
 
-平滑强度可以通过调整来使熔化路径更加平滑，平滑设置越高，意味着工具运行时需要的阈值越低，因为它们会相互制约。一般来说，较高的平滑强度也会增加受影响区域的大小。
+The **Melt** tool is a tool that uses a Gaussian blur to subtract mass from a surface. The best way to describe it is being the opposite of the **Weld** tool. Rather than flaring out edges or filling in seams it can be used to melt into or carve away at surfaces in a way that blends in with the existing terrain to make things like erosion patterns. It is partially configured using the brush settings and has a few more settings that change the algorithm in specific ways.
 
-平滑阈值可以调整，使工具更难影响特定区域。这样就可以对工具进行限制，从而有助于创建更自然的雕刻和侵蚀图案。
+The Smoothing strength can be adjusted to make smoother melting paths, a higher smoothing setting means that the tool will need a lower threshold to operate as they constrain each other. Generally a higher smoothing strength will also increase the size of the affected area.
+
+The Smoothing threshold can be adjusted to make it harder for the tool to affect a given area. This makes it possible to constrain the tool in a way that helps to create more natural looking carvings and erosion patterns.

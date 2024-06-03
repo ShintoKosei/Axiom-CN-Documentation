@@ -1,10 +1,13 @@
-# 目标信息
+---
+next: /editor/history.md
+---
 
-**目标信息**窗口显示编辑器界面中鼠标所指向方块的信息。
+# Target Info
 
-该窗口包含以下内容：
+The **Target Info** window shows information of the block targeted by your mouse in the Editor UI.
 
-- 鼠标悬停的方块名称
-- 该方块在世界中的位置 X Y Z
-- 该位置的生物群系（命名空间ID）
-- 你的视角与该位置之间的距离
+The window contains:
+- The block you’re hovering over.
+- The position of that block in the world.
+- The biome at that position.
+- The distance from your camera to that position.

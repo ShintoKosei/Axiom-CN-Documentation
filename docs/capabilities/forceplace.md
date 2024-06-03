@@ -1,14 +1,20 @@
-# 强制放置
+---
+next: /capabilities/replacemode.md
+---
 
-**强制放置**是一个能够绕过原版放置限制的功能。
+# Force Place
 
-该功能解除以下原版放置限制：
-- 通常需要连接到实体方块的方块可以放置在空中
-- 方块可以放置在实体内部（包括自己）
-- 植物方块可以不需要放置在耕地上或特定环境下（或沙子/泥土上的甘蔗和垂滴叶的粘土块上）
-- 方块可以无论光照水平如何来放置
-- 还有许多其他情况，自行探索！！
+The **Force Place** capability bypasses normal placement restrictions.
 
-::: warning 注意
-使用强制放置功能时，可能会破坏原本的游戏平衡，并且可能造成一些意外结果。请使用之前小心地进行测试，并确保你清楚使用后会引发的一系列后果。
-:::
+- Blocks which normally need to be attached to solid blocks can be placed in mid air
+- Blocks can be placed inside entities (including yourself)
+- Plant blocks no longer need to be placed on farmland
+- Blocks can be placed regardless of light level
+- And much more!
+
+> Force Place is best used in combination with [No Updates](noupdates.md) in order to ensure illegally placed blocks don't break when updated. You may also need to disable random updates with /gamerule randomTickSpeed 0
+
+<video width="960" height="520" controls autoplay loop>
+    <source src="/images/ForcePlace.mp4" type="video/mp4">
+</video>
+

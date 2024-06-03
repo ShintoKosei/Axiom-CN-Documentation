@@ -1,11 +1,11 @@
 ---
-next: /tools/heightmap/intro.md
+next: /tool/drawing/shape.md
 ---
 
-# 文本工具
+# Text
 
-**文本工具**允许用户使用任何 `TrueType` 字体或 `.ttf` 文件字体在世界中编写文本。它可以配置为具有较小或较大的字体比例。
+The **Text** tool lets the user write text with any True Type Font or .ttf file font in the world. It can be configured to have a smaller or larger font scale
 
-只需将所需的文本写入“文本”字段，然后右键单击，即可使用示意图将其放置在世界中。
+Just write the text desired into the ‘Text’ field and right-click to place it in the world with a gizmo.
 
-> 注意：截至 Axiom-b1.0.0 版本，文本工具尚未完成，仅供演示目的。感谢理解。
+> Note: As of Axiom-b0.97, the text tool is unfinished and provided for demonstration purposes only. Thank you for your understanding

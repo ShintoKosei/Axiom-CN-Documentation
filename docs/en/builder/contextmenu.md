@@ -1,4 +1,8 @@
-## Builder Context Menu
+---
+next: /en/builder/move.md
+---
+
+# Builder Context Menu
 The features for builder mode are accessed in the builder context menu. By default, holding down Left Alt opens the menu.
 
 ![Builder Context Menu](/images/AltMenuOverview.png)

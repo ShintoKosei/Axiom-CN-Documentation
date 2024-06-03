@@ -9,6 +9,8 @@ export const navbarEn: NavbarConfig = [
             '/en/builder/intro.md',
             '/en/capabilities/intro.md',
             '/en/editor/intro.md',
-            '/en/tools/intro.md'],
+            '/en/tools/intro.md'
+            '/en/advanced/intro.md'
+            ],
     },
 ]

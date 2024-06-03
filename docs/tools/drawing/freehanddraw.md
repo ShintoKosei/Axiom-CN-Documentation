@@ -1,3 +1,7 @@
-# 空手绘图
+---
+next: /tool/drawing/sculptdraw.md
+---
 
-**自由绘制**工具是最基本的雕刻工具。它的唯一选项是标准画笔，并将画笔路径中的图块更改为当前选定的活动图块。
+# Freehand Draw
+
+The **Freehand Draw** tool is the most basic sculpting tool. Its only options are standard brushes, and it changes the blocks in the brush path to the currently selected active block.

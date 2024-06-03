@@ -89,7 +89,6 @@ export const sidebarEn: SidebarConfig = [
                 link: '/en/tools/heightmap/intro.html',
                 children: [
                     '/en/tools/heightmap/elevation.md',
-                    '/en/tools/heightmap/flatten.md',
                     '/en/tools/heightmap/slope.md',
                 ],
             }, {

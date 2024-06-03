@@ -2,6 +2,26 @@
 next: /editor/mainmenubar.md
 ---
 
-# 编辑模式
+# 编辑器模式
 
-编辑模式包括各种工具和操作，用于大规模的世界操作、绘画、地形塑造和雕刻。编辑器用户界面专门为此目的设计，结合了常规3D软件的摄像机控制功能和专为 Minecraft 建筑而定制的强大工具。可以通过重新排列和停靠窗口来自定义编辑器用户界面的布局，以满足个人喜好。
+The Editor Mode includes a large variety of tools and operations for large-scale world manipulation, painting, terraforming and sculpting. The Editor UI has been designed specially for this purpose, combining camera controls from conventional 3D software with powerful tools tailored for Minecraft building. The layout of the Editor UI can be customized by rearranging and docking the windows to your liking.
+
+The Editor UI can be opened/closed by pressing Right Shift (not Left Shift)
+
+Most of the keybinds in the Editor UI are similar to other editing programs, namely:
+- Cut: Ctrl+X
+- Copy: Ctrl+C
+- Paste: Ctrl+V
+- Undo: Ctrl+Z
+- Redo: Ctrl+Y
+
+The default camera controls are:
+- Rotate: Left Click
+- Arcball Camera: Ctrl + Left Click
+- Pan Camera: Ctrl + Right Click
+
+> If you wish to invert the left click rotation, toggle Help > Keybinds > Invert Camera Rotate
+
+Other keybinds can be found in Help > Keybinds, where they can also be rebound
+
+If you'd prefer a default key layout reminiscent of Blender, use Load Default > Blender-like

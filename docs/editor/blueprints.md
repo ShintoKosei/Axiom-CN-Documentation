@@ -1,19 +1,23 @@
-# 蓝图
+---
+next: /editor/views.md
+---
 
-蓝图是一种用于保存和加载预制资产的系统。它们类似于原理图，但具有针对搜索和查看进行优化的不同结构。
+# Blueprints
 
-## 创建蓝图
+Blueprints are a system for saving and loading prefabricated assets. They are similar to schematics, but with a different structure optimized for searching and viewing. 
 
-可以通过将选区的内容复制到剪贴板中，然后按下`Ctrl`+`P`来创建一个**蓝图**。这将弹出**创建蓝图**菜单。在这里可以进行一些对蓝图的操作，例如给蓝图命名、添加作者/标签和旋转蓝图以生成蓝图的缩略图，以便在之后轻松识别它。
+## Creating a blueprint
 
-作者、标签和名称都是你稍后可以轻松查找蓝图的方式。例如，通过搜索标签“目录”或“结构”，你可以找到包含该标签的所有蓝图。Axiom 默认提供了几十个标签，以涵盖各种可能的蓝图类型，但如果这些标签不完全符合你的需求，你始终可以通过单击`+`符号，在**添加标签**菜单中输入名称并点击“创建标签”按钮来创建自己的标签。
+A **Blueprint** can be created by having content in your clipboard and pressing Ctrl+P. This brings up the **Create Blueprint** menu. In here you can do a few things, you can name your blueprint, add authors, tags and rotate your blueprint to generate a thumbnail to easily recognize it later.
 
-当你保存一个蓝图时，会打开与操作系统原生的文件系统对话框。确认你要为蓝图指定的名称，并允许你将其保存为本地计算机上的.bp文件。这意味着你可以轻松地在一个世界或服务器中创建蓝图，然后在另一个世界中使用它们，而不必处理混乱的导入或导出模式。这些文件本身存储在.minecraft文件夹下的`.minecraft/config/axiom/blueprints`目录中。
+Authors, tags and names are all ways by which you can easily look up blueprints later. For example by searching the tag ‘tree’ or ‘structure’ you can find all blueprints that include that tag. There are a couple dozen default tags that Axiom ships with in order to cover a wide array of possible blueprints but if those don’t quite cover your needs you can always create your own tag by clicking the ‘+’, entering the name and clicking the ‘Create Tag’ button inside the ‘Add Tag’ menu.
 
-## 共享蓝图
+When you save a blueprint a file system dialog opens up native to your operating system. This confirms the name you want to give to the blueprint and lets to save it as a .bp file on your local computer. This means that you can easily create blueprints in one world or server and then use them in another world without having to deal with messy import or export schemas. The files themselves are stored in your .minecraft folder under `.minecraft/config/axiom/blueprints`
 
-蓝图文件本身可以发送给其他人，他们可以将文件放置在指定的文件位置并在 Axiom 中使用它们。蓝图文件夹还支持嵌套目录，这意味着你可以将所有的目录放在蓝图文件夹下的一个文件夹中，以便更好地管理。
+## Sharing blueprints
 
-## 加载蓝图
+The blueprint files themselves can be sent to others who can then also use them in Axiom if they place the files in the designated file location. The blueprint folder supports nested directories as well, meaning that you can for example, put all your trees in one folder under the blueprints folder.
 
-一旦拥有了蓝图，你可以在**蓝图浏览器**中查看它们。你将能够看到所有蓝图的缩略图，并进行搜索或按标签筛选。单击一个蓝图将会“打开”它并将蓝图的内容放入你的[剪贴板](blocks_and_clipboard.md#clipboard)中。
+## Loading blueprints
+
+Once you have Blueprints, you can view them in the **Blueprint Browser**. You'll be able to see thumbnails for all of your blueprints, as well as perform searches or filter by tags. Clicking a blueprint will 'open' it and place the blocks into your [clipboard](blocks_and_clipboard.md#clipboard).

@@ -1,31 +1,29 @@
-# 建造模式
+---
+next: /builder/contextmenu.md
+---
 
-建造模式是对原版创造模式的增强。它添加了几个新功能，可以减轻传统建筑带来的痛苦，让一切变得更加容易。
+# 建筑模式
+The Builder Mode is an enhancement of the vanilla Creative mode. It adds several new features that take a lot of the pain away from traditional building and make everything just a bit easier.
 
-## 建造模式上下文菜单
 
-建造模式的功能可以在建造者上下文菜单中进行访问。默认情况下，按住`左Alt`可以打开该菜单。上下文菜单允许你访问以下列出的功能。
+## Builder Context Menu
+Many features for builder mode can be toggled or accessed through the Context Menu. The menu can be opened by holding down Left Alt. See [Context Menu](builder/contextmenu.md) for more information.
 
-### 物品栏交换器
+![Builder Context Menu](/images/AltMenuOverview.png)
 
-物品栏交换器是你第一次打开建造者上下文菜单时最显眼的功能。当菜单被打开时，你可以使用滚轮或数字键快速切换到另一个物品栏。
+## Builder Tools
+To the right of the hotbar, you can find the Builder Tools. These tools are very simple and are intended to ease structural/small scale building where use of the more powerful [Editor Mode](editor/intro.md) is too unwieldly.
 
-这个功能有助于快速切换建筑方块，使你能够在不需要打开背包和移动物品的情况下快速切换建筑材料。
+To start using a Builder Tool, scroll to the 10th slot or press 0.
+To switch to a different Builder Tool, hold Left Alt and then scroll.
 
-你可以通过像在任何其他背包中那样点击物品来重新排列热键栏。最快填充这些物品栏的方法是切换到一个空的物品栏，并像平常一样使用背包或拾取方块来填充它。
+The tools that are currently available in this section are:
+- [Move](/builder/move.md)
+- [Clone](/builder/clone.md)
+- [Stack](/builder/stack.md)
+- [Smear](/builder/smear.md)
+- [Extrude](/builder/extrude.md)
+- [Erase](/builder/erase.md)
+- [Setup Symmetry](/builder/setupsymmetry.md)
 
-### 功能
-
-在物品栏交换器的左侧，你可以找到一些用于切换建造**功能**的按钮。凸起或较浅的背景表示功能已禁用，而凹下或较暗的背景表示功能已启用。
-
-有关功能的文档可以在[这里](/capabilities/intro.md)找到。
-
-### 游戏模式切换器
-
-在物品栏交换器上方有3个按钮，可快速切换到其他游戏模式。使用这些按钮比使用命令或`F3`+`F4`更快捷。
-
-> 提示：当不处于创造模式时，按下`左Alt`将使你进入创造模式，这在你处于旁观者模式并希望切换回来放置一些方块时非常有用。
-
-### 飞行速度
-
-在右侧，你可以找到一个滑块，可以快速调整飞行速度，速度最高可达`1000％`或10倍速。
+![Builder Tools](/images/BuilderToolsOverview.png)

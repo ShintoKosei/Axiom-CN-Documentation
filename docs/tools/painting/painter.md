@@ -1,5 +1,9 @@
-# 画笔工具
+---
+next: /tool/painting/noisepainter.md
+---
 
-**画笔工具**是最基本的绘画工具。它允许您使用笔划绘制一种类型的方块。
+# Painter
 
-**遮罩表面**选项只允许绘制与非实心方块相邻的方块。
+The **Painter** is the most basic painting tool. It allows you to paint blocks with a single type using a brush stroke.
+
+The **Mask Surface** option allows only painting blocks which are adjacent to a non-solid block.
