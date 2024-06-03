@@ -2,24 +2,24 @@
 next: /builder/smear.md
 ---
 
-# Stack
+# 堆叠工具
 
-Stack allows you to copy blocks in a row or grid
+堆叠工具可以让你复制选取中的所有方块，并按照您的朝向进行堆叠。
 
-## Selecting a region
-Refer to [Move](move.md)
+## 选择区域
+请查看[Move](move.md)
 
-## Stacking
+## 堆叠
 
-Start scrolling in a direction to stack the region end-to-end
+当您在选择完区域之后，向某个朝向进行滑动鼠标滚轮。堆叠工具会复制并进行首尾相连的堆叠工作。
 
-Scrolling in another direction will turn it from a 1D stack into a 2D stack, and scrolling in all 3 dimensions will perform a 3D stack
+向单一的方向进行滑动鼠标滚轮则是一维堆叠，而当您向另一个方向开始滑动鼠标滚轮时则会从一维堆叠变为二维堆叠。同理，当您朝第三个方向进行滚动时，则从二维堆叠变成了三维堆叠。
 
-To confirm the stack, use Right Click
+当您要确定堆叠时，只需按下右键即可。
 
-To undo/redo the action, use Ctrl+Z/Ctrl+Y
+若您需要进行撤回/复原的操作，则可以使用Ctrl+Z/Ctrl+Y。
 
-See below for a demonstration
+您可以观看以下视频中的步骤。
 
 <video width="960" height="520" controls autoplay loop>
     <source src="/images/StackTool.mp4" type="video/mp4">

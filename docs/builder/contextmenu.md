@@ -2,27 +2,27 @@
 next: /builder/move.md
 ---
 
-# Builder Context Menu
-The features for builder mode are accessed in the builder context menu. By default, holding down Left Alt opens the menu.
+# 建造者上下文菜单
+建造者模式的功能皆可通过上下文菜单进行访问和启用。默认情况下，您只需要按住左Alt即可启用。
 
 ![Builder Context Menu](/images/AltMenuOverview.png)
 
-### Hotbar Swapper
-The hotbar swapper is the most prominent feature you’ll notice when you first open the builder context menu. While the menu is open you can use your scroll wheel or number keys to quickly swap to another hotbar.
+### 快捷栏切换器
+快捷栏切换器或许是您首次打开上下文菜单所能感受到最为突出的功能。当您打开上下文菜单时，可以使用鼠标滚轮或数字快捷键来切换到另一个快捷栏。
 
-This feature aids in organization, allowing you to swap between building materials without needing to open your inventory and move things around.
+此功能有助于整理和更快捷的使用您的快捷栏。您可以用它在许多建筑材料之间进行快速切换，而不是每一次都打开背包进行切换。
 
-You can reorganize your hotbars by clicking items like you would in any other inventory. The fastest way to fill a hotbar is to open an empty bar and fill it using the creative inventory or pick block as you normally would.
+您可以通过点击物品并移动它至其他快捷栏进行重新组织，就像是在背包里进行切换一样。填充快捷栏最快的方式是打开一个空的快捷栏，然后像平常一样使用创造模式进行方块拿取并填充。
 
-### Capabilities
-On the left-hand side you can find a number of buttons for toggling building **Capabilities**. A raised or lighter background means the Capability is disabled, while a depressed or darker background means the Capability is enabled.
+### 功能
+在上下文菜单的左侧您可以找到许多对于建筑有明显帮助的**功能**按钮。凸起或较浅的背景表示此功能未启用，而凹陷或较暗的背景表示此功能已经启用。
 
-Documentation for Capabilities can be found [here](/capabilities/intro.md)
+您可以在[此处](/capabilities/intro.md)找到相关的描述文档。
 
-### Gamemode Switchers
-Above the hotbar swappers are 3 buttons for quickly swapping to other gamemodes. Using these buttons can be slightly faster than messing around with F3+F4 or chat commands.
+### 游戏模式切换器
+在快捷栏切换器上方有三个按钮，可以让您快速切换到其他游戏模式。使用这些按键要比使用F3+F4或输入命令要快捷一些。
 
-> Tip: Pressing Left Alt while not in creative mode will put you into creative mode, this can be useful if you are in spectator mode and want to swap back to place some blocks. 
+> 注意: 在非创造模式下按住左Alt键会让您强制进入创造模式。如果您正处于旁观者模式并且想要切换回来进行一些方块的放置，此功能会十分有用。
 
-### Flight Speed
-On the right-hand side you can find a slider which allows you to quickly change your flight speed, up to 1000% or 10x faster.
+### 飞行速度
+在上下文菜单的右侧，您可以看到一个滑块。它可以改变您的飞行速度，最高可以达到1000%或是原版飞行速度的10倍。

@@ -2,8 +2,8 @@
 next: /builder/stack.md
 ---
 
-# Clone
+# 克隆工具
 
-Clone is similar to [Move](move.md), but it copies the blocks instead of moving them.
+克隆工具类似于[Move](move.md), 但克隆工具是复制选取内的内容，而不是移动它们。
 
-The process for using Clone is the same as the Move tool, so refer to [Move](move.md) for more detailed information
+而使用克隆工具的过程与移动工具相同，您可以点击[Move](move.md)进行查看。
