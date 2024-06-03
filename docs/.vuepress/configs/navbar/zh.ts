@@ -9,7 +9,8 @@ export const navbarZh: NavbarConfig = [
             '/builder/intro.md',
             '/capabilities/intro.md',
             '/editor/intro.md',
-            '/tools/intro.md'
-            '/advanced/intro.md'],
+            '/tools/intro.md',
+            '/advanced/intro.md',
+            ],
     },
 ]
