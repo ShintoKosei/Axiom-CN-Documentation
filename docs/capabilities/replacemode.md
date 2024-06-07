@@ -2,23 +2,27 @@
 next: /capabilities/bulldozer.md
 ---
 
-# Replace Mode
+# 替换模式
 
-The **Replace Mode** capability allows you to right-click to replace the targeted block with the held block. This allows you to easily replace a large amount of blocks by holding the right-mouse button.
+**替换模式**允许您在按住右键/单击右键时，用手中的方块替换掉您所指的目标方块。这将使您在替换方块时更加快速、便捷。
 
-Additionally, when you replace a block, the newly placed block will inherit the properties of the old block.
+此外，当您用新方块替换旧方块时，新的方块会继承旧方块的方块状态。
 
-A basic demonstration of Replace Mode can be found below
+**替换模式**共有着两种，一种是**基本替换**，一种是**类别替换**（见下文）。
+
+下面是**替换模式**的**基本替换**视频演示
 
 <video width="960" height="520" controls autoplay loop>
     <source src="/images/ReplaceModeBasic.mp4" type="video/mp4">
 </video>
 
-## Type Replace
+## 类型替换
 
-Type Replace can be toggled on through the Options Toolbox in the Alt Menu. Turning this on allows you to hold a base material block (eg. Spruce Planks) to replace stairs/slabs/walls/fences/etc. with their spruce variant
+**类型替换**是**替换模式**的另一个替换方式。打开此功能后您可以手握材料方块（比如云杉木板）来进行替换。它可以将楼梯/栅栏/墙/等等的方块替换为用云杉制作的变种。
 
-A demonstration of Type Replace can be found below
+若是要启用此模式，您只需要在上下文菜单中，点击右侧的小工具箱，即可看到此模式。
+
+您可以查看下面的视频演示。
 
 <video width="960" height="520" controls autoplay loop>
     <source src="/images/TypeReplace.mp4" type="video/mp4">

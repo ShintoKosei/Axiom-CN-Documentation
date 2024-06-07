@@ -2,42 +2,42 @@
 next: /capabilities/noupdates.md
 ---
 
-# Tinker
+# 调整工具
 
-The **Tinker** capability has various features related to right-clicking with your fist on blocks. Tinker often can be used in place of the debug stick, being slighty faster compared to the debug stick's clunky interface but sometimes lacking the ability to change some non-visual properties.
+**调整工具**具有用空手右键单击方块时的各种调整功能。**调整工具**通常用于代替调试帮，与调试棒的笨重感相比，使用此此工具效率会更快。但有时缺乏更改某些非可视属性的能力。
 
-Aiming at specific parts of a block can change the effect of the tinker. This lets you quickly change full blocks into stairs, stairs into slabs and vice versa. It also lets you easily adjust walls/fences to create states that Minecraft normally doesn’t allow.
+对准某个方块的特定部位进行使用**调整工具**。这使您能够快速的将某个完整方块变为楼梯/台阶，反之亦然。它还可以让您轻松调整墙/栅栏这类方块，用以快速创建Minecraft通常不允许或无法在正常情况下出现的方块状态。
 
-Tinker interactions can be negated while the capability is toggled on by either having a non-empty hand or by holding down the sneak or ‘shift’ button.
+当您开启此功能时，可以在手上拿方块或按住``Shift``键。以此来取消**调整工具**的交互。当然，您也可以直接选择关闭此功能。
 
 | Block                                | Tinker Effect                                              |
 | ------------------------------------ | ---------------------------------------------------------- |
-| Blocks with full/stair/slab variants | Convert between full/stair/slab by adding/removing corners |
-| Walls                                | Cycle WallSide (none/low/tall) of targeted side            |
-| Fences/Iron bars                     | Toggle north/east/south/west sides                         |
-| Piston                               | [Side] Change facing, [Front] Extends/retracts the piston  |
-| Furnace                              | [Side] Change facing, [Front] Toggles lit state            |
-| Carved Pumpkin/Jack O Lantern        | [Side] Change facing, [Front] Swaps between the 2 blocks   |
-| Barrel                               | [Side] Change facing, [Front] Opens/closes                 |
-| Iron Trapdoor/Door                   | Open/closes the block                                      |
-| Brewing Stand                        | Add/remove bottles                                         |
-| Glazed Terracotta                    | Change facing                                              |
-| Farmland                             | Cycle moisture                                             |
-| Scaffolding                          | Toggle bottom                                              |
-| Small/Medium/Large/Cluster Amethyst  | Cycles between the 4 blocks                                |
-| Lectern                              | Toggles book                                               |
-| Candle/Campfire/Redstone Torch       | Toggles lit                                                |
-| Cave Vines                           | Toggles berries                                            |
-| Bamboo Stalk                         | Toggles bamboo leaves                                      |
-| Cauldron                             | Cycles fluid level                                         |
-| Composter                            | Cycles compost level                                       |
-| Powered Rail                         | Toggles powered                                            |
-| Beehive                              | Cycles honey level                                         |
-| Any block with 'Age' property        | Cycles age                                                 |
-| Cake                                 | Cycles bites                                               |
+| 具有楼梯/台阶变体的完整方块 | 通过右键单击完整方块可在楼梯/台阶之间进行转换 |
+| 墙                                | 循环改变目标侧的WallSide（None/Low/Tall）状态            |
+| 栅栏/铁栏杆                     | 切换目标``north/east/south/west (东/西/南/北)``的方块状态                       |
+| 活塞                               | [点击侧面] 改变方块朝向，[点击正面] 伸出/收回活塞臂  |
+| 熔炉/高炉/烟熏炉                              | [点击侧面] 改变方块朝向， [点击正面] 更改其点亮（燃烧）状态            |
+| 雕刻南瓜/南瓜灯       | [点击侧面] 改变方块朝向， [点击正面] 在两个方块之间进行切换 (南瓜灯 -> 雕刻南瓜 反之亦然)   |
+| 木桶                               | [点击侧面] 改变方块朝向， [点击正面] 切换 木桶的``开/关``状态                 |
+| 铁活板门/门                  | 切换方块的`开/关`状态                                      |
+| 酿造台                        | 添加/移除酿造台上的瓶子                                         |
+| 带釉陶瓦                    | 改变方块朝向                                              |
+| 耕地                             | 循环更改耕地方块的湿度（推荐使用F3进行方块状态查看）                                             |
+| 脚手架                          | 切换方块底部状态                                              |
+| 所有紫水晶簇  | 在这四个紫水晶簇的阶段进行循环                                |
+| 讲台                              | 切换是否有书                                               |
+| 蜡烛/营火/红石火把       | 更改方块是否为点亮（燃烧）状态                                                |
+| 洞穴藤蔓（发光浆果）                           | 切换藤蔓是否有浆果                                            |
+| 竹子                         | 切换竹子上的叶子                                      |
+| 炼药锅                             | 循环改变锅中的水位                                         |
+| 堆肥桶                            | 循环改变桶里的堆肥                                       |
+| 动力铁轨                         | 切换其状态是否被激活                                            |
+| 蜂箱                              | 循环切换蜂箱中是否有蜂蜜                                         |
+| [所有带有“Age”状态的方块](https://zh.minecraft.wiki/w/%E6%96%B9%E5%9D%97%E7%8A%B6%E6%80%81)        | 更改方块的“Age”状态。                                                 |
+| 蛋糕                                 | 循环更改蛋糕被吃的次数                                               |
 
-Additionally:
+另外:
 
-- Right-clicking with Moss Block on cobblestone/stone converts the block into its mossy variant
-- Right-clicking with Shears on removes mossy
-- Right-clicking on a pot with a plant replaces the plant inside the pot
+- 当您使用苔藓块右键单击圆石/石头时，可将其转换为苔藓变体
+- 使用剪刀进行右键点击，可以去除苔藓
+- 有剪刀右键点击带有植物的花盆，可替换花盆内的植物

@@ -4,20 +4,20 @@ next: /capabilities/tinker.md
 
 # 功能
 
-This chapter covers Capabilities, toggleable features which can enhance your building workflow.
+本章主要介绍一些提升您在建筑时可增强您建筑体验的可切换功能。
 
-The Capabilities that are currently available are:
+目前为止我们所拥有的功能有：
 
-- [Bulldozer](bulldozer.md) (break blocks fast)
-- [Replace Mode](replacemode.md) (replace blocks in the world)
-- [Force Place](forceplace.md) (bypass block placement restrictions)
-- [No Updates](noupdates.md) (prevent block updates when placing/breaking)
-- [Tinker](tinker.md) (various useful interactions when right-clicking with an empty hand)
-- Infinite Reach (removes the reach limit)
-- Fast Place (place blocks fast)
-- Angel Placement (place blocks mid-air)
-- No Clip (move through blocks while flying)
+- [快速破坏](bulldozer.md) (开启此功能后 按住左键可快速破坏方块)
+- [替换模式](replacemode.md) (开启此功能后 右击方块时将其替换为手中方块)
+- [强制放置](forceplace.md) (开启此功能后 可绕过方块放置限制)
+- [冻结更新](noupdates.md) (开启此功能后 可在放置/破坏方块时防止触发方块更新)
+- [调整工具](tinker.md) (开启此功能后 空手右键单击方块时，可更改此方块的方块状态 )
+- 无限触距 (开启此功能后 将移除原版触距限制)
+- 快速放置 (开启此功能后 将在可控的方式下进行方块的快速放置)
+- 凭空放置 (开启此功能后 可在空中放置方块)
+- 穿块模式 (开启此功能后 可在飞行时随意穿过方块（类似旁观者模式）)
 
-Capabilities can be toggled using the left side of the [Context Menu](builder/contextmenu.md)
+若是要开启上述所有功能，您可以在[上下文菜单](builder/contextmenu.md)左侧进行开启。
 
-Additionally, keybinds can be associated with capabilities to quickly toggle them. By default, only the [Replace Mode](capabilities/replacemode.md) has a keybind (R), but more can be added in the vanilla controls menu (Esc > Options > Controls)
+此外，您也可以在设置中对某个特定的**功能**进行`按键绑定`。在默认情况下只有[替换模式](replacemode.md)绑定了`R`键。若您需要更加快捷的使用这些功能，请在`ECS->选项->控制`中进行更改。
