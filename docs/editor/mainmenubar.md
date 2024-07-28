@@ -2,16 +2,17 @@
 next: /editor/clipboardandplacements.md
 ---
 
-# Main Menu Bar
+# 主菜单栏
 
-The main menu bar gives users access to crucial functionality of the mod. Here you can find menu items for accessing windows, manipulating selections, performing operations and viewing helpful information.
+主菜单栏位用户提供了该模组的多样关键性功能。用户可以在此处找到用于访问窗口、操作选择
+、操作执行和查看帮助信息的菜单项。
 
-## File
+## 文件
 
-| Function                     | Description                                                                                                                         |
+| 功能                     | 介绍                                                                                                                         |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Import Schematic             | Imports schematic files to your clipboard                                                                                           |
-| Export Schematic             | Exports a selection as a schematic file                                                                                             |
+| 导入原理图             | 将原理图导入至剪切板                                                                                           |
+| 导出原理图             | 将所选区域导出位为原理图                                                                                             |
 | Open Reference Image         | Adds a window with an image of your choice                                                                                          |
 | Load Bedrock Packs           | Allows you to import Bedrock Edition textures or models.                                                                            |
 | Save Selection as CSV        | Exports a selection to a CSV[^note1] format.                                                                                        |
